@@ -1,0 +1,44 @@
+<nav class="blue darken-4">
+  <div class="nav-wrapper">
+    <a href="javascript:void(0)" class="brand-logo">Angular Login App!</a>
+  </div>
+</nav>
+
+<div class="container valign-wrapper">
+
+  <div class="row center" style="overflow: auto; width: 100%;">
+
+    <div class="col s12">
+      <p>Server data</p>
+    </div>
+
+    <div class="col s12">
+      <table *ngIf="serverData.length > 0">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>URL</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr *ngFor="let item of serverData">
+            <td>{{ item.name }}</td>
+            <td>{{ item.description }}</td>
+            <td><a href="{{ item.url }}" target="_blank">{{ item.url }}</a></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <span *ngIf="serverData.length <= 0">Loading...</span>
+
+    </div>
+
+    <div class="col s12" style="margin-top: 20px;">
+      <a routerLink="/logout" class="waves-effect waves-light btn red darken-2">LOGOUT!</a>
+    </div>
+
+  </div>
+
+</div>
