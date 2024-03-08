@@ -5,7 +5,8 @@
  * @param {object} res - response object
  */
 exports.loginSubmit = async (req, res) => {
-  let { username, password } = req.body;
+  let username = req.headers.username;
+  let password = req.headers.password;
   if(username == 'admin' && password == 'admin'){
 
     //creating user session - example
