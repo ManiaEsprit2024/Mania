@@ -36,3 +36,16 @@ optional_primary_use_of_funds, optional_revenue_yr_confirmed, support_amount    
        loan_investment_amount, optional_revenue_yr_confirmed, support_amount                      0.800676                       0.847826                    0.754839                      0.798635
                    disbursement_date, loan_investment_amount, support_amount                      0.800676                       0.820000                    0.793548                      0.806557
                              loan_investment_amount, revenue, support_amount                      0.800676                       0.824324                    0.787097                      0.805281
+
+Top 10 Gradient Boosting Combinations:
+                                                      Feature  XGBoost Accuracy  XGBoost Precision  XGBoost Recall  XGBoost F1 Score
+                   unique_id, full_time_employees, naics_code          0.945946           0.937107        0.961290          0.949045
+unique_id, full_time_employees, optional_revenue_yr_confirmed          0.945946           0.942675        0.954839          0.948718
+                     unique_id, disbursement_date, naics_code          0.945946           0.937107        0.961290          0.949045
+                     unique_id, disbursement_date, naics_code          0.945946           0.937107        0.961290          0.949045
+                     unique_id, disbursement_date, naics_code          0.945946           0.937107        0.961290          0.949045
+                   unique_id, full_time_employees, naics_code          0.945946           0.937107        0.961290          0.949045
+unique_id, full_time_employees, optional_revenue_yr_confirmed          0.945946           0.942675        0.954839          0.948718
+unique_id, full_time_employees, optional_revenue_yr_confirmed          0.945946           0.942675        0.954839          0.948718
+                   unique_id, full_time_employees, naics_code          0.945946           0.937107        0.961290          0.949045
+                 unique_id, disbursement_date, optional_stage          0.942568           0.925926        0.967742          0.946372
