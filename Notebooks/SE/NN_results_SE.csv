@@ -1,0 +1,1591 @@
+Feature,Neural Network Accuracy
+unique_id,0.7617284059524536
+disbursement_date,0.5913580060005188
+loan_investment_amount,0.5962963104248047
+lender_insurance_premium,0.6283950805664062
+metro_type,0.5913580060005188
+LMI_type,0.5913580060005188
+revenue,0.6074073910713196
+full_time_employees,0.5913580060005188
+naics_code,0.5913580060005188
+jobs_created,0.5901234745979309
+lender_type_category,0.6790123581886292
+optional_primary_use_of_funds,0.575308620929718
+optional_revenue_yr_confirmed,0.6950617432594299
+optional_stage,0.5913580060005188
+support_amount,0.6839506030082703
+"unique_id, disbursement_date",0.7728394865989685
+"unique_id, disbursement_date",0.7728394865989685
+"unique_id, loan_investment_amount",0.8012345433235168
+"unique_id, loan_investment_amount",0.8012345433235168
+"unique_id, lender_insurance_premium",0.7950617074966431
+"unique_id, lender_insurance_premium",0.7950617074966431
+"unique_id, metro_type",0.7567901015281677
+"unique_id, metro_type",0.7567901015281677
+"unique_id, LMI_type",0.8370370268821716
+"unique_id, LMI_type",0.8370370268821716
+"unique_id, revenue",0.7666666507720947
+"unique_id, revenue",0.7666666507720947
+"unique_id, full_time_employees",0.7839506268501282
+"unique_id, full_time_employees",0.7839506268501282
+"unique_id, naics_code",0.7592592835426331
+"unique_id, naics_code",0.7592592835426331
+"unique_id, jobs_created",0.770370364189148
+"unique_id, jobs_created",0.770370364189148
+"unique_id, lender_type_category",0.8419753313064575
+"unique_id, lender_type_category",0.8419753313064575
+"unique_id, optional_primary_use_of_funds",0.8395061492919922
+"unique_id, optional_primary_use_of_funds",0.8395061492919922
+"unique_id, optional_revenue_yr_confirmed",0.86543208360672
+"unique_id, optional_revenue_yr_confirmed",0.86543208360672
+"unique_id, optional_stage",0.8370370268821716
+"unique_id, optional_stage",0.8370370268821716
+"unique_id, support_amount",0.780246913433075
+"unique_id, support_amount",0.780246913433075
+"disbursement_date, loan_investment_amount",0.595061719417572
+"disbursement_date, loan_investment_amount",0.595061719417572
+"disbursement_date, lender_insurance_premium",0.6308642029762268
+"disbursement_date, lender_insurance_premium",0.6308642029762268
+"disbursement_date, metro_type",0.5913580060005188
+"disbursement_date, metro_type",0.5913580060005188
+"disbursement_date, LMI_type",0.5913580060005188
+"disbursement_date, LMI_type",0.5913580060005188
+"disbursement_date, revenue",0.5925925970077515
+"disbursement_date, revenue",0.5925925970077515
+"disbursement_date, full_time_employees",0.5913580060005188
+"disbursement_date, full_time_employees",0.5913580060005188
+"disbursement_date, naics_code",0.5913580060005188
+"disbursement_date, naics_code",0.5913580060005188
+"disbursement_date, jobs_created",0.5938271880149841
+"disbursement_date, jobs_created",0.5938271880149841
+"disbursement_date, lender_type_category",0.6728395223617554
+"disbursement_date, lender_type_category",0.6728395223617554
+"disbursement_date, optional_primary_use_of_funds",0.6185185313224792
+"disbursement_date, optional_primary_use_of_funds",0.6185185313224792
+"disbursement_date, optional_revenue_yr_confirmed",0.6962962746620178
+"disbursement_date, optional_revenue_yr_confirmed",0.6962962746620178
+"disbursement_date, optional_stage",0.5913580060005188
+"disbursement_date, optional_stage",0.5913580060005188
+"disbursement_date, support_amount",0.6864197254180908
+"disbursement_date, support_amount",0.6864197254180908
+"loan_investment_amount, lender_insurance_premium",0.6135802268981934
+"loan_investment_amount, lender_insurance_premium",0.6135802268981934
+"loan_investment_amount, metro_type",0.6222222447395325
+"loan_investment_amount, metro_type",0.6222222447395325
+"loan_investment_amount, LMI_type",0.5876542925834656
+"loan_investment_amount, LMI_type",0.5876542925834656
+"loan_investment_amount, revenue",0.6432098746299744
+"loan_investment_amount, revenue",0.6432098746299744
+"loan_investment_amount, full_time_employees",0.6518518328666687
+"loan_investment_amount, full_time_employees",0.6518518328666687
+"loan_investment_amount, naics_code",0.604938268661499
+"loan_investment_amount, naics_code",0.604938268661499
+"loan_investment_amount, jobs_created",0.5839506387710571
+"loan_investment_amount, jobs_created",0.5839506387710571
+"loan_investment_amount, lender_type_category",0.6938271522521973
+"loan_investment_amount, lender_type_category",0.6938271522521973
+"loan_investment_amount, optional_primary_use_of_funds",0.6358024477958679
+"loan_investment_amount, optional_primary_use_of_funds",0.6358024477958679
+"loan_investment_amount, optional_revenue_yr_confirmed",0.7049382925033569
+"loan_investment_amount, optional_revenue_yr_confirmed",0.7049382925033569
+"loan_investment_amount, optional_stage",0.6197530627250671
+"loan_investment_amount, optional_stage",0.6197530627250671
+"loan_investment_amount, support_amount",0.7407407164573669
+"loan_investment_amount, support_amount",0.7407407164573669
+"lender_insurance_premium, metro_type",0.624691367149353
+"lender_insurance_premium, metro_type",0.624691367149353
+"lender_insurance_premium, LMI_type",0.6271604895591736
+"lender_insurance_premium, LMI_type",0.6271604895591736
+"lender_insurance_premium, revenue",0.6419752836227417
+"lender_insurance_premium, revenue",0.6419752836227417
+"lender_insurance_premium, full_time_employees",0.6296296119689941
+"lender_insurance_premium, full_time_employees",0.6296296119689941
+"lender_insurance_premium, naics_code",0.6296296119689941
+"lender_insurance_premium, naics_code",0.6296296119689941
+"lender_insurance_premium, jobs_created",0.6308642029762268
+"lender_insurance_premium, jobs_created",0.6308642029762268
+"lender_insurance_premium, lender_type_category",0.6666666865348816
+"lender_insurance_premium, lender_type_category",0.6666666865348816
+"lender_insurance_premium, optional_primary_use_of_funds",0.6123456954956055
+"lender_insurance_premium, optional_primary_use_of_funds",0.6123456954956055
+"lender_insurance_premium, optional_revenue_yr_confirmed",0.7037037014961243
+"lender_insurance_premium, optional_revenue_yr_confirmed",0.7037037014961243
+"lender_insurance_premium, optional_stage",0.6271604895591736
+"lender_insurance_premium, optional_stage",0.6271604895591736
+"lender_insurance_premium, support_amount",0.7234567999839783
+"lender_insurance_premium, support_amount",0.7234567999839783
+"metro_type, LMI_type",0.5913580060005188
+"metro_type, LMI_type",0.5913580060005188
+"metro_type, revenue",0.6135802268981934
+"metro_type, revenue",0.6135802268981934
+"metro_type, full_time_employees",0.5938271880149841
+"metro_type, full_time_employees",0.5938271880149841
+"metro_type, naics_code",0.6024691462516785
+"metro_type, naics_code",0.6024691462516785
+"metro_type, jobs_created",0.5913580060005188
+"metro_type, jobs_created",0.5913580060005188
+"metro_type, lender_type_category",0.7358024716377258
+"metro_type, lender_type_category",0.7358024716377258
+"metro_type, optional_primary_use_of_funds",0.5901234745979309
+"metro_type, optional_primary_use_of_funds",0.5901234745979309
+"metro_type, optional_revenue_yr_confirmed",0.729629635810852
+"metro_type, optional_revenue_yr_confirmed",0.729629635810852
+"metro_type, optional_stage",0.5913580060005188
+"metro_type, optional_stage",0.5913580060005188
+"metro_type, support_amount",0.749382734298706
+"metro_type, support_amount",0.749382734298706
+"LMI_type, revenue",0.5901234745979309
+"LMI_type, revenue",0.5901234745979309
+"LMI_type, full_time_employees",0.5913580060005188
+"LMI_type, full_time_employees",0.5913580060005188
+"LMI_type, naics_code",0.5913580060005188
+"LMI_type, naics_code",0.5913580060005188
+"LMI_type, jobs_created",0.5913580060005188
+"LMI_type, jobs_created",0.5913580060005188
+"LMI_type, lender_type_category",0.6790123581886292
+"LMI_type, lender_type_category",0.6790123581886292
+"LMI_type, optional_primary_use_of_funds",0.575308620929718
+"LMI_type, optional_primary_use_of_funds",0.575308620929718
+"LMI_type, optional_revenue_yr_confirmed",0.6950617432594299
+"LMI_type, optional_revenue_yr_confirmed",0.6950617432594299
+"LMI_type, optional_stage",0.5913580060005188
+"LMI_type, optional_stage",0.5913580060005188
+"LMI_type, support_amount",0.6987654566764832
+"LMI_type, support_amount",0.6987654566764832
+"revenue, full_time_employees",0.5925925970077515
+"revenue, full_time_employees",0.5925925970077515
+"revenue, naics_code",0.6000000238418579
+"revenue, naics_code",0.6000000238418579
+"revenue, jobs_created",0.6135802268981934
+"revenue, jobs_created",0.6135802268981934
+"revenue, lender_type_category",0.6790123581886292
+"revenue, lender_type_category",0.6790123581886292
+"revenue, optional_primary_use_of_funds",0.690123438835144
+"revenue, optional_primary_use_of_funds",0.690123438835144
+"revenue, optional_revenue_yr_confirmed",0.6950617432594299
+"revenue, optional_revenue_yr_confirmed",0.6950617432594299
+"revenue, optional_stage",0.6037036776542664
+"revenue, optional_stage",0.6037036776542664
+"revenue, support_amount",0.690123438835144
+"revenue, support_amount",0.690123438835144
+"full_time_employees, naics_code",0.6037036776542664
+"full_time_employees, naics_code",0.6037036776542664
+"full_time_employees, jobs_created",0.6037036776542664
+"full_time_employees, jobs_created",0.6037036776542664
+"full_time_employees, lender_type_category",0.7234567999839783
+"full_time_employees, lender_type_category",0.7234567999839783
+"full_time_employees, optional_primary_use_of_funds",0.6358024477958679
+"full_time_employees, optional_primary_use_of_funds",0.6358024477958679
+"full_time_employees, optional_revenue_yr_confirmed",0.7407407164573669
+"full_time_employees, optional_revenue_yr_confirmed",0.7407407164573669
+"full_time_employees, optional_stage",0.5987654328346252
+"full_time_employees, optional_stage",0.5987654328346252
+"full_time_employees, support_amount",0.7111111283302307
+"full_time_employees, support_amount",0.7111111283302307
+"naics_code, jobs_created",0.5975308418273926
+"naics_code, jobs_created",0.5975308418273926
+"naics_code, lender_type_category",0.6790123581886292
+"naics_code, lender_type_category",0.6790123581886292
+"naics_code, optional_primary_use_of_funds",0.6320987939834595
+"naics_code, optional_primary_use_of_funds",0.6320987939834595
+"naics_code, optional_revenue_yr_confirmed",0.6950617432594299
+"naics_code, optional_revenue_yr_confirmed",0.6950617432594299
+"naics_code, optional_stage",0.5913580060005188
+"naics_code, optional_stage",0.5913580060005188
+"naics_code, support_amount",0.680246889591217
+"naics_code, support_amount",0.680246889591217
+"jobs_created, lender_type_category",0.690123438835144
+"jobs_created, lender_type_category",0.690123438835144
+"jobs_created, optional_primary_use_of_funds",0.5962963104248047
+"jobs_created, optional_primary_use_of_funds",0.5962963104248047
+"jobs_created, optional_revenue_yr_confirmed",0.7123456597328186
+"jobs_created, optional_revenue_yr_confirmed",0.7123456597328186
+"jobs_created, optional_stage",0.5913580060005188
+"jobs_created, optional_stage",0.5913580060005188
+"jobs_created, support_amount",0.6962962746620178
+"jobs_created, support_amount",0.6962962746620178
+"lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"lender_type_category, optional_revenue_yr_confirmed",0.7456790208816528
+"lender_type_category, optional_revenue_yr_confirmed",0.7456790208816528
+"lender_type_category, optional_stage",0.6790123581886292
+"lender_type_category, optional_stage",0.6790123581886292
+"lender_type_category, support_amount",0.6876543164253235
+"lender_type_category, support_amount",0.6876543164253235
+"optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7382715940475464
+"optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7382715940475464
+"optional_primary_use_of_funds, optional_stage",0.6407407522201538
+"optional_primary_use_of_funds, optional_stage",0.6407407522201538
+"optional_primary_use_of_funds, support_amount",0.7629629373550415
+"optional_primary_use_of_funds, support_amount",0.7629629373550415
+"optional_revenue_yr_confirmed, optional_stage",0.7037037014961243
+"optional_revenue_yr_confirmed, optional_stage",0.7037037014961243
+"optional_revenue_yr_confirmed, support_amount",0.7555555701255798
+"optional_revenue_yr_confirmed, support_amount",0.7555555701255798
+"optional_stage, support_amount",0.6839506030082703
+"optional_stage, support_amount",0.6839506030082703
+"unique_id, disbursement_date, loan_investment_amount",0.790123462677002
+"unique_id, disbursement_date, loan_investment_amount",0.790123462677002
+"unique_id, disbursement_date, loan_investment_amount",0.790123462677002
+"unique_id, disbursement_date, lender_insurance_premium",0.7962962985038757
+"unique_id, disbursement_date, lender_insurance_premium",0.7962962985038757
+"unique_id, disbursement_date, lender_insurance_premium",0.7962962985038757
+"unique_id, disbursement_date, metro_type",0.7580246925354004
+"unique_id, disbursement_date, metro_type",0.7580246925354004
+"unique_id, disbursement_date, metro_type",0.7580246925354004
+"unique_id, disbursement_date, LMI_type",0.7543209791183472
+"unique_id, disbursement_date, LMI_type",0.7543209791183472
+"unique_id, disbursement_date, LMI_type",0.7543209791183472
+"unique_id, disbursement_date, revenue",0.760493814945221
+"unique_id, disbursement_date, revenue",0.760493814945221
+"unique_id, disbursement_date, revenue",0.760493814945221
+"unique_id, disbursement_date, full_time_employees",0.7666666507720947
+"unique_id, disbursement_date, full_time_employees",0.7666666507720947
+"unique_id, disbursement_date, full_time_employees",0.7666666507720947
+"unique_id, disbursement_date, naics_code",0.7530864477157593
+"unique_id, disbursement_date, naics_code",0.7530864477157593
+"unique_id, disbursement_date, naics_code",0.7530864477157593
+"unique_id, disbursement_date, jobs_created",0.7629629373550415
+"unique_id, disbursement_date, jobs_created",0.7629629373550415
+"unique_id, disbursement_date, jobs_created",0.7629629373550415
+"unique_id, disbursement_date, lender_type_category",0.8283950686454773
+"unique_id, disbursement_date, lender_type_category",0.8283950686454773
+"unique_id, disbursement_date, lender_type_category",0.8283950686454773
+"unique_id, disbursement_date, optional_primary_use_of_funds",0.8444444537162781
+"unique_id, disbursement_date, optional_primary_use_of_funds",0.8444444537162781
+"unique_id, disbursement_date, optional_primary_use_of_funds",0.8444444537162781
+"unique_id, disbursement_date, optional_revenue_yr_confirmed",0.845678985118866
+"unique_id, disbursement_date, optional_revenue_yr_confirmed",0.845678985118866
+"unique_id, disbursement_date, optional_revenue_yr_confirmed",0.845678985118866
+"unique_id, disbursement_date, optional_stage",0.8283950686454773
+"unique_id, disbursement_date, optional_stage",0.8283950686454773
+"unique_id, disbursement_date, optional_stage",0.8283950686454773
+"unique_id, disbursement_date, support_amount",0.7629629373550415
+"unique_id, disbursement_date, support_amount",0.7629629373550415
+"unique_id, disbursement_date, support_amount",0.7629629373550415
+"unique_id, loan_investment_amount, lender_insurance_premium",0.800000011920929
+"unique_id, loan_investment_amount, lender_insurance_premium",0.800000011920929
+"unique_id, loan_investment_amount, lender_insurance_premium",0.800000011920929
+"unique_id, loan_investment_amount, metro_type",0.8074073791503906
+"unique_id, loan_investment_amount, metro_type",0.8074073791503906
+"unique_id, loan_investment_amount, metro_type",0.8074073791503906
+"unique_id, loan_investment_amount, LMI_type",0.8061728477478027
+"unique_id, loan_investment_amount, LMI_type",0.8061728477478027
+"unique_id, loan_investment_amount, LMI_type",0.8061728477478027
+"unique_id, loan_investment_amount, revenue",0.8172839283943176
+"unique_id, loan_investment_amount, revenue",0.8172839283943176
+"unique_id, loan_investment_amount, revenue",0.8172839283943176
+"unique_id, loan_investment_amount, full_time_employees",0.8037037253379822
+"unique_id, loan_investment_amount, full_time_employees",0.8037037253379822
+"unique_id, loan_investment_amount, full_time_employees",0.8037037253379822
+"unique_id, loan_investment_amount, naics_code",0.8012345433235168
+"unique_id, loan_investment_amount, naics_code",0.8012345433235168
+"unique_id, loan_investment_amount, naics_code",0.8012345433235168
+"unique_id, loan_investment_amount, jobs_created",0.809876561164856
+"unique_id, loan_investment_amount, jobs_created",0.809876561164856
+"unique_id, loan_investment_amount, jobs_created",0.809876561164856
+"unique_id, loan_investment_amount, lender_type_category",0.8246913552284241
+"unique_id, loan_investment_amount, lender_type_category",0.8246913552284241
+"unique_id, loan_investment_amount, lender_type_category",0.8246913552284241
+"unique_id, loan_investment_amount, optional_primary_use_of_funds",0.8444444537162781
+"unique_id, loan_investment_amount, optional_primary_use_of_funds",0.8444444537162781
+"unique_id, loan_investment_amount, optional_primary_use_of_funds",0.8444444537162781
+"unique_id, loan_investment_amount, optional_revenue_yr_confirmed",0.8580247163772583
+"unique_id, loan_investment_amount, optional_revenue_yr_confirmed",0.8580247163772583
+"unique_id, loan_investment_amount, optional_revenue_yr_confirmed",0.8580247163772583
+"unique_id, loan_investment_amount, optional_stage",0.8024691343307495
+"unique_id, loan_investment_amount, optional_stage",0.8024691343307495
+"unique_id, loan_investment_amount, optional_stage",0.8024691343307495
+"unique_id, loan_investment_amount, support_amount",0.8296296000480652
+"unique_id, loan_investment_amount, support_amount",0.8296296000480652
+"unique_id, loan_investment_amount, support_amount",0.8296296000480652
+"unique_id, lender_insurance_premium, metro_type",0.800000011920929
+"unique_id, lender_insurance_premium, metro_type",0.800000011920929
+"unique_id, lender_insurance_premium, metro_type",0.800000011920929
+"unique_id, lender_insurance_premium, LMI_type",0.7975308895111084
+"unique_id, lender_insurance_premium, LMI_type",0.7975308895111084
+"unique_id, lender_insurance_premium, LMI_type",0.7975308895111084
+"unique_id, lender_insurance_premium, revenue",0.7950617074966431
+"unique_id, lender_insurance_premium, revenue",0.7950617074966431
+"unique_id, lender_insurance_premium, revenue",0.7950617074966431
+"unique_id, lender_insurance_premium, full_time_employees",0.8061728477478027
+"unique_id, lender_insurance_premium, full_time_employees",0.8061728477478027
+"unique_id, lender_insurance_premium, full_time_employees",0.8061728477478027
+"unique_id, lender_insurance_premium, naics_code",0.7975308895111084
+"unique_id, lender_insurance_premium, naics_code",0.7975308895111084
+"unique_id, lender_insurance_premium, naics_code",0.7975308895111084
+"unique_id, lender_insurance_premium, jobs_created",0.7925925850868225
+"unique_id, lender_insurance_premium, jobs_created",0.7925925850868225
+"unique_id, lender_insurance_premium, jobs_created",0.7925925850868225
+"unique_id, lender_insurance_premium, lender_type_category",0.8666666746139526
+"unique_id, lender_insurance_premium, lender_type_category",0.8666666746139526
+"unique_id, lender_insurance_premium, lender_type_category",0.8666666746139526
+"unique_id, lender_insurance_premium, optional_primary_use_of_funds",0.8148148059844971
+"unique_id, lender_insurance_premium, optional_primary_use_of_funds",0.8148148059844971
+"unique_id, lender_insurance_premium, optional_primary_use_of_funds",0.8148148059844971
+"unique_id, lender_insurance_premium, optional_revenue_yr_confirmed",0.8777777552604675
+"unique_id, lender_insurance_premium, optional_revenue_yr_confirmed",0.8777777552604675
+"unique_id, lender_insurance_premium, optional_revenue_yr_confirmed",0.8777777552604675
+"unique_id, lender_insurance_premium, optional_stage",0.790123462677002
+"unique_id, lender_insurance_premium, optional_stage",0.790123462677002
+"unique_id, lender_insurance_premium, optional_stage",0.790123462677002
+"unique_id, lender_insurance_premium, support_amount",0.8074073791503906
+"unique_id, lender_insurance_premium, support_amount",0.8074073791503906
+"unique_id, lender_insurance_premium, support_amount",0.8074073791503906
+"unique_id, metro_type, LMI_type",0.8148148059844971
+"unique_id, metro_type, LMI_type",0.8148148059844971
+"unique_id, metro_type, LMI_type",0.8148148059844971
+"unique_id, metro_type, revenue",0.8024691343307495
+"unique_id, metro_type, revenue",0.8024691343307495
+"unique_id, metro_type, revenue",0.8024691343307495
+"unique_id, metro_type, full_time_employees",0.8074073791503906
+"unique_id, metro_type, full_time_employees",0.8074073791503906
+"unique_id, metro_type, full_time_employees",0.8074073791503906
+"unique_id, metro_type, naics_code",0.7876543402671814
+"unique_id, metro_type, naics_code",0.7876543402671814
+"unique_id, metro_type, naics_code",0.7876543402671814
+"unique_id, metro_type, jobs_created",0.8160493969917297
+"unique_id, metro_type, jobs_created",0.8160493969917297
+"unique_id, metro_type, jobs_created",0.8160493969917297
+"unique_id, metro_type, lender_type_category",0.8185185194015503
+"unique_id, metro_type, lender_type_category",0.8185185194015503
+"unique_id, metro_type, lender_type_category",0.8185185194015503
+"unique_id, metro_type, optional_primary_use_of_funds",0.8419753313064575
+"unique_id, metro_type, optional_primary_use_of_funds",0.8419753313064575
+"unique_id, metro_type, optional_primary_use_of_funds",0.8419753313064575
+"unique_id, metro_type, optional_revenue_yr_confirmed",0.8518518805503845
+"unique_id, metro_type, optional_revenue_yr_confirmed",0.8518518805503845
+"unique_id, metro_type, optional_revenue_yr_confirmed",0.8518518805503845
+"unique_id, metro_type, optional_stage",0.8358024954795837
+"unique_id, metro_type, optional_stage",0.8358024954795837
+"unique_id, metro_type, optional_stage",0.8358024954795837
+"unique_id, metro_type, support_amount",0.7913580536842346
+"unique_id, metro_type, support_amount",0.7913580536842346
+"unique_id, metro_type, support_amount",0.7913580536842346
+"unique_id, LMI_type, revenue",0.8296296000480652
+"unique_id, LMI_type, revenue",0.8296296000480652
+"unique_id, LMI_type, revenue",0.8296296000480652
+"unique_id, LMI_type, full_time_employees",0.7876543402671814
+"unique_id, LMI_type, full_time_employees",0.7876543402671814
+"unique_id, LMI_type, full_time_employees",0.7876543402671814
+"unique_id, LMI_type, naics_code",0.7777777910232544
+"unique_id, LMI_type, naics_code",0.7777777910232544
+"unique_id, LMI_type, naics_code",0.7777777910232544
+"unique_id, LMI_type, jobs_created",0.760493814945221
+"unique_id, LMI_type, jobs_created",0.760493814945221
+"unique_id, LMI_type, jobs_created",0.760493814945221
+"unique_id, LMI_type, lender_type_category",0.8271604776382446
+"unique_id, LMI_type, lender_type_category",0.8271604776382446
+"unique_id, LMI_type, lender_type_category",0.8271604776382446
+"unique_id, LMI_type, optional_primary_use_of_funds",0.845678985118866
+"unique_id, LMI_type, optional_primary_use_of_funds",0.845678985118866
+"unique_id, LMI_type, optional_primary_use_of_funds",0.845678985118866
+"unique_id, LMI_type, optional_revenue_yr_confirmed",0.8728395104408264
+"unique_id, LMI_type, optional_revenue_yr_confirmed",0.8728395104408264
+"unique_id, LMI_type, optional_revenue_yr_confirmed",0.8728395104408264
+"unique_id, LMI_type, optional_stage",0.8320987820625305
+"unique_id, LMI_type, optional_stage",0.8320987820625305
+"unique_id, LMI_type, optional_stage",0.8320987820625305
+"unique_id, LMI_type, support_amount",0.8160493969917297
+"unique_id, LMI_type, support_amount",0.8160493969917297
+"unique_id, LMI_type, support_amount",0.8160493969917297
+"unique_id, revenue, full_time_employees",0.760493814945221
+"unique_id, revenue, full_time_employees",0.760493814945221
+"unique_id, revenue, full_time_employees",0.760493814945221
+"unique_id, revenue, naics_code",0.7629629373550415
+"unique_id, revenue, naics_code",0.7629629373550415
+"unique_id, revenue, naics_code",0.7629629373550415
+"unique_id, revenue, jobs_created",0.7691357731819153
+"unique_id, revenue, jobs_created",0.7691357731819153
+"unique_id, revenue, jobs_created",0.7691357731819153
+"unique_id, revenue, lender_type_category",0.8259259462356567
+"unique_id, revenue, lender_type_category",0.8259259462356567
+"unique_id, revenue, lender_type_category",0.8259259462356567
+"unique_id, revenue, optional_primary_use_of_funds",0.8432098627090454
+"unique_id, revenue, optional_primary_use_of_funds",0.8432098627090454
+"unique_id, revenue, optional_primary_use_of_funds",0.8432098627090454
+"unique_id, revenue, optional_revenue_yr_confirmed",0.845678985118866
+"unique_id, revenue, optional_revenue_yr_confirmed",0.845678985118866
+"unique_id, revenue, optional_revenue_yr_confirmed",0.845678985118866
+"unique_id, revenue, optional_stage",0.8358024954795837
+"unique_id, revenue, optional_stage",0.8358024954795837
+"unique_id, revenue, optional_stage",0.8358024954795837
+"unique_id, revenue, support_amount",0.8135802745819092
+"unique_id, revenue, support_amount",0.8135802745819092
+"unique_id, revenue, support_amount",0.8135802745819092
+"unique_id, full_time_employees, naics_code",0.7654321193695068
+"unique_id, full_time_employees, naics_code",0.7654321193695068
+"unique_id, full_time_employees, naics_code",0.7654321193695068
+"unique_id, full_time_employees, jobs_created",0.7679012417793274
+"unique_id, full_time_employees, jobs_created",0.7679012417793274
+"unique_id, full_time_employees, jobs_created",0.7679012417793274
+"unique_id, full_time_employees, lender_type_category",0.8012345433235168
+"unique_id, full_time_employees, lender_type_category",0.8012345433235168
+"unique_id, full_time_employees, lender_type_category",0.8012345433235168
+"unique_id, full_time_employees, optional_primary_use_of_funds",0.8358024954795837
+"unique_id, full_time_employees, optional_primary_use_of_funds",0.8358024954795837
+"unique_id, full_time_employees, optional_primary_use_of_funds",0.8358024954795837
+"unique_id, full_time_employees, optional_revenue_yr_confirmed",0.8530864119529724
+"unique_id, full_time_employees, optional_revenue_yr_confirmed",0.8530864119529724
+"unique_id, full_time_employees, optional_revenue_yr_confirmed",0.8530864119529724
+"unique_id, full_time_employees, optional_stage",0.8111110925674438
+"unique_id, full_time_employees, optional_stage",0.8111110925674438
+"unique_id, full_time_employees, optional_stage",0.8111110925674438
+"unique_id, full_time_employees, support_amount",0.7753086686134338
+"unique_id, full_time_employees, support_amount",0.7753086686134338
+"unique_id, full_time_employees, support_amount",0.7753086686134338
+"unique_id, naics_code, jobs_created",0.7617284059524536
+"unique_id, naics_code, jobs_created",0.7617284059524536
+"unique_id, naics_code, jobs_created",0.7617284059524536
+"unique_id, naics_code, lender_type_category",0.8160493969917297
+"unique_id, naics_code, lender_type_category",0.8160493969917297
+"unique_id, naics_code, lender_type_category",0.8160493969917297
+"unique_id, naics_code, optional_primary_use_of_funds",0.8419753313064575
+"unique_id, naics_code, optional_primary_use_of_funds",0.8419753313064575
+"unique_id, naics_code, optional_primary_use_of_funds",0.8419753313064575
+"unique_id, naics_code, optional_revenue_yr_confirmed",0.8604938387870789
+"unique_id, naics_code, optional_revenue_yr_confirmed",0.8604938387870789
+"unique_id, naics_code, optional_revenue_yr_confirmed",0.8604938387870789
+"unique_id, naics_code, optional_stage",0.8370370268821716
+"unique_id, naics_code, optional_stage",0.8370370268821716
+"unique_id, naics_code, optional_stage",0.8370370268821716
+"unique_id, naics_code, support_amount",0.7691357731819153
+"unique_id, naics_code, support_amount",0.7691357731819153
+"unique_id, naics_code, support_amount",0.7691357731819153
+"unique_id, jobs_created, lender_type_category",0.809876561164856
+"unique_id, jobs_created, lender_type_category",0.809876561164856
+"unique_id, jobs_created, lender_type_category",0.809876561164856
+"unique_id, jobs_created, optional_primary_use_of_funds",0.8493826985359192
+"unique_id, jobs_created, optional_primary_use_of_funds",0.8493826985359192
+"unique_id, jobs_created, optional_primary_use_of_funds",0.8493826985359192
+"unique_id, jobs_created, optional_revenue_yr_confirmed",0.8641975522041321
+"unique_id, jobs_created, optional_revenue_yr_confirmed",0.8641975522041321
+"unique_id, jobs_created, optional_revenue_yr_confirmed",0.8641975522041321
+"unique_id, jobs_created, optional_stage",0.8395061492919922
+"unique_id, jobs_created, optional_stage",0.8395061492919922
+"unique_id, jobs_created, optional_stage",0.8395061492919922
+"unique_id, jobs_created, support_amount",0.7567901015281677
+"unique_id, jobs_created, support_amount",0.7567901015281677
+"unique_id, jobs_created, support_amount",0.7567901015281677
+"unique_id, lender_type_category, optional_primary_use_of_funds",0.8358024954795837
+"unique_id, lender_type_category, optional_primary_use_of_funds",0.8358024954795837
+"unique_id, lender_type_category, optional_primary_use_of_funds",0.8358024954795837
+"unique_id, lender_type_category, optional_revenue_yr_confirmed",0.8543210029602051
+"unique_id, lender_type_category, optional_revenue_yr_confirmed",0.8543210029602051
+"unique_id, lender_type_category, optional_revenue_yr_confirmed",0.8543210029602051
+"unique_id, lender_type_category, optional_stage",0.8444444537162781
+"unique_id, lender_type_category, optional_stage",0.8444444537162781
+"unique_id, lender_type_category, optional_stage",0.8444444537162781
+"unique_id, lender_type_category, support_amount",0.8246913552284241
+"unique_id, lender_type_category, support_amount",0.8246913552284241
+"unique_id, lender_type_category, support_amount",0.8246913552284241
+"unique_id, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.855555534362793
+"unique_id, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.855555534362793
+"unique_id, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.855555534362793
+"unique_id, optional_primary_use_of_funds, optional_stage",0.8530864119529724
+"unique_id, optional_primary_use_of_funds, optional_stage",0.8530864119529724
+"unique_id, optional_primary_use_of_funds, optional_stage",0.8530864119529724
+"unique_id, optional_primary_use_of_funds, support_amount",0.855555534362793
+"unique_id, optional_primary_use_of_funds, support_amount",0.855555534362793
+"unique_id, optional_primary_use_of_funds, support_amount",0.855555534362793
+"unique_id, optional_revenue_yr_confirmed, optional_stage",0.8580247163772583
+"unique_id, optional_revenue_yr_confirmed, optional_stage",0.8580247163772583
+"unique_id, optional_revenue_yr_confirmed, optional_stage",0.8580247163772583
+"unique_id, optional_revenue_yr_confirmed, support_amount",0.8493826985359192
+"unique_id, optional_revenue_yr_confirmed, support_amount",0.8493826985359192
+"unique_id, optional_revenue_yr_confirmed, support_amount",0.8493826985359192
+"unique_id, optional_stage, support_amount",0.8148148059844971
+"unique_id, optional_stage, support_amount",0.8148148059844971
+"unique_id, optional_stage, support_amount",0.8148148059844971
+"disbursement_date, loan_investment_amount, lender_insurance_premium",0.6123456954956055
+"disbursement_date, loan_investment_amount, lender_insurance_premium",0.6123456954956055
+"disbursement_date, loan_investment_amount, lender_insurance_premium",0.6123456954956055
+"disbursement_date, loan_investment_amount, metro_type",0.6209876537322998
+"disbursement_date, loan_investment_amount, metro_type",0.6209876537322998
+"disbursement_date, loan_investment_amount, metro_type",0.6209876537322998
+"disbursement_date, loan_investment_amount, LMI_type",0.6123456954956055
+"disbursement_date, loan_investment_amount, LMI_type",0.6123456954956055
+"disbursement_date, loan_investment_amount, LMI_type",0.6123456954956055
+"disbursement_date, loan_investment_amount, revenue",0.644444465637207
+"disbursement_date, loan_investment_amount, revenue",0.644444465637207
+"disbursement_date, loan_investment_amount, revenue",0.644444465637207
+"disbursement_date, loan_investment_amount, full_time_employees",0.654321014881134
+"disbursement_date, loan_investment_amount, full_time_employees",0.654321014881134
+"disbursement_date, loan_investment_amount, full_time_employees",0.654321014881134
+"disbursement_date, loan_investment_amount, naics_code",0.6283950805664062
+"disbursement_date, loan_investment_amount, naics_code",0.6283950805664062
+"disbursement_date, loan_investment_amount, naics_code",0.6283950805664062
+"disbursement_date, loan_investment_amount, jobs_created",0.6135802268981934
+"disbursement_date, loan_investment_amount, jobs_created",0.6135802268981934
+"disbursement_date, loan_investment_amount, jobs_created",0.6135802268981934
+"disbursement_date, loan_investment_amount, lender_type_category",0.6913580298423767
+"disbursement_date, loan_investment_amount, lender_type_category",0.6913580298423767
+"disbursement_date, loan_investment_amount, lender_type_category",0.6913580298423767
+"disbursement_date, loan_investment_amount, optional_primary_use_of_funds",0.6518518328666687
+"disbursement_date, loan_investment_amount, optional_primary_use_of_funds",0.6518518328666687
+"disbursement_date, loan_investment_amount, optional_primary_use_of_funds",0.6518518328666687
+"disbursement_date, loan_investment_amount, optional_revenue_yr_confirmed",0.7012345790863037
+"disbursement_date, loan_investment_amount, optional_revenue_yr_confirmed",0.7012345790863037
+"disbursement_date, loan_investment_amount, optional_revenue_yr_confirmed",0.7012345790863037
+"disbursement_date, loan_investment_amount, optional_stage",0.6185185313224792
+"disbursement_date, loan_investment_amount, optional_stage",0.6185185313224792
+"disbursement_date, loan_investment_amount, optional_stage",0.6185185313224792
+"disbursement_date, loan_investment_amount, support_amount",0.7308642268180847
+"disbursement_date, loan_investment_amount, support_amount",0.7308642268180847
+"disbursement_date, loan_investment_amount, support_amount",0.7308642268180847
+"disbursement_date, lender_insurance_premium, metro_type",0.6222222447395325
+"disbursement_date, lender_insurance_premium, metro_type",0.6222222447395325
+"disbursement_date, lender_insurance_premium, metro_type",0.6222222447395325
+"disbursement_date, lender_insurance_premium, LMI_type",0.6308642029762268
+"disbursement_date, lender_insurance_premium, LMI_type",0.6308642029762268
+"disbursement_date, lender_insurance_premium, LMI_type",0.6308642029762268
+"disbursement_date, lender_insurance_premium, revenue",0.6308642029762268
+"disbursement_date, lender_insurance_premium, revenue",0.6308642029762268
+"disbursement_date, lender_insurance_premium, revenue",0.6308642029762268
+"disbursement_date, lender_insurance_premium, full_time_employees",0.6296296119689941
+"disbursement_date, lender_insurance_premium, full_time_employees",0.6296296119689941
+"disbursement_date, lender_insurance_premium, full_time_employees",0.6296296119689941
+"disbursement_date, lender_insurance_premium, naics_code",0.6333333253860474
+"disbursement_date, lender_insurance_premium, naics_code",0.6333333253860474
+"disbursement_date, lender_insurance_premium, naics_code",0.6333333253860474
+"disbursement_date, lender_insurance_premium, jobs_created",0.624691367149353
+"disbursement_date, lender_insurance_premium, jobs_created",0.624691367149353
+"disbursement_date, lender_insurance_premium, jobs_created",0.624691367149353
+"disbursement_date, lender_insurance_premium, lender_type_category",0.6654320955276489
+"disbursement_date, lender_insurance_premium, lender_type_category",0.6654320955276489
+"disbursement_date, lender_insurance_premium, lender_type_category",0.6654320955276489
+"disbursement_date, lender_insurance_premium, optional_primary_use_of_funds",0.6209876537322998
+"disbursement_date, lender_insurance_premium, optional_primary_use_of_funds",0.6209876537322998
+"disbursement_date, lender_insurance_premium, optional_primary_use_of_funds",0.6209876537322998
+"disbursement_date, lender_insurance_premium, optional_revenue_yr_confirmed",0.7037037014961243
+"disbursement_date, lender_insurance_premium, optional_revenue_yr_confirmed",0.7037037014961243
+"disbursement_date, lender_insurance_premium, optional_revenue_yr_confirmed",0.7037037014961243
+"disbursement_date, lender_insurance_premium, optional_stage",0.6296296119689941
+"disbursement_date, lender_insurance_premium, optional_stage",0.6296296119689941
+"disbursement_date, lender_insurance_premium, optional_stage",0.6296296119689941
+"disbursement_date, lender_insurance_premium, support_amount",0.7246913313865662
+"disbursement_date, lender_insurance_premium, support_amount",0.7246913313865662
+"disbursement_date, lender_insurance_premium, support_amount",0.7246913313865662
+"disbursement_date, metro_type, LMI_type",0.6012345552444458
+"disbursement_date, metro_type, LMI_type",0.6012345552444458
+"disbursement_date, metro_type, LMI_type",0.6012345552444458
+"disbursement_date, metro_type, revenue",0.6024691462516785
+"disbursement_date, metro_type, revenue",0.6024691462516785
+"disbursement_date, metro_type, revenue",0.6024691462516785
+"disbursement_date, metro_type, full_time_employees",0.6061728596687317
+"disbursement_date, metro_type, full_time_employees",0.6061728596687317
+"disbursement_date, metro_type, full_time_employees",0.6061728596687317
+"disbursement_date, metro_type, naics_code",0.6111111044883728
+"disbursement_date, metro_type, naics_code",0.6111111044883728
+"disbursement_date, metro_type, naics_code",0.6111111044883728
+"disbursement_date, metro_type, jobs_created",0.6012345552444458
+"disbursement_date, metro_type, jobs_created",0.6012345552444458
+"disbursement_date, metro_type, jobs_created",0.6012345552444458
+"disbursement_date, metro_type, lender_type_category",0.7358024716377258
+"disbursement_date, metro_type, lender_type_category",0.7358024716377258
+"disbursement_date, metro_type, lender_type_category",0.7358024716377258
+"disbursement_date, metro_type, optional_primary_use_of_funds",0.6172839403152466
+"disbursement_date, metro_type, optional_primary_use_of_funds",0.6172839403152466
+"disbursement_date, metro_type, optional_primary_use_of_funds",0.6172839403152466
+"disbursement_date, metro_type, optional_revenue_yr_confirmed",0.729629635810852
+"disbursement_date, metro_type, optional_revenue_yr_confirmed",0.729629635810852
+"disbursement_date, metro_type, optional_revenue_yr_confirmed",0.729629635810852
+"disbursement_date, metro_type, optional_stage",0.604938268661499
+"disbursement_date, metro_type, optional_stage",0.604938268661499
+"disbursement_date, metro_type, optional_stage",0.604938268661499
+"disbursement_date, metro_type, support_amount",0.7370370626449585
+"disbursement_date, metro_type, support_amount",0.7370370626449585
+"disbursement_date, metro_type, support_amount",0.7370370626449585
+"disbursement_date, LMI_type, revenue",0.5938271880149841
+"disbursement_date, LMI_type, revenue",0.5938271880149841
+"disbursement_date, LMI_type, revenue",0.5938271880149841
+"disbursement_date, LMI_type, full_time_employees",0.6111111044883728
+"disbursement_date, LMI_type, full_time_employees",0.6111111044883728
+"disbursement_date, LMI_type, full_time_employees",0.6111111044883728
+"disbursement_date, LMI_type, naics_code",0.5913580060005188
+"disbursement_date, LMI_type, naics_code",0.5913580060005188
+"disbursement_date, LMI_type, naics_code",0.5913580060005188
+"disbursement_date, LMI_type, jobs_created",0.5913580060005188
+"disbursement_date, LMI_type, jobs_created",0.5913580060005188
+"disbursement_date, LMI_type, jobs_created",0.5913580060005188
+"disbursement_date, LMI_type, lender_type_category",0.6728395223617554
+"disbursement_date, LMI_type, lender_type_category",0.6728395223617554
+"disbursement_date, LMI_type, lender_type_category",0.6728395223617554
+"disbursement_date, LMI_type, optional_primary_use_of_funds",0.6172839403152466
+"disbursement_date, LMI_type, optional_primary_use_of_funds",0.6172839403152466
+"disbursement_date, LMI_type, optional_primary_use_of_funds",0.6172839403152466
+"disbursement_date, LMI_type, optional_revenue_yr_confirmed",0.6950617432594299
+"disbursement_date, LMI_type, optional_revenue_yr_confirmed",0.6950617432594299
+"disbursement_date, LMI_type, optional_revenue_yr_confirmed",0.6950617432594299
+"disbursement_date, LMI_type, optional_stage",0.5913580060005188
+"disbursement_date, LMI_type, optional_stage",0.5913580060005188
+"disbursement_date, LMI_type, optional_stage",0.5913580060005188
+"disbursement_date, LMI_type, support_amount",0.6876543164253235
+"disbursement_date, LMI_type, support_amount",0.6876543164253235
+"disbursement_date, LMI_type, support_amount",0.6876543164253235
+"disbursement_date, revenue, full_time_employees",0.5913580060005188
+"disbursement_date, revenue, full_time_employees",0.5913580060005188
+"disbursement_date, revenue, full_time_employees",0.5913580060005188
+"disbursement_date, revenue, naics_code",0.5913580060005188
+"disbursement_date, revenue, naics_code",0.5913580060005188
+"disbursement_date, revenue, naics_code",0.5913580060005188
+"disbursement_date, revenue, jobs_created",0.6012345552444458
+"disbursement_date, revenue, jobs_created",0.6012345552444458
+"disbursement_date, revenue, jobs_created",0.6012345552444458
+"disbursement_date, revenue, lender_type_category",0.6740740537643433
+"disbursement_date, revenue, lender_type_category",0.6740740537643433
+"disbursement_date, revenue, lender_type_category",0.6740740537643433
+"disbursement_date, revenue, optional_primary_use_of_funds",0.644444465637207
+"disbursement_date, revenue, optional_primary_use_of_funds",0.644444465637207
+"disbursement_date, revenue, optional_primary_use_of_funds",0.644444465637207
+"disbursement_date, revenue, optional_revenue_yr_confirmed",0.6962962746620178
+"disbursement_date, revenue, optional_revenue_yr_confirmed",0.6962962746620178
+"disbursement_date, revenue, optional_revenue_yr_confirmed",0.6962962746620178
+"disbursement_date, revenue, optional_stage",0.5938271880149841
+"disbursement_date, revenue, optional_stage",0.5938271880149841
+"disbursement_date, revenue, optional_stage",0.5938271880149841
+"disbursement_date, revenue, support_amount",0.6938271522521973
+"disbursement_date, revenue, support_amount",0.6938271522521973
+"disbursement_date, revenue, support_amount",0.6938271522521973
+"disbursement_date, full_time_employees, naics_code",0.6074073910713196
+"disbursement_date, full_time_employees, naics_code",0.6074073910713196
+"disbursement_date, full_time_employees, naics_code",0.6074073910713196
+"disbursement_date, full_time_employees, jobs_created",0.6061728596687317
+"disbursement_date, full_time_employees, jobs_created",0.6061728596687317
+"disbursement_date, full_time_employees, jobs_created",0.6061728596687317
+"disbursement_date, full_time_employees, lender_type_category",0.7209876775741577
+"disbursement_date, full_time_employees, lender_type_category",0.7209876775741577
+"disbursement_date, full_time_employees, lender_type_category",0.7209876775741577
+"disbursement_date, full_time_employees, optional_primary_use_of_funds",0.6407407522201538
+"disbursement_date, full_time_employees, optional_primary_use_of_funds",0.6407407522201538
+"disbursement_date, full_time_employees, optional_primary_use_of_funds",0.6407407522201538
+"disbursement_date, full_time_employees, optional_revenue_yr_confirmed",0.7370370626449585
+"disbursement_date, full_time_employees, optional_revenue_yr_confirmed",0.7370370626449585
+"disbursement_date, full_time_employees, optional_revenue_yr_confirmed",0.7370370626449585
+"disbursement_date, full_time_employees, optional_stage",0.5962963104248047
+"disbursement_date, full_time_employees, optional_stage",0.5962963104248047
+"disbursement_date, full_time_employees, optional_stage",0.5962963104248047
+"disbursement_date, full_time_employees, support_amount",0.7049382925033569
+"disbursement_date, full_time_employees, support_amount",0.7049382925033569
+"disbursement_date, full_time_employees, support_amount",0.7049382925033569
+"disbursement_date, naics_code, jobs_created",0.6000000238418579
+"disbursement_date, naics_code, jobs_created",0.6000000238418579
+"disbursement_date, naics_code, jobs_created",0.6000000238418579
+"disbursement_date, naics_code, lender_type_category",0.6654320955276489
+"disbursement_date, naics_code, lender_type_category",0.6654320955276489
+"disbursement_date, naics_code, lender_type_category",0.6654320955276489
+"disbursement_date, naics_code, optional_primary_use_of_funds",0.644444465637207
+"disbursement_date, naics_code, optional_primary_use_of_funds",0.644444465637207
+"disbursement_date, naics_code, optional_primary_use_of_funds",0.644444465637207
+"disbursement_date, naics_code, optional_revenue_yr_confirmed",0.6913580298423767
+"disbursement_date, naics_code, optional_revenue_yr_confirmed",0.6913580298423767
+"disbursement_date, naics_code, optional_revenue_yr_confirmed",0.6913580298423767
+"disbursement_date, naics_code, optional_stage",0.6074073910713196
+"disbursement_date, naics_code, optional_stage",0.6074073910713196
+"disbursement_date, naics_code, optional_stage",0.6074073910713196
+"disbursement_date, naics_code, support_amount",0.6716049313545227
+"disbursement_date, naics_code, support_amount",0.6716049313545227
+"disbursement_date, naics_code, support_amount",0.6716049313545227
+"disbursement_date, jobs_created, lender_type_category",0.680246889591217
+"disbursement_date, jobs_created, lender_type_category",0.680246889591217
+"disbursement_date, jobs_created, lender_type_category",0.680246889591217
+"disbursement_date, jobs_created, optional_primary_use_of_funds",0.6259258985519409
+"disbursement_date, jobs_created, optional_primary_use_of_funds",0.6259258985519409
+"disbursement_date, jobs_created, optional_primary_use_of_funds",0.6259258985519409
+"disbursement_date, jobs_created, optional_revenue_yr_confirmed",0.7160493731498718
+"disbursement_date, jobs_created, optional_revenue_yr_confirmed",0.7160493731498718
+"disbursement_date, jobs_created, optional_revenue_yr_confirmed",0.7160493731498718
+"disbursement_date, jobs_created, optional_stage",0.6000000238418579
+"disbursement_date, jobs_created, optional_stage",0.6000000238418579
+"disbursement_date, jobs_created, optional_stage",0.6000000238418579
+"disbursement_date, jobs_created, support_amount",0.6938271522521973
+"disbursement_date, jobs_created, support_amount",0.6938271522521973
+"disbursement_date, jobs_created, support_amount",0.6938271522521973
+"disbursement_date, lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"disbursement_date, lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"disbursement_date, lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"disbursement_date, lender_type_category, optional_revenue_yr_confirmed",0.7444444298744202
+"disbursement_date, lender_type_category, optional_revenue_yr_confirmed",0.7444444298744202
+"disbursement_date, lender_type_category, optional_revenue_yr_confirmed",0.7444444298744202
+"disbursement_date, lender_type_category, optional_stage",0.6777777671813965
+"disbursement_date, lender_type_category, optional_stage",0.6777777671813965
+"disbursement_date, lender_type_category, optional_stage",0.6777777671813965
+"disbursement_date, lender_type_category, support_amount",0.690123438835144
+"disbursement_date, lender_type_category, support_amount",0.690123438835144
+"disbursement_date, lender_type_category, support_amount",0.690123438835144
+"disbursement_date, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7358024716377258
+"disbursement_date, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7358024716377258
+"disbursement_date, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7358024716377258
+"disbursement_date, optional_primary_use_of_funds, optional_stage",0.6395061612129211
+"disbursement_date, optional_primary_use_of_funds, optional_stage",0.6395061612129211
+"disbursement_date, optional_primary_use_of_funds, optional_stage",0.6395061612129211
+"disbursement_date, optional_primary_use_of_funds, support_amount",0.7654321193695068
+"disbursement_date, optional_primary_use_of_funds, support_amount",0.7654321193695068
+"disbursement_date, optional_primary_use_of_funds, support_amount",0.7654321193695068
+"disbursement_date, optional_revenue_yr_confirmed, optional_stage",0.7037037014961243
+"disbursement_date, optional_revenue_yr_confirmed, optional_stage",0.7037037014961243
+"disbursement_date, optional_revenue_yr_confirmed, optional_stage",0.7037037014961243
+"disbursement_date, optional_revenue_yr_confirmed, support_amount",0.7012345790863037
+"disbursement_date, optional_revenue_yr_confirmed, support_amount",0.7012345790863037
+"disbursement_date, optional_revenue_yr_confirmed, support_amount",0.7012345790863037
+"disbursement_date, optional_stage, support_amount",0.6839506030082703
+"disbursement_date, optional_stage, support_amount",0.6839506030082703
+"disbursement_date, optional_stage, support_amount",0.6839506030082703
+"loan_investment_amount, lender_insurance_premium, metro_type",0.6000000238418579
+"loan_investment_amount, lender_insurance_premium, metro_type",0.6000000238418579
+"loan_investment_amount, lender_insurance_premium, metro_type",0.6000000238418579
+"loan_investment_amount, lender_insurance_premium, LMI_type",0.6222222447395325
+"loan_investment_amount, lender_insurance_premium, LMI_type",0.6222222447395325
+"loan_investment_amount, lender_insurance_premium, LMI_type",0.6222222447395325
+"loan_investment_amount, lender_insurance_premium, revenue",0.6407407522201538
+"loan_investment_amount, lender_insurance_premium, revenue",0.6407407522201538
+"loan_investment_amount, lender_insurance_premium, revenue",0.6407407522201538
+"loan_investment_amount, lender_insurance_premium, full_time_employees",0.6629629731178284
+"loan_investment_amount, lender_insurance_premium, full_time_employees",0.6629629731178284
+"loan_investment_amount, lender_insurance_premium, full_time_employees",0.6629629731178284
+"loan_investment_amount, lender_insurance_premium, naics_code",0.6135802268981934
+"loan_investment_amount, lender_insurance_premium, naics_code",0.6135802268981934
+"loan_investment_amount, lender_insurance_premium, naics_code",0.6135802268981934
+"loan_investment_amount, lender_insurance_premium, jobs_created",0.6185185313224792
+"loan_investment_amount, lender_insurance_premium, jobs_created",0.6185185313224792
+"loan_investment_amount, lender_insurance_premium, jobs_created",0.6185185313224792
+"loan_investment_amount, lender_insurance_premium, lender_type_category",0.6950617432594299
+"loan_investment_amount, lender_insurance_premium, lender_type_category",0.6950617432594299
+"loan_investment_amount, lender_insurance_premium, lender_type_category",0.6950617432594299
+"loan_investment_amount, lender_insurance_premium, optional_primary_use_of_funds",0.6629629731178284
+"loan_investment_amount, lender_insurance_premium, optional_primary_use_of_funds",0.6629629731178284
+"loan_investment_amount, lender_insurance_premium, optional_primary_use_of_funds",0.6629629731178284
+"loan_investment_amount, lender_insurance_premium, optional_revenue_yr_confirmed",0.7123456597328186
+"loan_investment_amount, lender_insurance_premium, optional_revenue_yr_confirmed",0.7123456597328186
+"loan_investment_amount, lender_insurance_premium, optional_revenue_yr_confirmed",0.7123456597328186
+"loan_investment_amount, lender_insurance_premium, optional_stage",0.624691367149353
+"loan_investment_amount, lender_insurance_premium, optional_stage",0.624691367149353
+"loan_investment_amount, lender_insurance_premium, optional_stage",0.624691367149353
+"loan_investment_amount, lender_insurance_premium, support_amount",0.7641975283622742
+"loan_investment_amount, lender_insurance_premium, support_amount",0.7641975283622742
+"loan_investment_amount, lender_insurance_premium, support_amount",0.7641975283622742
+"loan_investment_amount, metro_type, LMI_type",0.6320987939834595
+"loan_investment_amount, metro_type, LMI_type",0.6320987939834595
+"loan_investment_amount, metro_type, LMI_type",0.6320987939834595
+"loan_investment_amount, metro_type, revenue",0.654321014881134
+"loan_investment_amount, metro_type, revenue",0.654321014881134
+"loan_investment_amount, metro_type, revenue",0.654321014881134
+"loan_investment_amount, metro_type, full_time_employees",0.6530864238739014
+"loan_investment_amount, metro_type, full_time_employees",0.6530864238739014
+"loan_investment_amount, metro_type, full_time_employees",0.6530864238739014
+"loan_investment_amount, metro_type, naics_code",0.6209876537322998
+"loan_investment_amount, metro_type, naics_code",0.6209876537322998
+"loan_investment_amount, metro_type, naics_code",0.6209876537322998
+"loan_investment_amount, metro_type, jobs_created",0.6370370388031006
+"loan_investment_amount, metro_type, jobs_created",0.6370370388031006
+"loan_investment_amount, metro_type, jobs_created",0.6370370388031006
+"loan_investment_amount, metro_type, lender_type_category",0.7308642268180847
+"loan_investment_amount, metro_type, lender_type_category",0.7308642268180847
+"loan_investment_amount, metro_type, lender_type_category",0.7308642268180847
+"loan_investment_amount, metro_type, optional_primary_use_of_funds",0.6382716298103333
+"loan_investment_amount, metro_type, optional_primary_use_of_funds",0.6382716298103333
+"loan_investment_amount, metro_type, optional_primary_use_of_funds",0.6382716298103333
+"loan_investment_amount, metro_type, optional_revenue_yr_confirmed",0.7370370626449585
+"loan_investment_amount, metro_type, optional_revenue_yr_confirmed",0.7370370626449585
+"loan_investment_amount, metro_type, optional_revenue_yr_confirmed",0.7370370626449585
+"loan_investment_amount, metro_type, optional_stage",0.6530864238739014
+"loan_investment_amount, metro_type, optional_stage",0.6530864238739014
+"loan_investment_amount, metro_type, optional_stage",0.6530864238739014
+"loan_investment_amount, metro_type, support_amount",0.7728394865989685
+"loan_investment_amount, metro_type, support_amount",0.7728394865989685
+"loan_investment_amount, metro_type, support_amount",0.7728394865989685
+"loan_investment_amount, LMI_type, revenue",0.6370370388031006
+"loan_investment_amount, LMI_type, revenue",0.6370370388031006
+"loan_investment_amount, LMI_type, revenue",0.6370370388031006
+"loan_investment_amount, LMI_type, full_time_employees",0.6728395223617554
+"loan_investment_amount, LMI_type, full_time_employees",0.6728395223617554
+"loan_investment_amount, LMI_type, full_time_employees",0.6728395223617554
+"loan_investment_amount, LMI_type, naics_code",0.6296296119689941
+"loan_investment_amount, LMI_type, naics_code",0.6296296119689941
+"loan_investment_amount, LMI_type, naics_code",0.6296296119689941
+"loan_investment_amount, LMI_type, jobs_created",0.5876542925834656
+"loan_investment_amount, LMI_type, jobs_created",0.5876542925834656
+"loan_investment_amount, LMI_type, jobs_created",0.5876542925834656
+"loan_investment_amount, LMI_type, lender_type_category",0.6876543164253235
+"loan_investment_amount, LMI_type, lender_type_category",0.6876543164253235
+"loan_investment_amount, LMI_type, lender_type_category",0.6876543164253235
+"loan_investment_amount, LMI_type, optional_primary_use_of_funds",0.6580246686935425
+"loan_investment_amount, LMI_type, optional_primary_use_of_funds",0.6580246686935425
+"loan_investment_amount, LMI_type, optional_primary_use_of_funds",0.6580246686935425
+"loan_investment_amount, LMI_type, optional_revenue_yr_confirmed",0.6975308656692505
+"loan_investment_amount, LMI_type, optional_revenue_yr_confirmed",0.6975308656692505
+"loan_investment_amount, LMI_type, optional_revenue_yr_confirmed",0.6975308656692505
+"loan_investment_amount, LMI_type, optional_stage",0.624691367149353
+"loan_investment_amount, LMI_type, optional_stage",0.624691367149353
+"loan_investment_amount, LMI_type, optional_stage",0.624691367149353
+"loan_investment_amount, LMI_type, support_amount",0.6876543164253235
+"loan_investment_amount, LMI_type, support_amount",0.6876543164253235
+"loan_investment_amount, LMI_type, support_amount",0.6876543164253235
+"loan_investment_amount, revenue, full_time_employees",0.6654320955276489
+"loan_investment_amount, revenue, full_time_employees",0.6654320955276489
+"loan_investment_amount, revenue, full_time_employees",0.6654320955276489
+"loan_investment_amount, revenue, naics_code",0.6358024477958679
+"loan_investment_amount, revenue, naics_code",0.6358024477958679
+"loan_investment_amount, revenue, naics_code",0.6358024477958679
+"loan_investment_amount, revenue, jobs_created",0.6617283821105957
+"loan_investment_amount, revenue, jobs_created",0.6617283821105957
+"loan_investment_amount, revenue, jobs_created",0.6617283821105957
+"loan_investment_amount, revenue, lender_type_category",0.7049382925033569
+"loan_investment_amount, revenue, lender_type_category",0.7049382925033569
+"loan_investment_amount, revenue, lender_type_category",0.7049382925033569
+"loan_investment_amount, revenue, optional_primary_use_of_funds",0.680246889591217
+"loan_investment_amount, revenue, optional_primary_use_of_funds",0.680246889591217
+"loan_investment_amount, revenue, optional_primary_use_of_funds",0.680246889591217
+"loan_investment_amount, revenue, optional_revenue_yr_confirmed",0.7209876775741577
+"loan_investment_amount, revenue, optional_revenue_yr_confirmed",0.7209876775741577
+"loan_investment_amount, revenue, optional_revenue_yr_confirmed",0.7209876775741577
+"loan_investment_amount, revenue, optional_stage",0.6271604895591736
+"loan_investment_amount, revenue, optional_stage",0.6271604895591736
+"loan_investment_amount, revenue, optional_stage",0.6271604895591736
+"loan_investment_amount, revenue, support_amount",0.6975308656692505
+"loan_investment_amount, revenue, support_amount",0.6975308656692505
+"loan_investment_amount, revenue, support_amount",0.6975308656692505
+"loan_investment_amount, full_time_employees, naics_code",0.6271604895591736
+"loan_investment_amount, full_time_employees, naics_code",0.6271604895591736
+"loan_investment_amount, full_time_employees, naics_code",0.6271604895591736
+"loan_investment_amount, full_time_employees, jobs_created",0.6518518328666687
+"loan_investment_amount, full_time_employees, jobs_created",0.6518518328666687
+"loan_investment_amount, full_time_employees, jobs_created",0.6518518328666687
+"loan_investment_amount, full_time_employees, lender_type_category",0.6987654566764832
+"loan_investment_amount, full_time_employees, lender_type_category",0.6987654566764832
+"loan_investment_amount, full_time_employees, lender_type_category",0.6987654566764832
+"loan_investment_amount, full_time_employees, optional_primary_use_of_funds",0.6888889074325562
+"loan_investment_amount, full_time_employees, optional_primary_use_of_funds",0.6888889074325562
+"loan_investment_amount, full_time_employees, optional_primary_use_of_funds",0.6888889074325562
+"loan_investment_amount, full_time_employees, optional_revenue_yr_confirmed",0.7148148417472839
+"loan_investment_amount, full_time_employees, optional_revenue_yr_confirmed",0.7148148417472839
+"loan_investment_amount, full_time_employees, optional_revenue_yr_confirmed",0.7148148417472839
+"loan_investment_amount, full_time_employees, optional_stage",0.6716049313545227
+"loan_investment_amount, full_time_employees, optional_stage",0.6716049313545227
+"loan_investment_amount, full_time_employees, optional_stage",0.6716049313545227
+"loan_investment_amount, full_time_employees, support_amount",0.7135802507400513
+"loan_investment_amount, full_time_employees, support_amount",0.7135802507400513
+"loan_investment_amount, full_time_employees, support_amount",0.7135802507400513
+"loan_investment_amount, naics_code, jobs_created",0.5975308418273926
+"loan_investment_amount, naics_code, jobs_created",0.5975308418273926
+"loan_investment_amount, naics_code, jobs_created",0.5975308418273926
+"loan_investment_amount, naics_code, lender_type_category",0.6950617432594299
+"loan_investment_amount, naics_code, lender_type_category",0.6950617432594299
+"loan_investment_amount, naics_code, lender_type_category",0.6950617432594299
+"loan_investment_amount, naics_code, optional_primary_use_of_funds",0.680246889591217
+"loan_investment_amount, naics_code, optional_primary_use_of_funds",0.680246889591217
+"loan_investment_amount, naics_code, optional_primary_use_of_funds",0.680246889591217
+"loan_investment_amount, naics_code, optional_revenue_yr_confirmed",0.7037037014961243
+"loan_investment_amount, naics_code, optional_revenue_yr_confirmed",0.7037037014961243
+"loan_investment_amount, naics_code, optional_revenue_yr_confirmed",0.7037037014961243
+"loan_investment_amount, naics_code, optional_stage",0.6283950805664062
+"loan_investment_amount, naics_code, optional_stage",0.6283950805664062
+"loan_investment_amount, naics_code, optional_stage",0.6283950805664062
+"loan_investment_amount, naics_code, support_amount",0.7259259223937988
+"loan_investment_amount, naics_code, support_amount",0.7259259223937988
+"loan_investment_amount, naics_code, support_amount",0.7259259223937988
+"loan_investment_amount, jobs_created, lender_type_category",0.6987654566764832
+"loan_investment_amount, jobs_created, lender_type_category",0.6987654566764832
+"loan_investment_amount, jobs_created, lender_type_category",0.6987654566764832
+"loan_investment_amount, jobs_created, optional_primary_use_of_funds",0.6506173014640808
+"loan_investment_amount, jobs_created, optional_primary_use_of_funds",0.6506173014640808
+"loan_investment_amount, jobs_created, optional_primary_use_of_funds",0.6506173014640808
+"loan_investment_amount, jobs_created, optional_revenue_yr_confirmed",0.7123456597328186
+"loan_investment_amount, jobs_created, optional_revenue_yr_confirmed",0.7123456597328186
+"loan_investment_amount, jobs_created, optional_revenue_yr_confirmed",0.7123456597328186
+"loan_investment_amount, jobs_created, optional_stage",0.6086419820785522
+"loan_investment_amount, jobs_created, optional_stage",0.6086419820785522
+"loan_investment_amount, jobs_created, optional_stage",0.6086419820785522
+"loan_investment_amount, jobs_created, support_amount",0.7456790208816528
+"loan_investment_amount, jobs_created, support_amount",0.7456790208816528
+"loan_investment_amount, jobs_created, support_amount",0.7456790208816528
+"loan_investment_amount, lender_type_category, optional_primary_use_of_funds",0.7777777910232544
+"loan_investment_amount, lender_type_category, optional_primary_use_of_funds",0.7777777910232544
+"loan_investment_amount, lender_type_category, optional_primary_use_of_funds",0.7777777910232544
+"loan_investment_amount, lender_type_category, optional_revenue_yr_confirmed",0.7567901015281677
+"loan_investment_amount, lender_type_category, optional_revenue_yr_confirmed",0.7567901015281677
+"loan_investment_amount, lender_type_category, optional_revenue_yr_confirmed",0.7567901015281677
+"loan_investment_amount, lender_type_category, optional_stage",0.6962962746620178
+"loan_investment_amount, lender_type_category, optional_stage",0.6962962746620178
+"loan_investment_amount, lender_type_category, optional_stage",0.6962962746620178
+"loan_investment_amount, lender_type_category, support_amount",0.770370364189148
+"loan_investment_amount, lender_type_category, support_amount",0.770370364189148
+"loan_investment_amount, lender_type_category, support_amount",0.770370364189148
+"loan_investment_amount, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7518518567085266
+"loan_investment_amount, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7518518567085266
+"loan_investment_amount, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7518518567085266
+"loan_investment_amount, optional_primary_use_of_funds, optional_stage",0.6753086447715759
+"loan_investment_amount, optional_primary_use_of_funds, optional_stage",0.6753086447715759
+"loan_investment_amount, optional_primary_use_of_funds, optional_stage",0.6753086447715759
+"loan_investment_amount, optional_primary_use_of_funds, support_amount",0.7876543402671814
+"loan_investment_amount, optional_primary_use_of_funds, support_amount",0.7876543402671814
+"loan_investment_amount, optional_primary_use_of_funds, support_amount",0.7876543402671814
+"loan_investment_amount, optional_revenue_yr_confirmed, optional_stage",0.7086419463157654
+"loan_investment_amount, optional_revenue_yr_confirmed, optional_stage",0.7086419463157654
+"loan_investment_amount, optional_revenue_yr_confirmed, optional_stage",0.7086419463157654
+"loan_investment_amount, optional_revenue_yr_confirmed, support_amount",0.7419753074645996
+"loan_investment_amount, optional_revenue_yr_confirmed, support_amount",0.7419753074645996
+"loan_investment_amount, optional_revenue_yr_confirmed, support_amount",0.7419753074645996
+"loan_investment_amount, optional_stage, support_amount",0.6728395223617554
+"loan_investment_amount, optional_stage, support_amount",0.6728395223617554
+"loan_investment_amount, optional_stage, support_amount",0.6728395223617554
+"lender_insurance_premium, metro_type, LMI_type",0.6271604895591736
+"lender_insurance_premium, metro_type, LMI_type",0.6271604895591736
+"lender_insurance_premium, metro_type, LMI_type",0.6271604895591736
+"lender_insurance_premium, metro_type, revenue",0.6419752836227417
+"lender_insurance_premium, metro_type, revenue",0.6419752836227417
+"lender_insurance_premium, metro_type, revenue",0.6419752836227417
+"lender_insurance_premium, metro_type, full_time_employees",0.6320987939834595
+"lender_insurance_premium, metro_type, full_time_employees",0.6320987939834595
+"lender_insurance_premium, metro_type, full_time_employees",0.6320987939834595
+"lender_insurance_premium, metro_type, naics_code",0.6160494089126587
+"lender_insurance_premium, metro_type, naics_code",0.6160494089126587
+"lender_insurance_premium, metro_type, naics_code",0.6160494089126587
+"lender_insurance_premium, metro_type, jobs_created",0.624691367149353
+"lender_insurance_premium, metro_type, jobs_created",0.624691367149353
+"lender_insurance_premium, metro_type, jobs_created",0.624691367149353
+"lender_insurance_premium, metro_type, lender_type_category",0.7444444298744202
+"lender_insurance_premium, metro_type, lender_type_category",0.7444444298744202
+"lender_insurance_premium, metro_type, lender_type_category",0.7444444298744202
+"lender_insurance_premium, metro_type, optional_primary_use_of_funds",0.6074073910713196
+"lender_insurance_premium, metro_type, optional_primary_use_of_funds",0.6074073910713196
+"lender_insurance_premium, metro_type, optional_primary_use_of_funds",0.6074073910713196
+"lender_insurance_premium, metro_type, optional_revenue_yr_confirmed",0.7419753074645996
+"lender_insurance_premium, metro_type, optional_revenue_yr_confirmed",0.7419753074645996
+"lender_insurance_premium, metro_type, optional_revenue_yr_confirmed",0.7419753074645996
+"lender_insurance_premium, metro_type, optional_stage",0.6222222447395325
+"lender_insurance_premium, metro_type, optional_stage",0.6222222447395325
+"lender_insurance_premium, metro_type, optional_stage",0.6222222447395325
+"lender_insurance_premium, metro_type, support_amount",0.7617284059524536
+"lender_insurance_premium, metro_type, support_amount",0.7617284059524536
+"lender_insurance_premium, metro_type, support_amount",0.7617284059524536
+"lender_insurance_premium, LMI_type, revenue",0.6320987939834595
+"lender_insurance_premium, LMI_type, revenue",0.6320987939834595
+"lender_insurance_premium, LMI_type, revenue",0.6320987939834595
+"lender_insurance_premium, LMI_type, full_time_employees",0.6197530627250671
+"lender_insurance_premium, LMI_type, full_time_employees",0.6197530627250671
+"lender_insurance_premium, LMI_type, full_time_employees",0.6197530627250671
+"lender_insurance_premium, LMI_type, naics_code",0.6271604895591736
+"lender_insurance_premium, LMI_type, naics_code",0.6271604895591736
+"lender_insurance_premium, LMI_type, naics_code",0.6271604895591736
+"lender_insurance_premium, LMI_type, jobs_created",0.6259258985519409
+"lender_insurance_premium, LMI_type, jobs_created",0.6259258985519409
+"lender_insurance_premium, LMI_type, jobs_created",0.6259258985519409
+"lender_insurance_premium, LMI_type, lender_type_category",0.6716049313545227
+"lender_insurance_premium, LMI_type, lender_type_category",0.6716049313545227
+"lender_insurance_premium, LMI_type, lender_type_category",0.6716049313545227
+"lender_insurance_premium, LMI_type, optional_primary_use_of_funds",0.624691367149353
+"lender_insurance_premium, LMI_type, optional_primary_use_of_funds",0.624691367149353
+"lender_insurance_premium, LMI_type, optional_primary_use_of_funds",0.624691367149353
+"lender_insurance_premium, LMI_type, optional_revenue_yr_confirmed",0.7037037014961243
+"lender_insurance_premium, LMI_type, optional_revenue_yr_confirmed",0.7037037014961243
+"lender_insurance_premium, LMI_type, optional_revenue_yr_confirmed",0.7037037014961243
+"lender_insurance_premium, LMI_type, optional_stage",0.6283950805664062
+"lender_insurance_premium, LMI_type, optional_stage",0.6283950805664062
+"lender_insurance_premium, LMI_type, optional_stage",0.6283950805664062
+"lender_insurance_premium, LMI_type, support_amount",0.7271605134010315
+"lender_insurance_premium, LMI_type, support_amount",0.7271605134010315
+"lender_insurance_premium, LMI_type, support_amount",0.7271605134010315
+"lender_insurance_premium, revenue, full_time_employees",0.6419752836227417
+"lender_insurance_premium, revenue, full_time_employees",0.6419752836227417
+"lender_insurance_premium, revenue, full_time_employees",0.6419752836227417
+"lender_insurance_premium, revenue, naics_code",0.6419752836227417
+"lender_insurance_premium, revenue, naics_code",0.6419752836227417
+"lender_insurance_premium, revenue, naics_code",0.6419752836227417
+"lender_insurance_premium, revenue, jobs_created",0.6530864238739014
+"lender_insurance_premium, revenue, jobs_created",0.6530864238739014
+"lender_insurance_premium, revenue, jobs_created",0.6530864238739014
+"lender_insurance_premium, revenue, lender_type_category",0.6925926208496094
+"lender_insurance_premium, revenue, lender_type_category",0.6925926208496094
+"lender_insurance_premium, revenue, lender_type_category",0.6925926208496094
+"lender_insurance_premium, revenue, optional_primary_use_of_funds",0.6481481194496155
+"lender_insurance_premium, revenue, optional_primary_use_of_funds",0.6481481194496155
+"lender_insurance_premium, revenue, optional_primary_use_of_funds",0.6481481194496155
+"lender_insurance_premium, revenue, optional_revenue_yr_confirmed",0.7061728239059448
+"lender_insurance_premium, revenue, optional_revenue_yr_confirmed",0.7061728239059448
+"lender_insurance_premium, revenue, optional_revenue_yr_confirmed",0.7061728239059448
+"lender_insurance_premium, revenue, optional_stage",0.6395061612129211
+"lender_insurance_premium, revenue, optional_stage",0.6395061612129211
+"lender_insurance_premium, revenue, optional_stage",0.6395061612129211
+"lender_insurance_premium, revenue, support_amount",0.729629635810852
+"lender_insurance_premium, revenue, support_amount",0.729629635810852
+"lender_insurance_premium, revenue, support_amount",0.729629635810852
+"lender_insurance_premium, full_time_employees, naics_code",0.6358024477958679
+"lender_insurance_premium, full_time_employees, naics_code",0.6358024477958679
+"lender_insurance_premium, full_time_employees, naics_code",0.6358024477958679
+"lender_insurance_premium, full_time_employees, jobs_created",0.624691367149353
+"lender_insurance_premium, full_time_employees, jobs_created",0.624691367149353
+"lender_insurance_premium, full_time_employees, jobs_created",0.624691367149353
+"lender_insurance_premium, full_time_employees, lender_type_category",0.7209876775741577
+"lender_insurance_premium, full_time_employees, lender_type_category",0.7209876775741577
+"lender_insurance_premium, full_time_employees, lender_type_category",0.7209876775741577
+"lender_insurance_premium, full_time_employees, optional_primary_use_of_funds",0.644444465637207
+"lender_insurance_premium, full_time_employees, optional_primary_use_of_funds",0.644444465637207
+"lender_insurance_premium, full_time_employees, optional_primary_use_of_funds",0.644444465637207
+"lender_insurance_premium, full_time_employees, optional_revenue_yr_confirmed",0.7518518567085266
+"lender_insurance_premium, full_time_employees, optional_revenue_yr_confirmed",0.7518518567085266
+"lender_insurance_premium, full_time_employees, optional_revenue_yr_confirmed",0.7518518567085266
+"lender_insurance_premium, full_time_employees, optional_stage",0.6320987939834595
+"lender_insurance_premium, full_time_employees, optional_stage",0.6320987939834595
+"lender_insurance_premium, full_time_employees, optional_stage",0.6320987939834595
+"lender_insurance_premium, full_time_employees, support_amount",0.7481481432914734
+"lender_insurance_premium, full_time_employees, support_amount",0.7481481432914734
+"lender_insurance_premium, full_time_employees, support_amount",0.7481481432914734
+"lender_insurance_premium, naics_code, jobs_created",0.6259258985519409
+"lender_insurance_premium, naics_code, jobs_created",0.6259258985519409
+"lender_insurance_premium, naics_code, jobs_created",0.6259258985519409
+"lender_insurance_premium, naics_code, lender_type_category",0.6827160716056824
+"lender_insurance_premium, naics_code, lender_type_category",0.6827160716056824
+"lender_insurance_premium, naics_code, lender_type_category",0.6827160716056824
+"lender_insurance_premium, naics_code, optional_primary_use_of_funds",0.6382716298103333
+"lender_insurance_premium, naics_code, optional_primary_use_of_funds",0.6382716298103333
+"lender_insurance_premium, naics_code, optional_primary_use_of_funds",0.6382716298103333
+"lender_insurance_premium, naics_code, optional_revenue_yr_confirmed",0.6876543164253235
+"lender_insurance_premium, naics_code, optional_revenue_yr_confirmed",0.6876543164253235
+"lender_insurance_premium, naics_code, optional_revenue_yr_confirmed",0.6876543164253235
+"lender_insurance_premium, naics_code, optional_stage",0.6259258985519409
+"lender_insurance_premium, naics_code, optional_stage",0.6259258985519409
+"lender_insurance_premium, naics_code, optional_stage",0.6259258985519409
+"lender_insurance_premium, naics_code, support_amount",0.7358024716377258
+"lender_insurance_premium, naics_code, support_amount",0.7358024716377258
+"lender_insurance_premium, naics_code, support_amount",0.7358024716377258
+"lender_insurance_premium, jobs_created, lender_type_category",0.6888889074325562
+"lender_insurance_premium, jobs_created, lender_type_category",0.6888889074325562
+"lender_insurance_premium, jobs_created, lender_type_category",0.6888889074325562
+"lender_insurance_premium, jobs_created, optional_primary_use_of_funds",0.6197530627250671
+"lender_insurance_premium, jobs_created, optional_primary_use_of_funds",0.6197530627250671
+"lender_insurance_premium, jobs_created, optional_primary_use_of_funds",0.6197530627250671
+"lender_insurance_premium, jobs_created, optional_revenue_yr_confirmed",0.7259259223937988
+"lender_insurance_premium, jobs_created, optional_revenue_yr_confirmed",0.7259259223937988
+"lender_insurance_premium, jobs_created, optional_revenue_yr_confirmed",0.7259259223937988
+"lender_insurance_premium, jobs_created, optional_stage",0.6222222447395325
+"lender_insurance_premium, jobs_created, optional_stage",0.6222222447395325
+"lender_insurance_premium, jobs_created, optional_stage",0.6222222447395325
+"lender_insurance_premium, jobs_created, support_amount",0.7222222089767456
+"lender_insurance_premium, jobs_created, support_amount",0.7222222089767456
+"lender_insurance_premium, jobs_created, support_amount",0.7222222089767456
+"lender_insurance_premium, lender_type_category, optional_primary_use_of_funds",0.7814815044403076
+"lender_insurance_premium, lender_type_category, optional_primary_use_of_funds",0.7814815044403076
+"lender_insurance_premium, lender_type_category, optional_primary_use_of_funds",0.7814815044403076
+"lender_insurance_premium, lender_type_category, optional_revenue_yr_confirmed",0.7691357731819153
+"lender_insurance_premium, lender_type_category, optional_revenue_yr_confirmed",0.7691357731819153
+"lender_insurance_premium, lender_type_category, optional_revenue_yr_confirmed",0.7691357731819153
+"lender_insurance_premium, lender_type_category, optional_stage",0.6790123581886292
+"lender_insurance_premium, lender_type_category, optional_stage",0.6790123581886292
+"lender_insurance_premium, lender_type_category, optional_stage",0.6790123581886292
+"lender_insurance_premium, lender_type_category, support_amount",0.7654321193695068
+"lender_insurance_premium, lender_type_category, support_amount",0.7654321193695068
+"lender_insurance_premium, lender_type_category, support_amount",0.7654321193695068
+"lender_insurance_premium, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7469135522842407
+"lender_insurance_premium, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7469135522842407
+"lender_insurance_premium, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7469135522842407
+"lender_insurance_premium, optional_primary_use_of_funds, optional_stage",0.644444465637207
+"lender_insurance_premium, optional_primary_use_of_funds, optional_stage",0.644444465637207
+"lender_insurance_premium, optional_primary_use_of_funds, optional_stage",0.644444465637207
+"lender_insurance_premium, optional_primary_use_of_funds, support_amount",0.8049382567405701
+"lender_insurance_premium, optional_primary_use_of_funds, support_amount",0.8049382567405701
+"lender_insurance_premium, optional_primary_use_of_funds, support_amount",0.8049382567405701
+"lender_insurance_premium, optional_revenue_yr_confirmed, optional_stage",0.7172839641571045
+"lender_insurance_premium, optional_revenue_yr_confirmed, optional_stage",0.7172839641571045
+"lender_insurance_premium, optional_revenue_yr_confirmed, optional_stage",0.7172839641571045
+"lender_insurance_premium, optional_revenue_yr_confirmed, support_amount",0.7950617074966431
+"lender_insurance_premium, optional_revenue_yr_confirmed, support_amount",0.7950617074966431
+"lender_insurance_premium, optional_revenue_yr_confirmed, support_amount",0.7950617074966431
+"lender_insurance_premium, optional_stage, support_amount",0.719753086566925
+"lender_insurance_premium, optional_stage, support_amount",0.719753086566925
+"lender_insurance_premium, optional_stage, support_amount",0.719753086566925
+"metro_type, LMI_type, revenue",0.5975308418273926
+"metro_type, LMI_type, revenue",0.5975308418273926
+"metro_type, LMI_type, revenue",0.5975308418273926
+"metro_type, LMI_type, full_time_employees",0.5876542925834656
+"metro_type, LMI_type, full_time_employees",0.5876542925834656
+"metro_type, LMI_type, full_time_employees",0.5876542925834656
+"metro_type, LMI_type, naics_code",0.6197530627250671
+"metro_type, LMI_type, naics_code",0.6197530627250671
+"metro_type, LMI_type, naics_code",0.6197530627250671
+"metro_type, LMI_type, jobs_created",0.5913580060005188
+"metro_type, LMI_type, jobs_created",0.5913580060005188
+"metro_type, LMI_type, jobs_created",0.5913580060005188
+"metro_type, LMI_type, lender_type_category",0.7358024716377258
+"metro_type, LMI_type, lender_type_category",0.7358024716377258
+"metro_type, LMI_type, lender_type_category",0.7358024716377258
+"metro_type, LMI_type, optional_primary_use_of_funds",0.604938268661499
+"metro_type, LMI_type, optional_primary_use_of_funds",0.604938268661499
+"metro_type, LMI_type, optional_primary_use_of_funds",0.604938268661499
+"metro_type, LMI_type, optional_revenue_yr_confirmed",0.729629635810852
+"metro_type, LMI_type, optional_revenue_yr_confirmed",0.729629635810852
+"metro_type, LMI_type, optional_revenue_yr_confirmed",0.729629635810852
+"metro_type, LMI_type, optional_stage",0.5913580060005188
+"metro_type, LMI_type, optional_stage",0.5913580060005188
+"metro_type, LMI_type, optional_stage",0.5913580060005188
+"metro_type, LMI_type, support_amount",0.7308642268180847
+"metro_type, LMI_type, support_amount",0.7308642268180847
+"metro_type, LMI_type, support_amount",0.7308642268180847
+"metro_type, revenue, full_time_employees",0.5987654328346252
+"metro_type, revenue, full_time_employees",0.5987654328346252
+"metro_type, revenue, full_time_employees",0.5987654328346252
+"metro_type, revenue, naics_code",0.5987654328346252
+"metro_type, revenue, naics_code",0.5987654328346252
+"metro_type, revenue, naics_code",0.5987654328346252
+"metro_type, revenue, jobs_created",0.6123456954956055
+"metro_type, revenue, jobs_created",0.6123456954956055
+"metro_type, revenue, jobs_created",0.6123456954956055
+"metro_type, revenue, lender_type_category",0.7358024716377258
+"metro_type, revenue, lender_type_category",0.7358024716377258
+"metro_type, revenue, lender_type_category",0.7358024716377258
+"metro_type, revenue, optional_primary_use_of_funds",0.5901234745979309
+"metro_type, revenue, optional_primary_use_of_funds",0.5901234745979309
+"metro_type, revenue, optional_primary_use_of_funds",0.5901234745979309
+"metro_type, revenue, optional_revenue_yr_confirmed",0.7283950448036194
+"metro_type, revenue, optional_revenue_yr_confirmed",0.7283950448036194
+"metro_type, revenue, optional_revenue_yr_confirmed",0.7283950448036194
+"metro_type, revenue, optional_stage",0.6123456954956055
+"metro_type, revenue, optional_stage",0.6123456954956055
+"metro_type, revenue, optional_stage",0.6123456954956055
+"metro_type, revenue, support_amount",0.739506185054779
+"metro_type, revenue, support_amount",0.739506185054779
+"metro_type, revenue, support_amount",0.739506185054779
+"metro_type, full_time_employees, naics_code",0.6604938507080078
+"metro_type, full_time_employees, naics_code",0.6604938507080078
+"metro_type, full_time_employees, naics_code",0.6604938507080078
+"metro_type, full_time_employees, jobs_created",0.6123456954956055
+"metro_type, full_time_employees, jobs_created",0.6123456954956055
+"metro_type, full_time_employees, jobs_created",0.6123456954956055
+"metro_type, full_time_employees, lender_type_category",0.7333333492279053
+"metro_type, full_time_employees, lender_type_category",0.7333333492279053
+"metro_type, full_time_employees, lender_type_category",0.7333333492279053
+"metro_type, full_time_employees, optional_primary_use_of_funds",0.6395061612129211
+"metro_type, full_time_employees, optional_primary_use_of_funds",0.6395061612129211
+"metro_type, full_time_employees, optional_primary_use_of_funds",0.6395061612129211
+"metro_type, full_time_employees, optional_revenue_yr_confirmed",0.750617265701294
+"metro_type, full_time_employees, optional_revenue_yr_confirmed",0.750617265701294
+"metro_type, full_time_employees, optional_revenue_yr_confirmed",0.750617265701294
+"metro_type, full_time_employees, optional_stage",0.6197530627250671
+"metro_type, full_time_employees, optional_stage",0.6197530627250671
+"metro_type, full_time_employees, optional_stage",0.6197530627250671
+"metro_type, full_time_employees, support_amount",0.7419753074645996
+"metro_type, full_time_employees, support_amount",0.7419753074645996
+"metro_type, full_time_employees, support_amount",0.7419753074645996
+"metro_type, naics_code, jobs_created",0.6012345552444458
+"metro_type, naics_code, jobs_created",0.6012345552444458
+"metro_type, naics_code, jobs_created",0.6012345552444458
+"metro_type, naics_code, lender_type_category",0.7358024716377258
+"metro_type, naics_code, lender_type_category",0.7358024716377258
+"metro_type, naics_code, lender_type_category",0.7358024716377258
+"metro_type, naics_code, optional_primary_use_of_funds",0.6728395223617554
+"metro_type, naics_code, optional_primary_use_of_funds",0.6728395223617554
+"metro_type, naics_code, optional_primary_use_of_funds",0.6728395223617554
+"metro_type, naics_code, optional_revenue_yr_confirmed",0.7259259223937988
+"metro_type, naics_code, optional_revenue_yr_confirmed",0.7259259223937988
+"metro_type, naics_code, optional_revenue_yr_confirmed",0.7259259223937988
+"metro_type, naics_code, optional_stage",0.6086419820785522
+"metro_type, naics_code, optional_stage",0.6086419820785522
+"metro_type, naics_code, optional_stage",0.6086419820785522
+"metro_type, naics_code, support_amount",0.739506185054779
+"metro_type, naics_code, support_amount",0.739506185054779
+"metro_type, naics_code, support_amount",0.739506185054779
+"metro_type, jobs_created, lender_type_category",0.7382715940475464
+"metro_type, jobs_created, lender_type_category",0.7382715940475464
+"metro_type, jobs_created, lender_type_category",0.7382715940475464
+"metro_type, jobs_created, optional_primary_use_of_funds",0.6074073910713196
+"metro_type, jobs_created, optional_primary_use_of_funds",0.6074073910713196
+"metro_type, jobs_created, optional_primary_use_of_funds",0.6074073910713196
+"metro_type, jobs_created, optional_revenue_yr_confirmed",0.739506185054779
+"metro_type, jobs_created, optional_revenue_yr_confirmed",0.739506185054779
+"metro_type, jobs_created, optional_revenue_yr_confirmed",0.739506185054779
+"metro_type, jobs_created, optional_stage",0.5913580060005188
+"metro_type, jobs_created, optional_stage",0.5913580060005188
+"metro_type, jobs_created, optional_stage",0.5913580060005188
+"metro_type, jobs_created, support_amount",0.7370370626449585
+"metro_type, jobs_created, support_amount",0.7370370626449585
+"metro_type, jobs_created, support_amount",0.7370370626449585
+"metro_type, lender_type_category, optional_primary_use_of_funds",0.7753086686134338
+"metro_type, lender_type_category, optional_primary_use_of_funds",0.7753086686134338
+"metro_type, lender_type_category, optional_primary_use_of_funds",0.7753086686134338
+"metro_type, lender_type_category, optional_revenue_yr_confirmed",0.7530864477157593
+"metro_type, lender_type_category, optional_revenue_yr_confirmed",0.7530864477157593
+"metro_type, lender_type_category, optional_revenue_yr_confirmed",0.7530864477157593
+"metro_type, lender_type_category, optional_stage",0.7358024716377258
+"metro_type, lender_type_category, optional_stage",0.7358024716377258
+"metro_type, lender_type_category, optional_stage",0.7358024716377258
+"metro_type, lender_type_category, support_amount",0.7543209791183472
+"metro_type, lender_type_category, support_amount",0.7543209791183472
+"metro_type, lender_type_category, support_amount",0.7543209791183472
+"metro_type, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7432098984718323
+"metro_type, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7432098984718323
+"metro_type, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7432098984718323
+"metro_type, optional_primary_use_of_funds, optional_stage",0.6555555462837219
+"metro_type, optional_primary_use_of_funds, optional_stage",0.6555555462837219
+"metro_type, optional_primary_use_of_funds, optional_stage",0.6555555462837219
+"metro_type, optional_primary_use_of_funds, support_amount",0.7740740776062012
+"metro_type, optional_primary_use_of_funds, support_amount",0.7740740776062012
+"metro_type, optional_primary_use_of_funds, support_amount",0.7740740776062012
+"metro_type, optional_revenue_yr_confirmed, optional_stage",0.7382715940475464
+"metro_type, optional_revenue_yr_confirmed, optional_stage",0.7382715940475464
+"metro_type, optional_revenue_yr_confirmed, optional_stage",0.7382715940475464
+"metro_type, optional_revenue_yr_confirmed, support_amount",0.7691357731819153
+"metro_type, optional_revenue_yr_confirmed, support_amount",0.7691357731819153
+"metro_type, optional_revenue_yr_confirmed, support_amount",0.7691357731819153
+"metro_type, optional_stage, support_amount",0.739506185054779
+"metro_type, optional_stage, support_amount",0.739506185054779
+"metro_type, optional_stage, support_amount",0.739506185054779
+"LMI_type, revenue, full_time_employees",0.6012345552444458
+"LMI_type, revenue, full_time_employees",0.6012345552444458
+"LMI_type, revenue, full_time_employees",0.6012345552444458
+"LMI_type, revenue, naics_code",0.5975308418273926
+"LMI_type, revenue, naics_code",0.5975308418273926
+"LMI_type, revenue, naics_code",0.5975308418273926
+"LMI_type, revenue, jobs_created",0.6074073910713196
+"LMI_type, revenue, jobs_created",0.6074073910713196
+"LMI_type, revenue, jobs_created",0.6074073910713196
+"LMI_type, revenue, lender_type_category",0.6790123581886292
+"LMI_type, revenue, lender_type_category",0.6790123581886292
+"LMI_type, revenue, lender_type_category",0.6790123581886292
+"LMI_type, revenue, optional_primary_use_of_funds",0.6913580298423767
+"LMI_type, revenue, optional_primary_use_of_funds",0.6913580298423767
+"LMI_type, revenue, optional_primary_use_of_funds",0.6913580298423767
+"LMI_type, revenue, optional_revenue_yr_confirmed",0.6962962746620178
+"LMI_type, revenue, optional_revenue_yr_confirmed",0.6962962746620178
+"LMI_type, revenue, optional_revenue_yr_confirmed",0.6962962746620178
+"LMI_type, revenue, optional_stage",0.604938268661499
+"LMI_type, revenue, optional_stage",0.604938268661499
+"LMI_type, revenue, optional_stage",0.604938268661499
+"LMI_type, revenue, support_amount",0.6876543164253235
+"LMI_type, revenue, support_amount",0.6876543164253235
+"LMI_type, revenue, support_amount",0.6876543164253235
+"LMI_type, full_time_employees, naics_code",0.6086419820785522
+"LMI_type, full_time_employees, naics_code",0.6086419820785522
+"LMI_type, full_time_employees, naics_code",0.6086419820785522
+"LMI_type, full_time_employees, jobs_created",0.6160494089126587
+"LMI_type, full_time_employees, jobs_created",0.6160494089126587
+"LMI_type, full_time_employees, jobs_created",0.6160494089126587
+"LMI_type, full_time_employees, lender_type_category",0.7185184955596924
+"LMI_type, full_time_employees, lender_type_category",0.7185184955596924
+"LMI_type, full_time_employees, lender_type_category",0.7185184955596924
+"LMI_type, full_time_employees, optional_primary_use_of_funds",0.6358024477958679
+"LMI_type, full_time_employees, optional_primary_use_of_funds",0.6358024477958679
+"LMI_type, full_time_employees, optional_primary_use_of_funds",0.6358024477958679
+"LMI_type, full_time_employees, optional_revenue_yr_confirmed",0.7382715940475464
+"LMI_type, full_time_employees, optional_revenue_yr_confirmed",0.7382715940475464
+"LMI_type, full_time_employees, optional_revenue_yr_confirmed",0.7382715940475464
+"LMI_type, full_time_employees, optional_stage",0.6000000238418579
+"LMI_type, full_time_employees, optional_stage",0.6000000238418579
+"LMI_type, full_time_employees, optional_stage",0.6000000238418579
+"LMI_type, full_time_employees, support_amount",0.6827160716056824
+"LMI_type, full_time_employees, support_amount",0.6827160716056824
+"LMI_type, full_time_employees, support_amount",0.6827160716056824
+"LMI_type, naics_code, jobs_created",0.5962963104248047
+"LMI_type, naics_code, jobs_created",0.5962963104248047
+"LMI_type, naics_code, jobs_created",0.5962963104248047
+"LMI_type, naics_code, lender_type_category",0.6790123581886292
+"LMI_type, naics_code, lender_type_category",0.6790123581886292
+"LMI_type, naics_code, lender_type_category",0.6790123581886292
+"LMI_type, naics_code, optional_primary_use_of_funds",0.6592592597007751
+"LMI_type, naics_code, optional_primary_use_of_funds",0.6592592597007751
+"LMI_type, naics_code, optional_primary_use_of_funds",0.6592592597007751
+"LMI_type, naics_code, optional_revenue_yr_confirmed",0.6888889074325562
+"LMI_type, naics_code, optional_revenue_yr_confirmed",0.6888889074325562
+"LMI_type, naics_code, optional_revenue_yr_confirmed",0.6888889074325562
+"LMI_type, naics_code, optional_stage",0.5913580060005188
+"LMI_type, naics_code, optional_stage",0.5913580060005188
+"LMI_type, naics_code, optional_stage",0.5913580060005188
+"LMI_type, naics_code, support_amount",0.6753086447715759
+"LMI_type, naics_code, support_amount",0.6753086447715759
+"LMI_type, naics_code, support_amount",0.6753086447715759
+"LMI_type, jobs_created, lender_type_category",0.6839506030082703
+"LMI_type, jobs_created, lender_type_category",0.6839506030082703
+"LMI_type, jobs_created, lender_type_category",0.6839506030082703
+"LMI_type, jobs_created, optional_primary_use_of_funds",0.6024691462516785
+"LMI_type, jobs_created, optional_primary_use_of_funds",0.6024691462516785
+"LMI_type, jobs_created, optional_primary_use_of_funds",0.6024691462516785
+"LMI_type, jobs_created, optional_revenue_yr_confirmed",0.7074074149131775
+"LMI_type, jobs_created, optional_revenue_yr_confirmed",0.7074074149131775
+"LMI_type, jobs_created, optional_revenue_yr_confirmed",0.7074074149131775
+"LMI_type, jobs_created, optional_stage",0.5913580060005188
+"LMI_type, jobs_created, optional_stage",0.5913580060005188
+"LMI_type, jobs_created, optional_stage",0.5913580060005188
+"LMI_type, jobs_created, support_amount",0.699999988079071
+"LMI_type, jobs_created, support_amount",0.699999988079071
+"LMI_type, jobs_created, support_amount",0.699999988079071
+"LMI_type, lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"LMI_type, lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"LMI_type, lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"LMI_type, lender_type_category, optional_revenue_yr_confirmed",0.7444444298744202
+"LMI_type, lender_type_category, optional_revenue_yr_confirmed",0.7444444298744202
+"LMI_type, lender_type_category, optional_revenue_yr_confirmed",0.7444444298744202
+"LMI_type, lender_type_category, optional_stage",0.6790123581886292
+"LMI_type, lender_type_category, optional_stage",0.6790123581886292
+"LMI_type, lender_type_category, optional_stage",0.6790123581886292
+"LMI_type, lender_type_category, support_amount",0.6851851940155029
+"LMI_type, lender_type_category, support_amount",0.6851851940155029
+"LMI_type, lender_type_category, support_amount",0.6851851940155029
+"LMI_type, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7358024716377258
+"LMI_type, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7358024716377258
+"LMI_type, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7358024716377258
+"LMI_type, optional_primary_use_of_funds, optional_stage",0.6370370388031006
+"LMI_type, optional_primary_use_of_funds, optional_stage",0.6370370388031006
+"LMI_type, optional_primary_use_of_funds, optional_stage",0.6370370388031006
+"LMI_type, optional_primary_use_of_funds, support_amount",0.7641975283622742
+"LMI_type, optional_primary_use_of_funds, support_amount",0.7641975283622742
+"LMI_type, optional_primary_use_of_funds, support_amount",0.7641975283622742
+"LMI_type, optional_revenue_yr_confirmed, optional_stage",0.7037037014961243
+"LMI_type, optional_revenue_yr_confirmed, optional_stage",0.7037037014961243
+"LMI_type, optional_revenue_yr_confirmed, optional_stage",0.7037037014961243
+"LMI_type, optional_revenue_yr_confirmed, support_amount",0.6876543164253235
+"LMI_type, optional_revenue_yr_confirmed, support_amount",0.6876543164253235
+"LMI_type, optional_revenue_yr_confirmed, support_amount",0.6876543164253235
+"LMI_type, optional_stage, support_amount",0.6876543164253235
+"LMI_type, optional_stage, support_amount",0.6876543164253235
+"LMI_type, optional_stage, support_amount",0.6876543164253235
+"revenue, full_time_employees, naics_code",0.614814817905426
+"revenue, full_time_employees, naics_code",0.614814817905426
+"revenue, full_time_employees, naics_code",0.614814817905426
+"revenue, full_time_employees, jobs_created",0.6086419820785522
+"revenue, full_time_employees, jobs_created",0.6086419820785522
+"revenue, full_time_employees, jobs_created",0.6086419820785522
+"revenue, full_time_employees, lender_type_category",0.7234567999839783
+"revenue, full_time_employees, lender_type_category",0.7234567999839783
+"revenue, full_time_employees, lender_type_category",0.7234567999839783
+"revenue, full_time_employees, optional_primary_use_of_funds",0.6370370388031006
+"revenue, full_time_employees, optional_primary_use_of_funds",0.6370370388031006
+"revenue, full_time_employees, optional_primary_use_of_funds",0.6370370388031006
+"revenue, full_time_employees, optional_revenue_yr_confirmed",0.7407407164573669
+"revenue, full_time_employees, optional_revenue_yr_confirmed",0.7407407164573669
+"revenue, full_time_employees, optional_revenue_yr_confirmed",0.7407407164573669
+"revenue, full_time_employees, optional_stage",0.6012345552444458
+"revenue, full_time_employees, optional_stage",0.6012345552444458
+"revenue, full_time_employees, optional_stage",0.6012345552444458
+"revenue, full_time_employees, support_amount",0.709876537322998
+"revenue, full_time_employees, support_amount",0.709876537322998
+"revenue, full_time_employees, support_amount",0.709876537322998
+"revenue, naics_code, jobs_created",0.6074073910713196
+"revenue, naics_code, jobs_created",0.6074073910713196
+"revenue, naics_code, jobs_created",0.6074073910713196
+"revenue, naics_code, lender_type_category",0.6604938507080078
+"revenue, naics_code, lender_type_category",0.6604938507080078
+"revenue, naics_code, lender_type_category",0.6604938507080078
+"revenue, naics_code, optional_primary_use_of_funds",0.6629629731178284
+"revenue, naics_code, optional_primary_use_of_funds",0.6629629731178284
+"revenue, naics_code, optional_primary_use_of_funds",0.6629629731178284
+"revenue, naics_code, optional_revenue_yr_confirmed",0.6925926208496094
+"revenue, naics_code, optional_revenue_yr_confirmed",0.6925926208496094
+"revenue, naics_code, optional_revenue_yr_confirmed",0.6925926208496094
+"revenue, naics_code, optional_stage",0.6000000238418579
+"revenue, naics_code, optional_stage",0.6000000238418579
+"revenue, naics_code, optional_stage",0.6000000238418579
+"revenue, naics_code, support_amount",0.6950617432594299
+"revenue, naics_code, support_amount",0.6950617432594299
+"revenue, naics_code, support_amount",0.6950617432594299
+"revenue, jobs_created, lender_type_category",0.6839506030082703
+"revenue, jobs_created, lender_type_category",0.6839506030082703
+"revenue, jobs_created, lender_type_category",0.6839506030082703
+"revenue, jobs_created, optional_primary_use_of_funds",0.6691358089447021
+"revenue, jobs_created, optional_primary_use_of_funds",0.6691358089447021
+"revenue, jobs_created, optional_primary_use_of_funds",0.6691358089447021
+"revenue, jobs_created, optional_revenue_yr_confirmed",0.7148148417472839
+"revenue, jobs_created, optional_revenue_yr_confirmed",0.7148148417472839
+"revenue, jobs_created, optional_revenue_yr_confirmed",0.7148148417472839
+"revenue, jobs_created, optional_stage",0.6111111044883728
+"revenue, jobs_created, optional_stage",0.6111111044883728
+"revenue, jobs_created, optional_stage",0.6111111044883728
+"revenue, jobs_created, support_amount",0.6864197254180908
+"revenue, jobs_created, support_amount",0.6864197254180908
+"revenue, jobs_created, support_amount",0.6864197254180908
+"revenue, lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"revenue, lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"revenue, lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"revenue, lender_type_category, optional_revenue_yr_confirmed",0.750617265701294
+"revenue, lender_type_category, optional_revenue_yr_confirmed",0.750617265701294
+"revenue, lender_type_category, optional_revenue_yr_confirmed",0.750617265701294
+"revenue, lender_type_category, optional_stage",0.6790123581886292
+"revenue, lender_type_category, optional_stage",0.6790123581886292
+"revenue, lender_type_category, optional_stage",0.6790123581886292
+"revenue, lender_type_category, support_amount",0.6950617432594299
+"revenue, lender_type_category, support_amount",0.6950617432594299
+"revenue, lender_type_category, support_amount",0.6950617432594299
+"revenue, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7382715940475464
+"revenue, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7382715940475464
+"revenue, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7382715940475464
+"revenue, optional_primary_use_of_funds, optional_stage",0.6407407522201538
+"revenue, optional_primary_use_of_funds, optional_stage",0.6407407522201538
+"revenue, optional_primary_use_of_funds, optional_stage",0.6407407522201538
+"revenue, optional_primary_use_of_funds, support_amount",0.749382734298706
+"revenue, optional_primary_use_of_funds, support_amount",0.749382734298706
+"revenue, optional_primary_use_of_funds, support_amount",0.749382734298706
+"revenue, optional_revenue_yr_confirmed, optional_stage",0.7049382925033569
+"revenue, optional_revenue_yr_confirmed, optional_stage",0.7049382925033569
+"revenue, optional_revenue_yr_confirmed, optional_stage",0.7049382925033569
+"revenue, optional_revenue_yr_confirmed, support_amount",0.7592592835426331
+"revenue, optional_revenue_yr_confirmed, support_amount",0.7592592835426331
+"revenue, optional_revenue_yr_confirmed, support_amount",0.7592592835426331
+"revenue, optional_stage, support_amount",0.6790123581886292
+"revenue, optional_stage, support_amount",0.6790123581886292
+"revenue, optional_stage, support_amount",0.6790123581886292
+"full_time_employees, naics_code, jobs_created",0.6419752836227417
+"full_time_employees, naics_code, jobs_created",0.6419752836227417
+"full_time_employees, naics_code, jobs_created",0.6419752836227417
+"full_time_employees, naics_code, lender_type_category",0.7123456597328186
+"full_time_employees, naics_code, lender_type_category",0.7123456597328186
+"full_time_employees, naics_code, lender_type_category",0.7123456597328186
+"full_time_employees, naics_code, optional_primary_use_of_funds",0.6876543164253235
+"full_time_employees, naics_code, optional_primary_use_of_funds",0.6876543164253235
+"full_time_employees, naics_code, optional_primary_use_of_funds",0.6876543164253235
+"full_time_employees, naics_code, optional_revenue_yr_confirmed",0.7135802507400513
+"full_time_employees, naics_code, optional_revenue_yr_confirmed",0.7135802507400513
+"full_time_employees, naics_code, optional_revenue_yr_confirmed",0.7135802507400513
+"full_time_employees, naics_code, optional_stage",0.5938271880149841
+"full_time_employees, naics_code, optional_stage",0.5938271880149841
+"full_time_employees, naics_code, optional_stage",0.5938271880149841
+"full_time_employees, naics_code, support_amount",0.709876537322998
+"full_time_employees, naics_code, support_amount",0.709876537322998
+"full_time_employees, naics_code, support_amount",0.709876537322998
+"full_time_employees, jobs_created, lender_type_category",0.7086419463157654
+"full_time_employees, jobs_created, lender_type_category",0.7086419463157654
+"full_time_employees, jobs_created, lender_type_category",0.7086419463157654
+"full_time_employees, jobs_created, optional_primary_use_of_funds",0.6654320955276489
+"full_time_employees, jobs_created, optional_primary_use_of_funds",0.6654320955276489
+"full_time_employees, jobs_created, optional_primary_use_of_funds",0.6654320955276489
+"full_time_employees, jobs_created, optional_revenue_yr_confirmed",0.750617265701294
+"full_time_employees, jobs_created, optional_revenue_yr_confirmed",0.750617265701294
+"full_time_employees, jobs_created, optional_revenue_yr_confirmed",0.750617265701294
+"full_time_employees, jobs_created, optional_stage",0.6123456954956055
+"full_time_employees, jobs_created, optional_stage",0.6123456954956055
+"full_time_employees, jobs_created, optional_stage",0.6123456954956055
+"full_time_employees, jobs_created, support_amount",0.709876537322998
+"full_time_employees, jobs_created, support_amount",0.709876537322998
+"full_time_employees, jobs_created, support_amount",0.709876537322998
+"full_time_employees, lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"full_time_employees, lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"full_time_employees, lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"full_time_employees, lender_type_category, optional_revenue_yr_confirmed",0.739506185054779
+"full_time_employees, lender_type_category, optional_revenue_yr_confirmed",0.739506185054779
+"full_time_employees, lender_type_category, optional_revenue_yr_confirmed",0.739506185054779
+"full_time_employees, lender_type_category, optional_stage",0.7234567999839783
+"full_time_employees, lender_type_category, optional_stage",0.7234567999839783
+"full_time_employees, lender_type_category, optional_stage",0.7234567999839783
+"full_time_employees, lender_type_category, support_amount",0.7172839641571045
+"full_time_employees, lender_type_category, support_amount",0.7172839641571045
+"full_time_employees, lender_type_category, support_amount",0.7172839641571045
+"full_time_employees, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.739506185054779
+"full_time_employees, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.739506185054779
+"full_time_employees, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.739506185054779
+"full_time_employees, optional_primary_use_of_funds, optional_stage",0.680246889591217
+"full_time_employees, optional_primary_use_of_funds, optional_stage",0.680246889591217
+"full_time_employees, optional_primary_use_of_funds, optional_stage",0.680246889591217
+"full_time_employees, optional_primary_use_of_funds, support_amount",0.770370364189148
+"full_time_employees, optional_primary_use_of_funds, support_amount",0.770370364189148
+"full_time_employees, optional_primary_use_of_funds, support_amount",0.770370364189148
+"full_time_employees, optional_revenue_yr_confirmed, optional_stage",0.7370370626449585
+"full_time_employees, optional_revenue_yr_confirmed, optional_stage",0.7370370626449585
+"full_time_employees, optional_revenue_yr_confirmed, optional_stage",0.7370370626449585
+"full_time_employees, optional_revenue_yr_confirmed, support_amount",0.7160493731498718
+"full_time_employees, optional_revenue_yr_confirmed, support_amount",0.7160493731498718
+"full_time_employees, optional_revenue_yr_confirmed, support_amount",0.7160493731498718
+"full_time_employees, optional_stage, support_amount",0.709876537322998
+"full_time_employees, optional_stage, support_amount",0.709876537322998
+"full_time_employees, optional_stage, support_amount",0.709876537322998
+"naics_code, jobs_created, lender_type_category",0.6839506030082703
+"naics_code, jobs_created, lender_type_category",0.6839506030082703
+"naics_code, jobs_created, lender_type_category",0.6839506030082703
+"naics_code, jobs_created, optional_primary_use_of_funds",0.6555555462837219
+"naics_code, jobs_created, optional_primary_use_of_funds",0.6555555462837219
+"naics_code, jobs_created, optional_primary_use_of_funds",0.6555555462837219
+"naics_code, jobs_created, optional_revenue_yr_confirmed",0.680246889591217
+"naics_code, jobs_created, optional_revenue_yr_confirmed",0.680246889591217
+"naics_code, jobs_created, optional_revenue_yr_confirmed",0.680246889591217
+"naics_code, jobs_created, optional_stage",0.5876542925834656
+"naics_code, jobs_created, optional_stage",0.5876542925834656
+"naics_code, jobs_created, optional_stage",0.5876542925834656
+"naics_code, jobs_created, support_amount",0.6703703999519348
+"naics_code, jobs_created, support_amount",0.6703703999519348
+"naics_code, jobs_created, support_amount",0.6703703999519348
+"naics_code, lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"naics_code, lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"naics_code, lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"naics_code, lender_type_category, optional_revenue_yr_confirmed",0.7456790208816528
+"naics_code, lender_type_category, optional_revenue_yr_confirmed",0.7456790208816528
+"naics_code, lender_type_category, optional_revenue_yr_confirmed",0.7456790208816528
+"naics_code, lender_type_category, optional_stage",0.6753086447715759
+"naics_code, lender_type_category, optional_stage",0.6753086447715759
+"naics_code, lender_type_category, optional_stage",0.6753086447715759
+"naics_code, lender_type_category, support_amount",0.690123438835144
+"naics_code, lender_type_category, support_amount",0.690123438835144
+"naics_code, lender_type_category, support_amount",0.690123438835144
+"naics_code, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7370370626449585
+"naics_code, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7370370626449585
+"naics_code, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7370370626449585
+"naics_code, optional_primary_use_of_funds, optional_stage",0.6222222447395325
+"naics_code, optional_primary_use_of_funds, optional_stage",0.6222222447395325
+"naics_code, optional_primary_use_of_funds, optional_stage",0.6222222447395325
+"naics_code, optional_primary_use_of_funds, support_amount",0.7654321193695068
+"naics_code, optional_primary_use_of_funds, support_amount",0.7654321193695068
+"naics_code, optional_primary_use_of_funds, support_amount",0.7654321193695068
+"naics_code, optional_revenue_yr_confirmed, optional_stage",0.6975308656692505
+"naics_code, optional_revenue_yr_confirmed, optional_stage",0.6975308656692505
+"naics_code, optional_revenue_yr_confirmed, optional_stage",0.6975308656692505
+"naics_code, optional_revenue_yr_confirmed, support_amount",0.7555555701255798
+"naics_code, optional_revenue_yr_confirmed, support_amount",0.7555555701255798
+"naics_code, optional_revenue_yr_confirmed, support_amount",0.7555555701255798
+"naics_code, optional_stage, support_amount",0.6925926208496094
+"naics_code, optional_stage, support_amount",0.6925926208496094
+"naics_code, optional_stage, support_amount",0.6925926208496094
+"jobs_created, lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"jobs_created, lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"jobs_created, lender_type_category, optional_primary_use_of_funds",0.7765432000160217
+"jobs_created, lender_type_category, optional_revenue_yr_confirmed",0.7481481432914734
+"jobs_created, lender_type_category, optional_revenue_yr_confirmed",0.7481481432914734
+"jobs_created, lender_type_category, optional_revenue_yr_confirmed",0.7481481432914734
+"jobs_created, lender_type_category, optional_stage",0.6913580298423767
+"jobs_created, lender_type_category, optional_stage",0.6913580298423767
+"jobs_created, lender_type_category, optional_stage",0.6913580298423767
+"jobs_created, lender_type_category, support_amount",0.7024691104888916
+"jobs_created, lender_type_category, support_amount",0.7024691104888916
+"jobs_created, lender_type_category, support_amount",0.7024691104888916
+"jobs_created, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7543209791183472
+"jobs_created, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7543209791183472
+"jobs_created, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7543209791183472
+"jobs_created, optional_primary_use_of_funds, optional_stage",0.6506173014640808
+"jobs_created, optional_primary_use_of_funds, optional_stage",0.6506173014640808
+"jobs_created, optional_primary_use_of_funds, optional_stage",0.6506173014640808
+"jobs_created, optional_primary_use_of_funds, support_amount",0.7679012417793274
+"jobs_created, optional_primary_use_of_funds, support_amount",0.7679012417793274
+"jobs_created, optional_primary_use_of_funds, support_amount",0.7679012417793274
+"jobs_created, optional_revenue_yr_confirmed, optional_stage",0.7185184955596924
+"jobs_created, optional_revenue_yr_confirmed, optional_stage",0.7185184955596924
+"jobs_created, optional_revenue_yr_confirmed, optional_stage",0.7185184955596924
+"jobs_created, optional_revenue_yr_confirmed, support_amount",0.7555555701255798
+"jobs_created, optional_revenue_yr_confirmed, support_amount",0.7555555701255798
+"jobs_created, optional_revenue_yr_confirmed, support_amount",0.7555555701255798
+"jobs_created, optional_stage, support_amount",0.6950617432594299
+"jobs_created, optional_stage, support_amount",0.6950617432594299
+"jobs_created, optional_stage, support_amount",0.6950617432594299
+"lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7790123224258423
+"lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7790123224258423
+"lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed",0.7790123224258423
+"lender_type_category, optional_primary_use_of_funds, optional_stage",0.7765432000160217
+"lender_type_category, optional_primary_use_of_funds, optional_stage",0.7765432000160217
+"lender_type_category, optional_primary_use_of_funds, optional_stage",0.7765432000160217
+"lender_type_category, optional_primary_use_of_funds, support_amount",0.800000011920929
+"lender_type_category, optional_primary_use_of_funds, support_amount",0.800000011920929
+"lender_type_category, optional_primary_use_of_funds, support_amount",0.800000011920929
+"lender_type_category, optional_revenue_yr_confirmed, optional_stage",0.7444444298744202
+"lender_type_category, optional_revenue_yr_confirmed, optional_stage",0.7444444298744202
+"lender_type_category, optional_revenue_yr_confirmed, optional_stage",0.7444444298744202
+"lender_type_category, optional_revenue_yr_confirmed, support_amount",0.7851851582527161
+"lender_type_category, optional_revenue_yr_confirmed, support_amount",0.7851851582527161
+"lender_type_category, optional_revenue_yr_confirmed, support_amount",0.7851851582527161
+"lender_type_category, optional_stage, support_amount",0.6703703999519348
+"lender_type_category, optional_stage, support_amount",0.6703703999519348
+"lender_type_category, optional_stage, support_amount",0.6703703999519348
+"optional_primary_use_of_funds, optional_revenue_yr_confirmed, optional_stage",0.7432098984718323
+"optional_primary_use_of_funds, optional_revenue_yr_confirmed, optional_stage",0.7432098984718323
+"optional_primary_use_of_funds, optional_revenue_yr_confirmed, optional_stage",0.7432098984718323
+"optional_primary_use_of_funds, optional_revenue_yr_confirmed, support_amount",0.7654321193695068
+"optional_primary_use_of_funds, optional_revenue_yr_confirmed, support_amount",0.7654321193695068
+"optional_primary_use_of_funds, optional_revenue_yr_confirmed, support_amount",0.7654321193695068
+"optional_primary_use_of_funds, optional_stage, support_amount",0.7666666507720947
+"optional_primary_use_of_funds, optional_stage, support_amount",0.7666666507720947
+"optional_primary_use_of_funds, optional_stage, support_amount",0.7666666507720947
+"optional_revenue_yr_confirmed, optional_stage, support_amount",0.7518518567085266
+"optional_revenue_yr_confirmed, optional_stage, support_amount",0.7518518567085266
+"optional_revenue_yr_confirmed, optional_stage, support_amount",0.7518518567085266

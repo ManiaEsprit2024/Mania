@@ -1,0 +1,51 @@
+Top 10 Neural Network Combinations:
+                                                           Feature  Neural Network Accuracy
+unique_id, lender_insurance_premium, optional_revenue_yr_confirmed                 0.877778
+unique_id, lender_insurance_premium, optional_revenue_yr_confirmed                 0.877778
+unique_id, lender_insurance_premium, optional_revenue_yr_confirmed                 0.877778
+                unique_id, LMI_type, optional_revenue_yr_confirmed                 0.872840
+                unique_id, LMI_type, optional_revenue_yr_confirmed                 0.872840
+                unique_id, LMI_type, optional_revenue_yr_confirmed                 0.872840
+         unique_id, lender_insurance_premium, lender_type_category                 0.866667
+         unique_id, lender_insurance_premium, lender_type_category                 0.866667
+         unique_id, lender_insurance_premium, lender_type_category                 0.866667
+                          unique_id, optional_revenue_yr_confirmed                 0.865432
+
+Top 10 Random Forest Combinations:
+                                                    Feature  Random Forest Accuracy  Random Forest Precision  Random Forest Recall  Random Forest F1 Score
+                             unique_id, revenue, naics_code                0.911111                 0.635945              0.864301                0.732743
+                             unique_id, revenue, naics_code                0.911111                 0.635945              0.864301                0.732743
+                             unique_id, revenue, naics_code                0.911111                 0.635945              0.864301                0.732743
+       unique_id, disbursement_date, loan_investment_amount                0.907407                 0.635945              0.864301                0.732743
+       unique_id, disbursement_date, loan_investment_amount                0.907407                 0.635945              0.864301                0.732743
+       unique_id, disbursement_date, loan_investment_amount                0.907407                 0.635945              0.864301                0.732743
+              unique_id, loan_investment_amount, naics_code                0.904938                 0.635945              0.864301                0.732743
+unique_id, disbursement_date, optional_revenue_yr_confirmed                0.904938                 0.635945              0.864301                0.732743
+unique_id, disbursement_date, optional_revenue_yr_confirmed                0.904938                 0.635945              0.864301                0.732743
+unique_id, disbursement_date, optional_revenue_yr_confirmed                0.904938                 0.635945              0.864301                0.732743
+
+Top 10 Logistic Regression Combinations:
+                                                                    Feature  Logistic Regression Accuracy  Logistic Regression Precision  Logistic Regression Recall  Logistic Regression F1 Score
+             unique_id, lender_type_category, optional_primary_use_of_funds                      0.825926                       0.832677                    0.883090                      0.857143
+             unique_id, lender_type_category, optional_primary_use_of_funds                      0.825926                       0.832677                    0.883090                      0.857143
+             unique_id, lender_type_category, optional_primary_use_of_funds                      0.825926                       0.832677                    0.883090                      0.857143
+                         loan_investment_amount, metro_type, support_amount                      0.779012                       0.747525                    0.945720                      0.835023
+                         loan_investment_amount, metro_type, support_amount                      0.779012                       0.747525                    0.945720                      0.835023
+                         loan_investment_amount, metro_type, support_amount                      0.779012                       0.747525                    0.945720                      0.835023
+loan_investment_amount, lender_type_category, optional_primary_use_of_funds                      0.772840                       0.759227                    0.901879                      0.824427
+        lender_type_category, optional_primary_use_of_funds, support_amount                      0.772840                       0.760141                    0.899791                      0.824092
+        lender_type_category, optional_primary_use_of_funds, support_amount                      0.772840                       0.760141                    0.899791                      0.824092
+loan_investment_amount, lender_type_category, optional_primary_use_of_funds                      0.772840                       0.759227                    0.901879                      0.824427
+
+Top 10 Gradient Boosting Combinations:
+                                                  Feature  XGBoost Accuracy  XGBoost Precision  XGBoost Recall  XGBoost F1 Score
+          unique_id, lender_type_category, optional_stage          0.923457           0.900192        0.979123          0.938000
+          unique_id, lender_type_category, optional_stage          0.923457           0.900192        0.979123          0.938000
+          unique_id, lender_type_category, optional_stage          0.923457           0.900192        0.979123          0.938000
+     unique_id, full_time_employees, lender_type_category          0.922222           0.912698        0.960334          0.935910
+          unique_id, lender_insurance_premium, metro_type          0.922222           0.895437        0.983299          0.937313
+     unique_id, full_time_employees, lender_type_category          0.922222           0.912698        0.960334          0.935910
+     unique_id, full_time_employees, lender_type_category          0.922222           0.912698        0.960334          0.935910
+          unique_id, lender_insurance_premium, metro_type          0.922222           0.895437        0.983299          0.937313
+          unique_id, lender_insurance_premium, metro_type          0.922222           0.895437        0.983299          0.937313
+unique_id, lender_insurance_premium, lender_type_category          0.920988           0.896750        0.979123          0.936128
