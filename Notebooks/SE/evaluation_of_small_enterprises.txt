@@ -38,14 +38,14 @@ loan_investment_amount, metro_type, lender_type_category, optional_primary_use_o
 loan_investment_amount, metro_type, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed, optional_stage                      0.733911                       0.714964                    0.760101                      0.736842
 
 Top 10 Gradient Boosting Combinations:
-                                                                                                                            Feature  XGBoost Accuracy  XGBoost Precision  XGBoost Recall  XGBoost F1 Score
-unique_id, loan_investment_amount, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed          0.992579           0.989209        0.996377          0.992780
-unique_id, loan_investment_amount, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed          0.992579           0.989209        0.996377          0.992780
-unique_id, loan_investment_amount, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed          0.992579           0.989209        0.996377          0.992780
-unique_id, loan_investment_amount, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed          0.992579           0.989209        0.996377          0.992780
-unique_id, loan_investment_amount, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed          0.992579           0.989209        0.996377          0.992780
-unique_id, loan_investment_amount, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed          0.992579           0.989209        0.996377          0.992780
-                                  unique_id, disbursement_date, loan_investment_amount, revenue, jobs_created, lender_type_category          0.990724           0.992727        0.989130          0.990926
-                                  unique_id, disbursement_date, loan_investment_amount, revenue, jobs_created, lender_type_category          0.990724           0.992727        0.989130          0.990926
-                                  unique_id, disbursement_date, loan_investment_amount, revenue, jobs_created, lender_type_category          0.990724           0.992727        0.989130          0.990926
-                                  unique_id, disbursement_date, loan_investment_amount, revenue, jobs_created, lender_type_category          0.990724           0.992727        0.989130          0.990926
+                                                                                                            Feature  XGBoost Accuracy  XGBoost Precision  XGBoost Recall  XGBoost F1 Score
+unique_id, disbursement_date, lender_insurance_premium, jobs_created, optional_revenue_yr_confirmed, optional_stage          0.978960           0.961071        0.997475          0.978934
+unique_id, disbursement_date, lender_insurance_premium, jobs_created, optional_revenue_yr_confirmed, optional_stage          0.978960           0.961071        0.997475          0.978934
+unique_id, disbursement_date, lender_insurance_premium, jobs_created, optional_revenue_yr_confirmed, optional_stage          0.978960           0.961071        0.997475          0.978934
+unique_id, disbursement_date, lender_insurance_premium, jobs_created, optional_revenue_yr_confirmed, optional_stage          0.978960           0.961071        0.997475          0.978934
+unique_id, disbursement_date, lender_insurance_premium, jobs_created, optional_revenue_yr_confirmed, optional_stage          0.978960           0.961071        0.997475          0.978934
+unique_id, disbursement_date, lender_insurance_premium, jobs_created, optional_revenue_yr_confirmed, optional_stage          0.978960           0.961071        0.997475          0.978934
+                                    unique_id, disbursement_date, full_time_employees, jobs_created, optional_stage          0.977723           0.958738        0.997475          0.977723
+                                    unique_id, disbursement_date, full_time_employees, jobs_created, optional_stage          0.977723           0.958738        0.997475          0.977723
+                                    unique_id, disbursement_date, full_time_employees, jobs_created, optional_stage          0.977723           0.958738        0.997475          0.977723
+                                    unique_id, disbursement_date, full_time_employees, jobs_created, optional_stage          0.977723           0.958738        0.997475          0.977723
