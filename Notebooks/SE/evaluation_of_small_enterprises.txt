@@ -1,51 +1,51 @@
 Top 10 Neural Network Combinations:
-                                                                                                                            Feature  Neural Network Accuracy
-unique_id, lender_insurance_premium, metro_type, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed                 0.890123
-unique_id, lender_insurance_premium, metro_type, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed                 0.890123
-unique_id, lender_insurance_premium, metro_type, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed                 0.890123
-unique_id, lender_insurance_premium, metro_type, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed                 0.890123
-unique_id, lender_insurance_premium, metro_type, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed                 0.890123
-unique_id, lender_insurance_premium, metro_type, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed                 0.890123
-               unique_id, lender_insurance_premium, metro_type, lender_type_category, optional_revenue_yr_confirmed, support_amount                 0.888889
-               unique_id, lender_insurance_premium, metro_type, lender_type_category, optional_revenue_yr_confirmed, support_amount                 0.888889
-               unique_id, lender_insurance_premium, metro_type, lender_type_category, optional_revenue_yr_confirmed, support_amount                 0.888889
-               unique_id, lender_insurance_premium, metro_type, lender_type_category, optional_revenue_yr_confirmed, support_amount                 0.888889
+                                                                                                                         Feature  Neural Network Accuracy
+                unique_id, loan_investment_amount, lender_insurance_premium, lender_type_category, optional_revenue_yr_confirmed                 0.867574
+unique_id, loan_investment_amount, lender_insurance_premium, lender_type_category, optional_revenue_yr_confirmed, optional_stage                 0.867574
+unique_id, loan_investment_amount, lender_insurance_premium, lender_type_category, optional_revenue_yr_confirmed, optional_stage                 0.867574
+unique_id, loan_investment_amount, lender_insurance_premium, lender_type_category, optional_revenue_yr_confirmed, optional_stage                 0.867574
+unique_id, loan_investment_amount, lender_insurance_premium, lender_type_category, optional_revenue_yr_confirmed, optional_stage                 0.867574
+unique_id, loan_investment_amount, lender_insurance_premium, lender_type_category, optional_revenue_yr_confirmed, optional_stage                 0.867574
+unique_id, loan_investment_amount, lender_insurance_premium, lender_type_category, optional_revenue_yr_confirmed, optional_stage                 0.867574
+                unique_id, loan_investment_amount, lender_insurance_premium, lender_type_category, optional_revenue_yr_confirmed                 0.867574
+                unique_id, loan_investment_amount, lender_insurance_premium, lender_type_category, optional_revenue_yr_confirmed                 0.867574
+                unique_id, loan_investment_amount, lender_insurance_premium, lender_type_category, optional_revenue_yr_confirmed                 0.867574
 
 Top 10 Random Forest Combinations:
-                                                                                                           Feature  Random Forest Accuracy  Random Forest Precision  Random Forest Recall  Random Forest F1 Score
-     unique_id, lender_insurance_premium, revenue, naics_code, lender_type_category, optional_revenue_yr_confirmed                 0.92716                 0.923387              0.956159                0.939487
-unique_id, disbursement_date, loan_investment_amount, LMI_type, full_time_employees, optional_revenue_yr_confirmed                 0.92716                 0.905405              0.979123                0.940822
-     unique_id, lender_insurance_premium, revenue, naics_code, lender_type_category, optional_revenue_yr_confirmed                 0.92716                 0.923387              0.956159                0.939487
-     unique_id, lender_insurance_premium, revenue, naics_code, lender_type_category, optional_revenue_yr_confirmed                 0.92716                 0.923387              0.956159                0.939487
-     unique_id, lender_insurance_premium, revenue, naics_code, lender_type_category, optional_revenue_yr_confirmed                 0.92716                 0.923387              0.956159                0.939487
-                                              unique_id, revenue, naics_code, lender_type_category, optional_stage                 0.92716                 0.918327              0.962422                0.939857
-                                              unique_id, revenue, naics_code, lender_type_category, optional_stage                 0.92716                 0.918327              0.962422                0.939857
-                                              unique_id, revenue, naics_code, lender_type_category, optional_stage                 0.92716                 0.918327              0.962422                0.939857
-     unique_id, lender_insurance_premium, revenue, naics_code, lender_type_category, optional_revenue_yr_confirmed                 0.92716                 0.923387              0.956159                0.939487
-unique_id, disbursement_date, loan_investment_amount, LMI_type, full_time_employees, optional_revenue_yr_confirmed                 0.92716                 0.905405              0.979123                0.940822
+                                                                                                        Feature  Random Forest Accuracy  Random Forest Precision  Random Forest Recall  Random Forest F1 Score
+                unique_id, loan_investment_amount, lender_insurance_premium, jobs_created, lender_type_category                0.988868                 0.985612              0.992754                 0.98917
+unique_id, loan_investment_amount, lender_insurance_premium, jobs_created, lender_type_category, optional_stage                0.988868                 0.989130              0.989130                 0.98913
+unique_id, loan_investment_amount, lender_insurance_premium, jobs_created, lender_type_category, optional_stage                0.988868                 0.989130              0.989130                 0.98913
+                unique_id, loan_investment_amount, lender_insurance_premium, jobs_created, lender_type_category                0.988868                 0.985612              0.992754                 0.98917
+                unique_id, loan_investment_amount, lender_insurance_premium, jobs_created, lender_type_category                0.988868                 0.985612              0.992754                 0.98917
+unique_id, loan_investment_amount, lender_insurance_premium, jobs_created, lender_type_category, optional_stage                0.988868                 0.989130              0.989130                 0.98913
+unique_id, loan_investment_amount, lender_insurance_premium, jobs_created, lender_type_category, optional_stage                0.988868                 0.989130              0.989130                 0.98913
+unique_id, loan_investment_amount, lender_insurance_premium, jobs_created, lender_type_category, optional_stage                0.988868                 0.989130              0.989130                 0.98913
+                unique_id, loan_investment_amount, lender_insurance_premium, jobs_created, lender_type_category                0.988868                 0.985612              0.992754                 0.98917
+                unique_id, loan_investment_amount, lender_insurance_premium, jobs_created, lender_type_category                0.988868                 0.985612              0.992754                 0.98917
 
 Top 10 Logistic Regression Combinations:
-                                                                                                                              Feature  Logistic Regression Accuracy  Logistic Regression Precision  Logistic Regression Recall  Logistic Regression F1 Score
-    unique_id, loan_investment_amount, metro_type, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed                      0.849383                       0.849315                    0.906054                      0.876768
-    unique_id, loan_investment_amount, metro_type, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed                      0.849383                       0.849315                    0.906054                      0.876768
-    unique_id, loan_investment_amount, metro_type, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed                      0.849383                       0.849315                    0.906054                      0.876768
-    unique_id, loan_investment_amount, metro_type, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed                      0.849383                       0.849315                    0.906054                      0.876768
-    unique_id, loan_investment_amount, metro_type, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed                      0.849383                       0.849315                    0.906054                      0.876768
-    unique_id, loan_investment_amount, metro_type, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed                      0.849383                       0.849315                    0.906054                      0.876768
-unique_id, loan_investment_amount, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed, support_amount                      0.846914                       0.851485                    0.897704                      0.873984
-unique_id, loan_investment_amount, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed, support_amount                      0.846914                       0.851485                    0.897704                      0.873984
-unique_id, loan_investment_amount, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed, support_amount                      0.846914                       0.851485                    0.897704                      0.873984
-unique_id, loan_investment_amount, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed, support_amount                      0.846914                       0.851485                    0.897704                      0.873984
+                                                                                                                               Feature  Logistic Regression Accuracy  Logistic Regression Precision  Logistic Regression Recall  Logistic Regression F1 Score
+                               loan_investment_amount, metro_type, lender_type_category, optional_primary_use_of_funds, optional_stage                      0.735149                       0.717703                    0.757576                      0.737101
+                               loan_investment_amount, metro_type, lender_type_category, optional_primary_use_of_funds, optional_stage                      0.735149                       0.717703                    0.757576                      0.737101
+                               loan_investment_amount, metro_type, lender_type_category, optional_primary_use_of_funds, optional_stage                      0.735149                       0.717703                    0.757576                      0.737101
+                               loan_investment_amount, metro_type, lender_type_category, optional_primary_use_of_funds, optional_stage                      0.735149                       0.717703                    0.757576                      0.737101
+                               loan_investment_amount, metro_type, lender_type_category, optional_primary_use_of_funds, optional_stage                      0.735149                       0.717703                    0.757576                      0.737101
+loan_investment_amount, metro_type, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed, optional_stage                      0.733911                       0.714964                    0.760101                      0.736842
+loan_investment_amount, metro_type, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed, optional_stage                      0.733911                       0.714964                    0.760101                      0.736842
+loan_investment_amount, metro_type, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed, optional_stage                      0.733911                       0.714964                    0.760101                      0.736842
+loan_investment_amount, metro_type, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed, optional_stage                      0.733911                       0.714964                    0.760101                      0.736842
+loan_investment_amount, metro_type, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed, optional_stage                      0.733911                       0.714964                    0.760101                      0.736842
 
 Top 10 Gradient Boosting Combinations:
-                                                                                                                    Feature  XGBoost Accuracy  XGBoost Precision  XGBoost Recall  XGBoost F1 Score
-                unique_id, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed          0.928395           0.920160        0.962422          0.940816
-                unique_id, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed          0.928395           0.920160        0.962422          0.940816
-                unique_id, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed          0.928395           0.920160        0.962422          0.940816
-                unique_id, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed          0.928395           0.920160        0.962422          0.940816
-                unique_id, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed          0.928395           0.920160        0.962422          0.940816
-unique_id, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed, optional_stage          0.927160           0.923387        0.956159          0.939487
-unique_id, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed, optional_stage          0.927160           0.923387        0.956159          0.939487
-          unique_id, disbursement_date, lender_type_category, optional_revenue_yr_confirmed, optional_stage, support_amount          0.927160           0.918327        0.962422          0.939857
-      unique_id, disbursement_date, lender_insurance_premium, optional_revenue_yr_confirmed, optional_stage, support_amount          0.927160           0.916667        0.964509          0.939980
-unique_id, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed, optional_stage          0.927160           0.923387        0.956159          0.939487
+                                                                                                                            Feature  XGBoost Accuracy  XGBoost Precision  XGBoost Recall  XGBoost F1 Score
+unique_id, loan_investment_amount, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed          0.992579           0.989209        0.996377          0.992780
+unique_id, loan_investment_amount, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed          0.992579           0.989209        0.996377          0.992780
+unique_id, loan_investment_amount, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed          0.992579           0.989209        0.996377          0.992780
+unique_id, loan_investment_amount, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed          0.992579           0.989209        0.996377          0.992780
+unique_id, loan_investment_amount, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed          0.992579           0.989209        0.996377          0.992780
+unique_id, loan_investment_amount, jobs_created, lender_type_category, optional_primary_use_of_funds, optional_revenue_yr_confirmed          0.992579           0.989209        0.996377          0.992780
+                                  unique_id, disbursement_date, loan_investment_amount, revenue, jobs_created, lender_type_category          0.990724           0.992727        0.989130          0.990926
+                                  unique_id, disbursement_date, loan_investment_amount, revenue, jobs_created, lender_type_category          0.990724           0.992727        0.989130          0.990926
+                                  unique_id, disbursement_date, loan_investment_amount, revenue, jobs_created, lender_type_category          0.990724           0.992727        0.989130          0.990926
+                                  unique_id, disbursement_date, loan_investment_amount, revenue, jobs_created, lender_type_category          0.990724           0.992727        0.989130          0.990926
