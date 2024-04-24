@@ -1,6 +1,0 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-*.csv filter=lfs diff=lfs merge=lfs -text
-*.ipynb filter=lfs diff=lfs merge=lfs -text
-Mania_credit.ipynb filter=lfs diff=lfs merge=lfs -text
-Datasets/Individuals/CreditRiskAnalysis/loan/loan.csv filter=lfs diff=lfs merge=lfs -text
