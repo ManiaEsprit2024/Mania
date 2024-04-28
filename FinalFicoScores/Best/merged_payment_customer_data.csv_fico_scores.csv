@@ -1,0 +1,2476 @@
+,FICO_Score,FICO_Class
+0,899,Very Good
+1,888,Very Good
+2,899,Very Good
+3,898,Very Good
+4,893,Very Good
+5,894,Very Good
+6,897,Very Good
+7,899,Very Good
+8,850,Very Good
+9,895,Very Good
+10,898,Very Good
+11,304,LOW
+12,880,Very Good
+13,898,Very Good
+14,899,Very Good
+15,891,Very Good
+16,886,Very Good
+17,302,LOW
+18,887,Very Good
+19,899,Very Good
+20,896,Very Good
+21,893,Very Good
+22,897,Very Good
+23,899,Very Good
+24,884,Very Good
+25,304,LOW
+26,899,Very Good
+27,899,Very Good
+28,898,Very Good
+29,897,Very Good
+30,896,Very Good
+31,882,Very Good
+32,898,Very Good
+33,305,LOW
+34,895,Very Good
+35,899,Very Good
+36,899,Very Good
+37,899,Very Good
+38,899,Very Good
+39,895,Very Good
+40,897,Very Good
+41,899,Very Good
+42,306,LOW
+43,857,Very Good
+44,874,Very Good
+45,889,Very Good
+46,892,Very Good
+47,871,Very Good
+48,882,Very Good
+49,897,Very Good
+50,301,LOW
+51,301,LOW
+52,891,Very Good
+53,897,Very Good
+54,884,Very Good
+55,893,Very Good
+56,899,Very Good
+57,301,LOW
+58,794,Very Good
+59,899,Very Good
+60,897,Very Good
+61,849,Very Good
+62,898,Very Good
+63,894,Very Good
+64,898,Very Good
+65,899,Very Good
+66,856,Very Good
+67,456,Fair
+68,391,LOW
+69,321,LOW
+70,897,Very Good
+71,898,Very Good
+72,891,Very Good
+73,897,Very Good
+74,314,LOW
+75,897,Very Good
+76,894,Very Good
+77,898,Very Good
+78,899,Very Good
+79,870,Very Good
+80,885,Very Good
+81,899,Very Good
+82,897,Very Good
+83,304,LOW
+84,310,LOW
+85,897,Very Good
+86,894,Very Good
+87,897,Very Good
+88,899,Very Good
+89,898,Very Good
+90,897,Very Good
+91,899,Very Good
+92,898,Very Good
+93,898,Very Good
+94,899,Very Good
+95,898,Very Good
+96,899,Very Good
+97,897,Very Good
+98,302,LOW
+99,896,Very Good
+100,305,LOW
+101,884,Very Good
+102,899,Very Good
+103,889,Very Good
+104,879,Very Good
+105,885,Very Good
+106,893,Very Good
+107,320,LOW
+108,899,Very Good
+109,895,Very Good
+110,892,Very Good
+111,872,Very Good
+112,897,Very Good
+113,899,Very Good
+114,899,Very Good
+115,853,Very Good
+116,889,Very Good
+117,884,Very Good
+118,898,Very Good
+119,899,Very Good
+120,894,Very Good
+121,895,Very Good
+122,898,Very Good
+123,321,LOW
+124,897,Very Good
+125,301,LOW
+126,304,LOW
+127,899,Very Good
+128,853,Very Good
+129,887,Very Good
+130,897,Very Good
+131,898,Very Good
+132,881,Very Good
+133,846,Very Good
+134,316,LOW
+135,888,Very Good
+136,899,Very Good
+137,888,Very Good
+138,896,Very Good
+139,897,Very Good
+140,897,Very Good
+141,889,Very Good
+142,891,Very Good
+143,333,LOW
+144,307,LOW
+145,899,Very Good
+146,897,Very Good
+147,892,Very Good
+148,886,Very Good
+149,894,Very Good
+150,322,LOW
+151,620,Good
+152,892,Very Good
+153,365,LOW
+154,878,Very Good
+155,899,Very Good
+156,316,LOW
+157,896,Very Good
+158,890,Very Good
+159,349,LOW
+160,897,Very Good
+161,871,Very Good
+162,896,Very Good
+163,899,Very Good
+164,896,Very Good
+165,875,Very Good
+166,895,Very Good
+167,302,LOW
+168,318,LOW
+169,894,Very Good
+170,899,Very Good
+171,888,Very Good
+172,877,Very Good
+173,849,Very Good
+174,896,Very Good
+175,898,Very Good
+176,887,Very Good
+177,898,Very Good
+178,898,Very Good
+179,897,Very Good
+180,897,Very Good
+181,885,Very Good
+182,899,Very Good
+183,883,Very Good
+184,888,Very Good
+185,883,Very Good
+186,899,Very Good
+187,895,Very Good
+188,880,Very Good
+189,899,Very Good
+190,893,Very Good
+191,889,Very Good
+192,888,Very Good
+193,880,Very Good
+194,307,LOW
+195,898,Very Good
+196,882,Very Good
+197,896,Very Good
+198,899,Very Good
+199,898,Very Good
+200,872,Very Good
+201,882,Very Good
+202,899,Very Good
+203,894,Very Good
+204,881,Very Good
+205,875,Very Good
+206,898,Very Good
+207,898,Very Good
+208,646,Good
+209,898,Very Good
+210,897,Very Good
+211,899,Very Good
+212,898,Very Good
+213,897,Very Good
+214,899,Very Good
+215,836,Very Good
+216,897,Very Good
+217,898,Very Good
+218,732,Very Good
+219,898,Very Good
+220,897,Very Good
+221,899,Very Good
+222,809,Very Good
+223,896,Very Good
+224,880,Very Good
+225,875,Very Good
+226,897,Very Good
+227,896,Very Good
+228,894,Very Good
+229,891,Very Good
+230,303,LOW
+231,302,LOW
+232,310,LOW
+233,899,Very Good
+234,898,Very Good
+235,899,Very Good
+236,897,Very Good
+237,899,Very Good
+238,894,Very Good
+239,308,LOW
+240,305,LOW
+241,881,Very Good
+242,889,Very Good
+243,890,Very Good
+244,899,Very Good
+245,881,Very Good
+246,898,Very Good
+247,898,Very Good
+248,888,Very Good
+249,303,LOW
+250,881,Very Good
+251,303,LOW
+252,898,Very Good
+253,892,Very Good
+254,899,Very Good
+255,899,Very Good
+256,898,Very Good
+257,899,Very Good
+258,352,LOW
+259,891,Very Good
+260,305,LOW
+261,898,Very Good
+262,325,LOW
+263,303,LOW
+264,897,Very Good
+265,896,Very Good
+266,899,Very Good
+267,894,Very Good
+268,896,Very Good
+269,866,Very Good
+270,896,Very Good
+271,828,Very Good
+272,872,Very Good
+273,897,Very Good
+274,899,Very Good
+275,398,LOW
+276,887,Very Good
+277,891,Very Good
+278,898,Very Good
+279,301,LOW
+280,895,Very Good
+281,890,Very Good
+282,315,LOW
+283,896,Very Good
+284,899,Very Good
+285,880,Very Good
+286,896,Very Good
+287,897,Very Good
+288,899,Very Good
+289,885,Very Good
+290,899,Very Good
+291,899,Very Good
+292,897,Very Good
+293,895,Very Good
+294,899,Very Good
+295,895,Very Good
+296,899,Very Good
+297,898,Very Good
+298,858,Very Good
+299,899,Very Good
+300,897,Very Good
+301,898,Very Good
+302,894,Very Good
+303,301,LOW
+304,890,Very Good
+305,895,Very Good
+306,325,LOW
+307,874,Very Good
+308,899,Very Good
+309,899,Very Good
+310,897,Very Good
+311,899,Very Good
+312,899,Very Good
+313,895,Very Good
+314,879,Very Good
+315,321,LOW
+316,899,Very Good
+317,306,LOW
+318,831,Very Good
+319,877,Very Good
+320,894,Very Good
+321,897,Very Good
+322,882,Very Good
+323,896,Very Good
+324,795,Very Good
+325,312,LOW
+326,301,LOW
+327,899,Very Good
+328,301,LOW
+329,897,Very Good
+330,897,Very Good
+331,892,Very Good
+332,316,LOW
+333,880,Very Good
+334,779,Very Good
+335,885,Very Good
+336,874,Very Good
+337,899,Very Good
+338,896,Very Good
+339,891,Very Good
+340,302,LOW
+341,895,Very Good
+342,898,Very Good
+343,865,Very Good
+344,894,Very Good
+345,893,Very Good
+346,892,Very Good
+347,859,Very Good
+348,324,LOW
+349,896,Very Good
+350,897,Very Good
+351,866,Very Good
+352,887,Very Good
+353,899,Very Good
+354,898,Very Good
+355,880,Very Good
+356,899,Very Good
+357,897,Very Good
+358,892,Very Good
+359,400,LOW
+360,894,Very Good
+361,887,Very Good
+362,335,LOW
+363,323,LOW
+364,884,Very Good
+365,899,Very Good
+366,899,Very Good
+367,305,LOW
+368,899,Very Good
+369,898,Very Good
+370,628,Good
+371,879,Very Good
+372,899,Very Good
+373,898,Very Good
+374,894,Very Good
+375,303,LOW
+376,896,Very Good
+377,890,Very Good
+378,893,Very Good
+379,898,Very Good
+380,884,Very Good
+381,882,Very Good
+382,305,LOW
+383,899,Very Good
+384,899,Very Good
+385,870,Very Good
+386,881,Very Good
+387,303,LOW
+388,886,Very Good
+389,897,Very Good
+390,895,Very Good
+391,893,Very Good
+392,898,Very Good
+393,897,Very Good
+394,301,LOW
+395,899,Very Good
+396,882,Very Good
+397,897,Very Good
+398,303,LOW
+399,893,Very Good
+400,891,Very Good
+401,895,Very Good
+402,898,Very Good
+403,897,Very Good
+404,895,Very Good
+405,891,Very Good
+406,899,Very Good
+407,890,Very Good
+408,899,Very Good
+409,886,Very Good
+410,403,Fair
+411,305,LOW
+412,895,Very Good
+413,308,LOW
+414,889,Very Good
+415,895,Very Good
+416,895,Very Good
+417,899,Very Good
+418,872,Very Good
+419,893,Very Good
+420,891,Very Good
+421,301,LOW
+422,898,Very Good
+423,884,Very Good
+424,893,Very Good
+425,887,Very Good
+426,867,Very Good
+427,859,Very Good
+428,896,Very Good
+429,897,Very Good
+430,893,Very Good
+431,897,Very Good
+432,898,Very Good
+433,898,Very Good
+434,899,Very Good
+435,883,Very Good
+436,301,LOW
+437,899,Very Good
+438,302,LOW
+439,897,Very Good
+440,896,Very Good
+441,304,LOW
+442,899,Very Good
+443,891,Very Good
+444,891,Very Good
+445,887,Very Good
+446,898,Very Good
+447,894,Very Good
+448,893,Very Good
+449,892,Very Good
+450,372,LOW
+451,892,Very Good
+452,875,Very Good
+453,897,Very Good
+454,899,Very Good
+455,895,Very Good
+456,898,Very Good
+457,897,Very Good
+458,899,Very Good
+459,896,Very Good
+460,897,Very Good
+461,881,Very Good
+462,899,Very Good
+463,895,Very Good
+464,888,Very Good
+465,899,Very Good
+466,889,Very Good
+467,887,Very Good
+468,895,Very Good
+469,897,Very Good
+470,862,Very Good
+471,322,LOW
+472,897,Very Good
+473,869,Very Good
+474,899,Very Good
+475,867,Very Good
+476,899,Very Good
+477,887,Very Good
+478,899,Very Good
+479,899,Very Good
+480,899,Very Good
+481,898,Very Good
+482,899,Very Good
+483,898,Very Good
+484,896,Very Good
+485,898,Very Good
+486,865,Very Good
+487,892,Very Good
+488,896,Very Good
+489,899,Very Good
+490,306,LOW
+491,899,Very Good
+492,891,Very Good
+493,898,Very Good
+494,307,LOW
+495,899,Very Good
+496,899,Very Good
+497,899,Very Good
+498,893,Very Good
+499,309,LOW
+500,898,Very Good
+501,329,LOW
+502,897,Very Good
+503,898,Very Good
+504,893,Very Good
+505,898,Very Good
+506,869,Very Good
+507,832,Very Good
+508,894,Very Good
+509,892,Very Good
+510,898,Very Good
+511,894,Very Good
+512,898,Very Good
+513,306,LOW
+514,897,Very Good
+515,899,Very Good
+516,891,Very Good
+517,898,Very Good
+518,897,Very Good
+519,898,Very Good
+520,895,Very Good
+521,888,Very Good
+522,897,Very Good
+523,898,Very Good
+524,890,Very Good
+525,899,Very Good
+526,899,Very Good
+527,872,Very Good
+528,346,LOW
+529,899,Very Good
+530,880,Very Good
+531,860,Very Good
+532,878,Very Good
+533,864,Very Good
+534,898,Very Good
+535,889,Very Good
+536,894,Very Good
+537,896,Very Good
+538,899,Very Good
+539,899,Very Good
+540,891,Very Good
+541,882,Very Good
+542,899,Very Good
+543,899,Very Good
+544,898,Very Good
+545,876,Very Good
+546,899,Very Good
+547,894,Very Good
+548,899,Very Good
+549,898,Very Good
+550,897,Very Good
+551,899,Very Good
+552,898,Very Good
+553,899,Very Good
+554,892,Very Good
+555,898,Very Good
+556,323,LOW
+557,899,Very Good
+558,302,LOW
+559,892,Very Good
+560,898,Very Good
+561,880,Very Good
+562,888,Very Good
+563,898,Very Good
+564,898,Very Good
+565,889,Very Good
+566,893,Very Good
+567,844,Very Good
+568,313,LOW
+569,766,Very Good
+570,305,LOW
+571,890,Very Good
+572,887,Very Good
+573,479,Fair
+574,889,Very Good
+575,898,Very Good
+576,899,Very Good
+577,897,Very Good
+578,897,Very Good
+579,897,Very Good
+580,869,Very Good
+581,898,Very Good
+582,881,Very Good
+583,302,LOW
+584,891,Very Good
+585,898,Very Good
+586,890,Very Good
+587,884,Very Good
+588,899,Very Good
+589,880,Very Good
+590,899,Very Good
+591,873,Very Good
+592,894,Very Good
+593,895,Very Good
+594,899,Very Good
+595,893,Very Good
+596,882,Very Good
+597,894,Very Good
+598,899,Very Good
+599,887,Very Good
+600,893,Very Good
+601,891,Very Good
+602,303,LOW
+603,891,Very Good
+604,899,Very Good
+605,816,Very Good
+606,887,Very Good
+607,896,Very Good
+608,307,LOW
+609,898,Very Good
+610,886,Very Good
+611,381,LOW
+612,351,LOW
+613,881,Very Good
+614,875,Very Good
+615,875,Very Good
+616,888,Very Good
+617,896,Very Good
+618,303,LOW
+619,896,Very Good
+620,896,Very Good
+621,898,Very Good
+622,307,LOW
+623,868,Very Good
+624,899,Very Good
+625,883,Very Good
+626,899,Very Good
+627,894,Very Good
+628,892,Very Good
+629,875,Very Good
+630,870,Very Good
+631,889,Very Good
+632,899,Very Good
+633,889,Very Good
+634,898,Very Good
+635,898,Very Good
+636,888,Very Good
+637,895,Very Good
+638,891,Very Good
+639,899,Very Good
+640,895,Very Good
+641,887,Very Good
+642,303,LOW
+643,899,Very Good
+644,334,LOW
+645,899,Very Good
+646,899,Very Good
+647,306,LOW
+648,306,LOW
+649,899,Very Good
+650,899,Very Good
+651,894,Very Good
+652,899,Very Good
+653,865,Very Good
+654,898,Very Good
+655,888,Very Good
+656,894,Very Good
+657,853,Very Good
+658,899,Very Good
+659,303,LOW
+660,897,Very Good
+661,888,Very Good
+662,897,Very Good
+663,898,Very Good
+664,895,Very Good
+665,899,Very Good
+666,305,LOW
+667,897,Very Good
+668,301,LOW
+669,487,Fair
+670,898,Very Good
+671,899,Very Good
+672,893,Very Good
+673,876,Very Good
+674,870,Very Good
+675,897,Very Good
+676,899,Very Good
+677,898,Very Good
+678,898,Very Good
+679,898,Very Good
+680,853,Very Good
+681,893,Very Good
+682,846,Very Good
+683,894,Very Good
+684,896,Very Good
+685,897,Very Good
+686,895,Very Good
+687,896,Very Good
+688,305,LOW
+689,899,Very Good
+690,891,Very Good
+691,890,Very Good
+692,884,Very Good
+693,890,Very Good
+694,303,LOW
+695,308,LOW
+696,849,Very Good
+697,300,LOW
+698,301,LOW
+699,892,Very Good
+700,885,Very Good
+701,897,Very Good
+702,323,LOW
+703,797,Very Good
+704,899,Very Good
+705,895,Very Good
+706,883,Very Good
+707,893,Very Good
+708,896,Very Good
+709,898,Very Good
+710,893,Very Good
+711,894,Very Good
+712,899,Very Good
+713,894,Very Good
+714,889,Very Good
+715,898,Very Good
+716,871,Very Good
+717,898,Very Good
+718,301,LOW
+719,874,Very Good
+720,893,Very Good
+721,888,Very Good
+722,899,Very Good
+723,898,Very Good
+724,347,LOW
+725,301,LOW
+726,894,Very Good
+727,895,Very Good
+728,361,LOW
+729,303,LOW
+730,876,Very Good
+731,893,Very Good
+732,898,Very Good
+733,894,Very Good
+734,899,Very Good
+735,899,Very Good
+736,899,Very Good
+737,897,Very Good
+738,899,Very Good
+739,867,Very Good
+740,305,LOW
+741,898,Very Good
+742,899,Very Good
+743,895,Very Good
+744,899,Very Good
+745,875,Very Good
+746,875,Very Good
+747,889,Very Good
+748,899,Very Good
+749,875,Very Good
+750,856,Very Good
+751,307,LOW
+752,855,Very Good
+753,897,Very Good
+754,315,LOW
+755,303,LOW
+756,314,LOW
+757,897,Very Good
+758,897,Very Good
+759,881,Very Good
+760,303,LOW
+761,853,Very Good
+762,899,Very Good
+763,894,Very Good
+764,897,Very Good
+765,897,Very Good
+766,899,Very Good
+767,883,Very Good
+768,899,Very Good
+769,310,LOW
+770,882,Very Good
+771,897,Very Good
+772,895,Very Good
+773,896,Very Good
+774,899,Very Good
+775,307,LOW
+776,898,Very Good
+777,898,Very Good
+778,310,LOW
+779,891,Very Good
+780,892,Very Good
+781,888,Very Good
+782,899,Very Good
+783,893,Very Good
+784,899,Very Good
+785,897,Very Good
+786,895,Very Good
+787,897,Very Good
+788,304,LOW
+789,303,LOW
+790,890,Very Good
+791,860,Very Good
+792,899,Very Good
+793,895,Very Good
+794,899,Very Good
+795,891,Very Good
+796,890,Very Good
+797,311,LOW
+798,899,Very Good
+799,895,Very Good
+800,321,LOW
+801,895,Very Good
+802,306,LOW
+803,889,Very Good
+804,899,Very Good
+805,306,LOW
+806,876,Very Good
+807,885,Very Good
+808,899,Very Good
+809,895,Very Good
+810,898,Very Good
+811,899,Very Good
+812,890,Very Good
+813,896,Very Good
+814,896,Very Good
+815,891,Very Good
+816,899,Very Good
+817,896,Very Good
+818,897,Very Good
+819,300,LOW
+820,866,Very Good
+821,312,LOW
+822,894,Very Good
+823,895,Very Good
+824,303,LOW
+825,899,Very Good
+826,899,Very Good
+827,899,Very Good
+828,899,Very Good
+829,893,Very Good
+830,899,Very Good
+831,899,Very Good
+832,899,Very Good
+833,895,Very Good
+834,302,LOW
+835,305,LOW
+836,899,Very Good
+837,861,Very Good
+838,898,Very Good
+839,888,Very Good
+840,316,LOW
+841,890,Very Good
+842,897,Very Good
+843,879,Very Good
+844,656,Good
+845,884,Very Good
+846,891,Very Good
+847,894,Very Good
+848,877,Very Good
+849,899,Very Good
+850,895,Very Good
+851,844,Very Good
+852,318,LOW
+853,899,Very Good
+854,895,Very Good
+855,872,Very Good
+856,895,Very Good
+857,322,LOW
+858,878,Very Good
+859,305,LOW
+860,857,Very Good
+861,898,Very Good
+862,896,Very Good
+863,898,Very Good
+864,303,LOW
+865,892,Very Good
+866,890,Very Good
+867,897,Very Good
+868,899,Very Good
+869,898,Very Good
+870,889,Very Good
+871,306,LOW
+872,899,Very Good
+873,899,Very Good
+874,898,Very Good
+875,899,Very Good
+876,894,Very Good
+877,891,Very Good
+878,304,LOW
+879,877,Very Good
+880,869,Very Good
+881,899,Very Good
+882,898,Very Good
+883,303,LOW
+884,888,Very Good
+885,300,LOW
+886,892,Very Good
+887,899,Very Good
+888,899,Very Good
+889,899,Very Good
+890,877,Very Good
+891,899,Very Good
+892,880,Very Good
+893,898,Very Good
+894,899,Very Good
+895,899,Very Good
+896,885,Very Good
+897,818,Very Good
+898,888,Very Good
+899,898,Very Good
+900,894,Very Good
+901,899,Very Good
+902,892,Very Good
+903,897,Very Good
+904,898,Very Good
+905,303,LOW
+906,888,Very Good
+907,349,LOW
+908,899,Very Good
+909,320,LOW
+910,866,Very Good
+911,898,Very Good
+912,899,Very Good
+913,308,LOW
+914,899,Very Good
+915,894,Very Good
+916,893,Very Good
+917,795,Very Good
+918,304,LOW
+919,895,Very Good
+920,312,LOW
+921,881,Very Good
+922,899,Very Good
+923,302,LOW
+924,896,Very Good
+925,888,Very Good
+926,340,LOW
+927,898,Very Good
+928,887,Very Good
+929,863,Very Good
+930,898,Very Good
+931,864,Very Good
+932,899,Very Good
+933,889,Very Good
+934,899,Very Good
+935,899,Very Good
+936,891,Very Good
+937,303,LOW
+938,896,Very Good
+939,880,Very Good
+940,899,Very Good
+941,334,LOW
+942,894,Very Good
+943,335,LOW
+944,883,Very Good
+945,307,LOW
+946,892,Very Good
+947,870,Very Good
+948,899,Very Good
+949,310,LOW
+950,894,Very Good
+951,886,Very Good
+952,899,Very Good
+953,896,Very Good
+954,885,Very Good
+955,895,Very Good
+956,875,Very Good
+957,896,Very Good
+958,898,Very Good
+959,892,Very Good
+960,895,Very Good
+961,899,Very Good
+962,311,LOW
+963,890,Very Good
+964,302,LOW
+965,895,Very Good
+966,873,Very Good
+967,854,Very Good
+968,768,Very Good
+969,897,Very Good
+970,874,Very Good
+971,899,Very Good
+972,330,LOW
+973,897,Very Good
+974,898,Very Good
+975,826,Very Good
+976,895,Very Good
+977,885,Very Good
+978,883,Very Good
+979,304,LOW
+980,813,Very Good
+981,895,Very Good
+982,302,LOW
+983,899,Very Good
+984,899,Very Good
+985,899,Very Good
+986,893,Very Good
+987,304,LOW
+988,896,Very Good
+989,895,Very Good
+990,899,Very Good
+991,881,Very Good
+992,895,Very Good
+993,896,Very Good
+994,764,Very Good
+995,899,Very Good
+996,310,LOW
+997,309,LOW
+998,302,LOW
+999,899,Very Good
+1000,883,Very Good
+1001,879,Very Good
+1002,851,Very Good
+1003,899,Very Good
+1004,898,Very Good
+1005,894,Very Good
+1006,896,Very Good
+1007,880,Very Good
+1008,887,Very Good
+1009,896,Very Good
+1010,316,LOW
+1011,893,Very Good
+1012,875,Very Good
+1013,898,Very Good
+1014,304,LOW
+1015,892,Very Good
+1016,896,Very Good
+1017,898,Very Good
+1018,895,Very Good
+1019,899,Very Good
+1020,620,Good
+1021,872,Very Good
+1022,898,Very Good
+1023,889,Very Good
+1024,895,Very Good
+1025,894,Very Good
+1026,898,Very Good
+1027,899,Very Good
+1028,898,Very Good
+1029,795,Very Good
+1030,899,Very Good
+1031,865,Very Good
+1032,898,Very Good
+1033,899,Very Good
+1034,872,Very Good
+1035,861,Very Good
+1036,828,Very Good
+1037,899,Very Good
+1038,881,Very Good
+1039,893,Very Good
+1040,899,Very Good
+1041,305,LOW
+1042,899,Very Good
+1043,371,LOW
+1044,899,Very Good
+1045,894,Very Good
+1046,899,Very Good
+1047,897,Very Good
+1048,802,Very Good
+1049,899,Very Good
+1050,898,Very Good
+1051,897,Very Good
+1052,894,Very Good
+1053,303,LOW
+1054,898,Very Good
+1055,897,Very Good
+1056,893,Very Good
+1057,315,LOW
+1058,836,Very Good
+1059,898,Very Good
+1060,899,Very Good
+1061,898,Very Good
+1062,897,Very Good
+1063,898,Very Good
+1064,881,Very Good
+1065,871,Very Good
+1066,898,Very Good
+1067,897,Very Good
+1068,898,Very Good
+1069,310,LOW
+1070,349,LOW
+1071,892,Very Good
+1072,898,Very Good
+1073,859,Very Good
+1074,898,Very Good
+1075,897,Very Good
+1076,884,Very Good
+1077,898,Very Good
+1078,878,Very Good
+1079,301,LOW
+1080,849,Very Good
+1081,887,Very Good
+1082,899,Very Good
+1083,899,Very Good
+1084,306,LOW
+1085,899,Very Good
+1086,899,Very Good
+1087,899,Very Good
+1088,893,Very Good
+1089,336,LOW
+1090,889,Very Good
+1091,846,Very Good
+1092,875,Very Good
+1093,895,Very Good
+1094,896,Very Good
+1095,899,Very Good
+1096,898,Very Good
+1097,893,Very Good
+1098,394,LOW
+1099,894,Very Good
+1100,899,Very Good
+1101,856,Very Good
+1102,864,Very Good
+1103,884,Very Good
+1104,899,Very Good
+1105,898,Very Good
+1106,893,Very Good
+1107,303,LOW
+1108,872,Very Good
+1109,899,Very Good
+1110,899,Very Good
+1111,303,LOW
+1112,897,Very Good
+1113,334,LOW
+1114,315,LOW
+1115,894,Very Good
+1116,391,LOW
+1117,899,Very Good
+1118,898,Very Good
+1119,875,Very Good
+1120,894,Very Good
+1121,892,Very Good
+1122,875,Very Good
+1123,764,Very Good
+1124,849,Very Good
+1125,850,Very Good
+1126,888,Very Good
+1127,899,Very Good
+1128,899,Very Good
+1129,899,Very Good
+1130,305,LOW
+1131,302,LOW
+1132,884,Very Good
+1133,890,Very Good
+1134,878,Very Good
+1135,886,Very Good
+1136,871,Very Good
+1137,893,Very Good
+1138,876,Very Good
+1139,324,LOW
+1140,894,Very Good
+1141,893,Very Good
+1142,889,Very Good
+1143,311,LOW
+1144,898,Very Good
+1145,892,Very Good
+1146,895,Very Good
+1147,894,Very Good
+1148,897,Very Good
+1149,310,LOW
+1150,895,Very Good
+1151,893,Very Good
+1152,898,Very Good
+1153,304,LOW
+1154,861,Very Good
+1155,301,LOW
+1156,893,Very Good
+1157,882,Very Good
+1158,873,Very Good
+1159,898,Very Good
+1160,897,Very Good
+1161,888,Very Good
+1162,899,Very Good
+1163,875,Very Good
+1164,893,Very Good
+1165,311,LOW
+1166,301,LOW
+1167,809,Very Good
+1168,899,Very Good
+1169,895,Very Good
+1170,896,Very Good
+1171,897,Very Good
+1172,371,LOW
+1173,890,Very Good
+1174,334,LOW
+1175,816,Very Good
+1176,897,Very Good
+1177,721,Very Good
+1178,306,LOW
+1179,898,Very Good
+1180,899,Very Good
+1181,894,Very Good
+1182,887,Very Good
+1183,898,Very Good
+1184,899,Very Good
+1185,897,Very Good
+1186,899,Very Good
+1187,891,Very Good
+1188,881,Very Good
+1189,868,Very Good
+1190,899,Very Good
+1191,317,LOW
+1192,869,Very Good
+1193,319,LOW
+1194,896,Very Good
+1195,349,LOW
+1196,899,Very Good
+1197,340,LOW
+1198,884,Very Good
+1199,890,Very Good
+1200,895,Very Good
+1201,893,Very Good
+1202,871,Very Good
+1203,898,Very Good
+1204,882,Very Good
+1205,899,Very Good
+1206,895,Very Good
+1207,886,Very Good
+1208,895,Very Good
+1209,899,Very Good
+1210,898,Very Good
+1211,898,Very Good
+1212,881,Very Good
+1213,897,Very Good
+1214,899,Very Good
+1215,895,Very Good
+1216,897,Very Good
+1217,894,Very Good
+1218,898,Very Good
+1219,898,Very Good
+1220,466,Fair
+1221,875,Very Good
+1222,888,Very Good
+1223,897,Very Good
+1224,899,Very Good
+1225,872,Very Good
+1226,896,Very Good
+1227,899,Very Good
+1228,318,LOW
+1229,878,Very Good
+1230,898,Very Good
+1231,869,Very Good
+1232,761,Very Good
+1233,311,LOW
+1234,899,Very Good
+1235,893,Very Good
+1236,899,Very Good
+1237,898,Very Good
+1238,897,Very Good
+1239,885,Very Good
+1240,899,Very Good
+1241,889,Very Good
+1242,898,Very Good
+1243,892,Very Good
+1244,871,Very Good
+1245,309,LOW
+1246,891,Very Good
+1247,301,LOW
+1248,897,Very Good
+1249,897,Very Good
+1250,899,Very Good
+1251,899,Very Good
+1252,896,Very Good
+1253,899,Very Good
+1254,893,Very Good
+1255,881,Very Good
+1256,899,Very Good
+1257,882,Very Good
+1258,879,Very Good
+1259,864,Very Good
+1260,897,Very Good
+1261,857,Very Good
+1262,898,Very Good
+1263,896,Very Good
+1264,303,LOW
+1265,875,Very Good
+1266,899,Very Good
+1267,899,Very Good
+1268,890,Very Good
+1269,897,Very Good
+1270,400,LOW
+1271,899,Very Good
+1272,313,LOW
+1273,308,LOW
+1274,899,Very Good
+1275,332,LOW
+1276,898,Very Good
+1277,883,Very Good
+1278,896,Very Good
+1279,899,Very Good
+1280,898,Very Good
+1281,898,Very Good
+1282,301,LOW
+1283,329,LOW
+1284,898,Very Good
+1285,880,Very Good
+1286,899,Very Good
+1287,899,Very Good
+1288,898,Very Good
+1289,898,Very Good
+1290,899,Very Good
+1291,896,Very Good
+1292,892,Very Good
+1293,884,Very Good
+1294,301,LOW
+1295,896,Very Good
+1296,877,Very Good
+1297,871,Very Good
+1298,895,Very Good
+1299,897,Very Good
+1300,897,Very Good
+1301,897,Very Good
+1302,897,Very Good
+1303,899,Very Good
+1304,888,Very Good
+1305,314,LOW
+1306,310,LOW
+1307,891,Very Good
+1308,897,Very Good
+1309,303,LOW
+1310,899,Very Good
+1311,899,Very Good
+1312,308,LOW
+1313,873,Very Good
+1314,899,Very Good
+1315,883,Very Good
+1316,899,Very Good
+1317,897,Very Good
+1318,898,Very Good
+1319,899,Very Good
+1320,304,LOW
+1321,899,Very Good
+1322,899,Very Good
+1323,899,Very Good
+1324,898,Very Good
+1325,897,Very Good
+1326,877,Very Good
+1327,891,Very Good
+1328,874,Very Good
+1329,895,Very Good
+1330,898,Very Good
+1331,874,Very Good
+1332,899,Very Good
+1333,895,Very Good
+1334,883,Very Good
+1335,883,Very Good
+1336,301,LOW
+1337,898,Very Good
+1338,301,LOW
+1339,806,Very Good
+1340,839,Very Good
+1341,306,LOW
+1342,874,Very Good
+1343,843,Very Good
+1344,897,Very Good
+1345,894,Very Good
+1346,895,Very Good
+1347,895,Very Good
+1348,899,Very Good
+1349,899,Very Good
+1350,302,LOW
+1351,894,Very Good
+1352,898,Very Good
+1353,897,Very Good
+1354,895,Very Good
+1355,898,Very Good
+1356,894,Very Good
+1357,883,Very Good
+1358,897,Very Good
+1359,889,Very Good
+1360,896,Very Good
+1361,859,Very Good
+1362,302,LOW
+1363,899,Very Good
+1364,301,LOW
+1365,306,LOW
+1366,899,Very Good
+1367,893,Very Good
+1368,783,Very Good
+1369,896,Very Good
+1370,880,Very Good
+1371,891,Very Good
+1372,898,Very Good
+1373,388,LOW
+1374,898,Very Good
+1375,304,LOW
+1376,887,Very Good
+1377,898,Very Good
+1378,899,Very Good
+1379,895,Very Good
+1380,890,Very Good
+1381,893,Very Good
+1382,897,Very Good
+1383,899,Very Good
+1384,899,Very Good
+1385,899,Very Good
+1386,300,LOW
+1387,897,Very Good
+1388,899,Very Good
+1389,354,LOW
+1390,899,Very Good
+1391,899,Very Good
+1392,898,Very Good
+1393,885,Very Good
+1394,898,Very Good
+1395,893,Very Good
+1396,898,Very Good
+1397,809,Very Good
+1398,871,Very Good
+1399,899,Very Good
+1400,899,Very Good
+1401,336,LOW
+1402,899,Very Good
+1403,894,Very Good
+1404,884,Very Good
+1405,899,Very Good
+1406,899,Very Good
+1407,899,Very Good
+1408,896,Very Good
+1409,899,Very Good
+1410,898,Very Good
+1411,890,Very Good
+1412,899,Very Good
+1413,898,Very Good
+1414,897,Very Good
+1415,888,Very Good
+1416,899,Very Good
+1417,898,Very Good
+1418,895,Very Good
+1419,890,Very Good
+1420,896,Very Good
+1421,846,Very Good
+1422,896,Very Good
+1423,406,Fair
+1424,899,Very Good
+1425,866,Very Good
+1426,895,Very Good
+1427,899,Very Good
+1428,303,LOW
+1429,890,Very Good
+1430,894,Very Good
+1431,890,Very Good
+1432,879,Very Good
+1433,313,LOW
+1434,848,Very Good
+1435,899,Very Good
+1436,899,Very Good
+1437,879,Very Good
+1438,896,Very Good
+1439,895,Very Good
+1440,899,Very Good
+1441,887,Very Good
+1442,895,Very Good
+1443,899,Very Good
+1444,896,Very Good
+1445,893,Very Good
+1446,898,Very Good
+1447,860,Very Good
+1448,899,Very Good
+1449,303,LOW
+1450,899,Very Good
+1451,896,Very Good
+1452,896,Very Good
+1453,870,Very Good
+1454,897,Very Good
+1455,899,Very Good
+1456,852,Very Good
+1457,345,LOW
+1458,891,Very Good
+1459,326,LOW
+1460,894,Very Good
+1461,892,Very Good
+1462,897,Very Good
+1463,899,Very Good
+1464,896,Very Good
+1465,897,Very Good
+1466,891,Very Good
+1467,899,Very Good
+1468,898,Very Good
+1469,565,Fair
+1470,899,Very Good
+1471,306,LOW
+1472,304,LOW
+1473,899,Very Good
+1474,899,Very Good
+1475,301,LOW
+1476,899,Very Good
+1477,896,Very Good
+1478,308,LOW
+1479,895,Very Good
+1480,898,Very Good
+1481,895,Very Good
+1482,890,Very Good
+1483,899,Very Good
+1484,889,Very Good
+1485,898,Very Good
+1486,849,Very Good
+1487,892,Very Good
+1488,898,Very Good
+1489,301,LOW
+1490,308,LOW
+1491,332,LOW
+1492,898,Very Good
+1493,874,Very Good
+1494,876,Very Good
+1495,899,Very Good
+1496,897,Very Good
+1497,896,Very Good
+1498,899,Very Good
+1499,898,Very Good
+1500,781,Very Good
+1501,895,Very Good
+1502,899,Very Good
+1503,896,Very Good
+1504,896,Very Good
+1505,897,Very Good
+1506,308,LOW
+1507,897,Very Good
+1508,869,Very Good
+1509,892,Very Good
+1510,377,LOW
+1511,893,Very Good
+1512,898,Very Good
+1513,896,Very Good
+1514,897,Very Good
+1515,898,Very Good
+1516,897,Very Good
+1517,898,Very Good
+1518,898,Very Good
+1519,882,Very Good
+1520,898,Very Good
+1521,897,Very Good
+1522,316,LOW
+1523,897,Very Good
+1524,894,Very Good
+1525,899,Very Good
+1526,346,LOW
+1527,301,LOW
+1528,307,LOW
+1529,895,Very Good
+1530,891,Very Good
+1531,895,Very Good
+1532,891,Very Good
+1533,897,Very Good
+1534,302,LOW
+1535,349,LOW
+1536,756,Very Good
+1537,896,Very Good
+1538,895,Very Good
+1539,886,Very Good
+1540,898,Very Good
+1541,316,LOW
+1542,892,Very Good
+1543,859,Very Good
+1544,898,Very Good
+1545,898,Very Good
+1546,303,LOW
+1547,305,LOW
+1548,891,Very Good
+1549,895,Very Good
+1550,302,LOW
+1551,896,Very Good
+1552,881,Very Good
+1553,869,Very Good
+1554,896,Very Good
+1555,799,Very Good
+1556,371,LOW
+1557,855,Very Good
+1558,565,Fair
+1559,899,Very Good
+1560,898,Very Good
+1561,891,Very Good
+1562,899,Very Good
+1563,899,Very Good
+1564,300,LOW
+1565,313,LOW
+1566,323,LOW
+1567,892,Very Good
+1568,867,Very Good
+1569,892,Very Good
+1570,899,Very Good
+1571,897,Very Good
+1572,897,Very Good
+1573,898,Very Good
+1574,899,Very Good
+1575,896,Very Good
+1576,896,Very Good
+1577,885,Very Good
+1578,804,Very Good
+1579,896,Very Good
+1580,899,Very Good
+1581,887,Very Good
+1582,897,Very Good
+1583,897,Very Good
+1584,306,LOW
+1585,893,Very Good
+1586,867,Very Good
+1587,899,Very Good
+1588,898,Very Good
+1589,375,LOW
+1590,899,Very Good
+1591,889,Very Good
+1592,302,LOW
+1593,885,Very Good
+1594,895,Very Good
+1595,899,Very Good
+1596,899,Very Good
+1597,899,Very Good
+1598,897,Very Good
+1599,898,Very Good
+1600,898,Very Good
+1601,893,Very Good
+1602,898,Very Good
+1603,426,Fair
+1604,378,LOW
+1605,884,Very Good
+1606,656,Good
+1607,897,Very Good
+1608,899,Very Good
+1609,804,Very Good
+1610,895,Very Good
+1611,893,Very Good
+1612,896,Very Good
+1613,899,Very Good
+1614,884,Very Good
+1615,896,Very Good
+1616,889,Very Good
+1617,898,Very Good
+1618,895,Very Good
+1619,897,Very Good
+1620,888,Very Good
+1621,409,Fair
+1622,896,Very Good
+1623,899,Very Good
+1624,899,Very Good
+1625,302,LOW
+1626,893,Very Good
+1627,898,Very Good
+1628,878,Very Good
+1629,896,Very Good
+1630,899,Very Good
+1631,304,LOW
+1632,875,Very Good
+1633,898,Very Good
+1634,321,LOW
+1635,896,Very Good
+1636,883,Very Good
+1637,878,Very Good
+1638,899,Very Good
+1639,894,Very Good
+1640,895,Very Good
+1641,888,Very Good
+1642,897,Very Good
+1643,895,Very Good
+1644,351,LOW
+1645,314,LOW
+1646,881,Very Good
+1647,892,Very Good
+1648,897,Very Good
+1649,898,Very Good
+1650,891,Very Good
+1651,899,Very Good
+1652,307,LOW
+1653,308,LOW
+1654,850,Very Good
+1655,898,Very Good
+1656,890,Very Good
+1657,795,Very Good
+1658,898,Very Good
+1659,899,Very Good
+1660,895,Very Good
+1661,898,Very Good
+1662,894,Very Good
+1663,896,Very Good
+1664,877,Very Good
+1665,898,Very Good
+1666,897,Very Good
+1667,899,Very Good
+1668,898,Very Good
+1669,897,Very Good
+1670,321,LOW
+1671,316,LOW
+1672,898,Very Good
+1673,306,LOW
+1674,303,LOW
+1675,872,Very Good
+1676,345,LOW
+1677,899,Very Good
+1678,881,Very Good
+1679,869,Very Good
+1680,885,Very Good
+1681,897,Very Good
+1682,313,LOW
+1683,891,Very Good
+1684,899,Very Good
+1685,897,Very Good
+1686,896,Very Good
+1687,899,Very Good
+1688,378,LOW
+1689,899,Very Good
+1690,333,LOW
+1691,899,Very Good
+1692,891,Very Good
+1693,306,LOW
+1694,301,LOW
+1695,876,Very Good
+1696,894,Very Good
+1697,899,Very Good
+1698,866,Very Good
+1699,307,LOW
+1700,306,LOW
+1701,896,Very Good
+1702,893,Very Good
+1703,855,Very Good
+1704,899,Very Good
+1705,899,Very Good
+1706,302,LOW
+1707,852,Very Good
+1708,302,LOW
+1709,881,Very Good
+1710,886,Very Good
+1711,893,Very Good
+1712,899,Very Good
+1713,897,Very Good
+1714,899,Very Good
+1715,899,Very Good
+1716,897,Very Good
+1717,777,Very Good
+1718,896,Very Good
+1719,777,Very Good
+1720,301,LOW
+1721,893,Very Good
+1722,870,Very Good
+1723,898,Very Good
+1724,899,Very Good
+1725,896,Very Good
+1726,898,Very Good
+1727,306,LOW
+1728,316,LOW
+1729,890,Very Good
+1730,305,LOW
+1731,899,Very Good
+1732,897,Very Good
+1733,308,LOW
+1734,889,Very Good
+1735,899,Very Good
+1736,897,Very Good
+1737,897,Very Good
+1738,898,Very Good
+1739,311,LOW
+1740,885,Very Good
+1741,895,Very Good
+1742,897,Very Good
+1743,899,Very Good
+1744,897,Very Good
+1745,898,Very Good
+1746,323,LOW
+1747,301,LOW
+1748,885,Very Good
+1749,899,Very Good
+1750,899,Very Good
+1751,457,Fair
+1752,895,Very Good
+1753,898,Very Good
+1754,895,Very Good
+1755,303,LOW
+1756,869,Very Good
+1757,897,Very Good
+1758,302,LOW
+1759,897,Very Good
+1760,306,LOW
+1761,843,Very Good
+1762,899,Very Good
+1763,871,Very Good
+1764,849,Very Good
+1765,884,Very Good
+1766,897,Very Good
+1767,303,LOW
+1768,865,Very Good
+1769,866,Very Good
+1770,867,Very Good
+1771,882,Very Good
+1772,897,Very Good
+1773,853,Very Good
+1774,898,Very Good
+1775,896,Very Good
+1776,890,Very Good
+1777,883,Very Good
+1778,892,Very Good
+1779,892,Very Good
+1780,897,Very Good
+1781,899,Very Good
+1782,356,LOW
+1783,869,Very Good
+1784,301,LOW
+1785,895,Very Good
+1786,898,Very Good
+1787,889,Very Good
+1788,306,LOW
+1789,303,LOW
+1790,890,Very Good
+1791,306,LOW
+1792,893,Very Good
+1793,861,Very Good
+1794,891,Very Good
+1795,896,Very Good
+1796,852,Very Good
+1797,895,Very Good
+1798,869,Very Good
+1799,893,Very Good
+1800,883,Very Good
+1801,899,Very Good
+1802,899,Very Good
+1803,899,Very Good
+1804,899,Very Good
+1805,898,Very Good
+1806,893,Very Good
+1807,891,Very Good
+1808,899,Very Good
+1809,896,Very Good
+1810,895,Very Good
+1811,314,LOW
+1812,894,Very Good
+1813,888,Very Good
+1814,894,Very Good
+1815,885,Very Good
+1816,867,Very Good
+1817,301,LOW
+1818,422,Fair
+1819,883,Very Good
+1820,302,LOW
+1821,850,Very Good
+1822,888,Very Good
+1823,372,LOW
+1824,301,LOW
+1825,882,Very Good
+1826,899,Very Good
+1827,899,Very Good
+1828,391,LOW
+1829,881,Very Good
+1830,899,Very Good
+1831,899,Very Good
+1832,891,Very Good
+1833,886,Very Good
+1834,834,Very Good
+1835,898,Very Good
+1836,894,Very Good
+1837,304,LOW
+1838,899,Very Good
+1839,899,Very Good
+1840,860,Very Good
+1841,898,Very Good
+1842,899,Very Good
+1843,325,LOW
+1844,311,LOW
+1845,895,Very Good
+1846,882,Very Good
+1847,899,Very Good
+1848,378,LOW
+1849,308,LOW
+1850,899,Very Good
+1851,899,Very Good
+1852,302,LOW
+1853,302,LOW
+1854,888,Very Good
+1855,875,Very Good
+1856,899,Very Good
+1857,894,Very Good
+1858,897,Very Good
+1859,887,Very Good
+1860,855,Very Good
+1861,333,LOW
+1862,882,Very Good
+1863,791,Very Good
+1864,897,Very Good
+1865,885,Very Good
+1866,895,Very Good
+1867,306,LOW
+1868,897,Very Good
+1869,897,Very Good
+1870,301,LOW
+1871,874,Very Good
+1872,899,Very Good
+1873,838,Very Good
+1874,315,LOW
+1875,869,Very Good
+1876,898,Very Good
+1877,890,Very Good
+1878,895,Very Good
+1879,896,Very Good
+1880,881,Very Good
+1881,884,Very Good
+1882,897,Very Good
+1883,775,Very Good
+1884,302,LOW
+1885,816,Very Good
+1886,899,Very Good
+1887,896,Very Good
+1888,883,Very Good
+1889,899,Very Good
+1890,893,Very Good
+1891,878,Very Good
+1892,896,Very Good
+1893,302,LOW
+1894,899,Very Good
+1895,867,Very Good
+1896,888,Very Good
+1897,898,Very Good
+1898,898,Very Good
+1899,800,Very Good
+1900,311,LOW
+1901,331,LOW
+1902,898,Very Good
+1903,899,Very Good
+1904,304,LOW
+1905,302,LOW
+1906,315,LOW
+1907,363,LOW
+1908,898,Very Good
+1909,898,Very Good
+1910,899,Very Good
+1911,883,Very Good
+1912,891,Very Good
+1913,899,Very Good
+1914,897,Very Good
+1915,895,Very Good
+1916,897,Very Good
+1917,894,Very Good
+1918,899,Very Good
+1919,899,Very Good
+1920,896,Very Good
+1921,897,Very Good
+1922,898,Very Good
+1923,895,Very Good
+1924,897,Very Good
+1925,899,Very Good
+1926,899,Very Good
+1927,422,Fair
+1928,885,Very Good
+1929,899,Very Good
+1930,899,Very Good
+1931,895,Very Good
+1932,834,Very Good
+1933,886,Very Good
+1934,896,Very Good
+1935,897,Very Good
+1936,898,Very Good
+1937,898,Very Good
+1938,898,Very Good
+1939,341,LOW
+1940,897,Very Good
+1941,898,Very Good
+1942,311,LOW
+1943,896,Very Good
+1944,309,LOW
+1945,892,Very Good
+1946,890,Very Good
+1947,895,Very Good
+1948,897,Very Good
+1949,897,Very Good
+1950,320,LOW
+1951,885,Very Good
+1952,898,Very Good
+1953,873,Very Good
+1954,700,Good
+1955,311,LOW
+1956,897,Very Good
+1957,313,LOW
+1958,891,Very Good
+1959,897,Very Good
+1960,322,LOW
+1961,894,Very Good
+1962,304,LOW
+1963,899,Very Good
+1964,882,Very Good
+1965,899,Very Good
+1966,898,Very Good
+1967,879,Very Good
+1968,891,Very Good
+1969,302,LOW
+1970,894,Very Good
+1971,827,Very Good
+1972,891,Very Good
+1973,899,Very Good
+1974,897,Very Good
+1975,896,Very Good
+1976,861,Very Good
+1977,899,Very Good
+1978,899,Very Good
+1979,898,Very Good
+1980,899,Very Good
+1981,304,LOW
+1982,899,Very Good
+1983,883,Very Good
+1984,895,Very Good
+1985,304,LOW
+1986,899,Very Good
+1987,899,Very Good
+1988,871,Very Good
+1989,307,LOW
+1990,305,LOW
+1991,883,Very Good
+1992,891,Very Good
+1993,745,Very Good
+1994,852,Very Good
+1995,886,Very Good
+1996,899,Very Good
+1997,894,Very Good
+1998,899,Very Good
+1999,890,Very Good
+2000,721,Very Good
+2001,889,Very Good
+2002,894,Very Good
+2003,895,Very Good
+2004,890,Very Good
+2005,302,LOW
+2006,891,Very Good
+2007,898,Very Good
+2008,896,Very Good
+2009,898,Very Good
+2010,896,Very Good
+2011,896,Very Good
+2012,896,Very Good
+2013,844,Very Good
+2014,899,Very Good
+2015,898,Very Good
+2016,892,Very Good
+2017,899,Very Good
+2018,857,Very Good
+2019,883,Very Good
+2020,899,Very Good
+2021,892,Very Good
+2022,892,Very Good
+2023,324,LOW
+2024,899,Very Good
+2025,895,Very Good
+2026,895,Very Good
+2027,302,LOW
+2028,899,Very Good
+2029,899,Very Good
+2030,303,LOW
+2031,886,Very Good
+2032,880,Very Good
+2033,897,Very Good
+2034,899,Very Good
+2035,849,Very Good
+2036,311,LOW
+2037,898,Very Good
+2038,898,Very Good
+2039,899,Very Good
+2040,899,Very Good
+2041,898,Very Good
+2042,890,Very Good
+2043,899,Very Good
+2044,303,LOW
+2045,884,Very Good
+2046,895,Very Good
+2047,889,Very Good
+2048,899,Very Good
+2049,868,Very Good
+2050,888,Very Good
+2051,897,Very Good
+2052,898,Very Good
+2053,897,Very Good
+2054,304,LOW
+2055,899,Very Good
+2056,899,Very Good
+2057,891,Very Good
+2058,320,LOW
+2059,899,Very Good
+2060,323,LOW
+2061,895,Very Good
+2062,897,Very Good
+2063,899,Very Good
+2064,888,Very Good
+2065,897,Very Good
+2066,864,Very Good
+2067,301,LOW
+2068,899,Very Good
+2069,898,Very Good
+2070,895,Very Good
+2071,896,Very Good
+2072,886,Very Good
+2073,898,Very Good
+2074,894,Very Good
+2075,336,LOW
+2076,898,Very Good
+2077,891,Very Good
+2078,884,Very Good
+2079,891,Very Good
+2080,878,Very Good
+2081,899,Very Good
+2082,864,Very Good
+2083,899,Very Good
+2084,897,Very Good
+2085,897,Very Good
+2086,899,Very Good
+2087,879,Very Good
+2088,899,Very Good
+2089,896,Very Good
+2090,861,Very Good
+2091,756,Very Good
+2092,898,Very Good
+2093,883,Very Good
+2094,314,LOW
+2095,301,LOW
+2096,308,LOW
+2097,899,Very Good
+2098,881,Very Good
+2099,887,Very Good
+2100,898,Very Good
+2101,898,Very Good
+2102,848,Very Good
+2103,895,Very Good
+2104,898,Very Good
+2105,892,Very Good
+2106,895,Very Good
+2107,898,Very Good
+2108,328,LOW
+2109,894,Very Good
+2110,897,Very Good
+2111,301,LOW
+2112,887,Very Good
+2113,884,Very Good
+2114,897,Very Good
+2115,887,Very Good
+2116,894,Very Good
+2117,888,Very Good
+2118,313,LOW
+2119,899,Very Good
+2120,893,Very Good
+2121,844,Very Good
+2122,892,Very Good
+2123,895,Very Good
+2124,346,LOW
+2125,881,Very Good
+2126,891,Very Good
+2127,897,Very Good
+2128,898,Very Good
+2129,898,Very Good
+2130,898,Very Good
+2131,899,Very Good
+2132,862,Very Good
+2133,747,Very Good
+2134,898,Very Good
+2135,874,Very Good
+2136,308,LOW
+2137,898,Very Good
+2138,306,LOW
+2139,899,Very Good
+2140,899,Very Good
+2141,897,Very Good
+2142,895,Very Good
+2143,877,Very Good
+2144,898,Very Good
+2145,869,Very Good
+2146,897,Very Good
+2147,899,Very Good
+2148,846,Very Good
+2149,892,Very Good
+2150,895,Very Good
+2151,303,LOW
+2152,305,LOW
+2153,304,LOW
+2154,320,LOW
+2155,896,Very Good
+2156,897,Very Good
+2157,899,Very Good
+2158,888,Very Good
+2159,897,Very Good
+2160,899,Very Good
+2161,891,Very Good
+2162,306,LOW
+2163,894,Very Good
+2164,891,Very Good
+2165,899,Very Good
+2166,896,Very Good
+2167,899,Very Good
+2168,899,Very Good
+2169,302,LOW
+2170,365,LOW
+2171,895,Very Good
+2172,899,Very Good
+2173,899,Very Good
+2174,879,Very Good
+2175,893,Very Good
+2176,899,Very Good
+2177,844,Very Good
+2178,307,LOW
+2179,306,LOW
+2180,848,Very Good
+2181,889,Very Good
+2182,899,Very Good
+2183,310,LOW
+2184,882,Very Good
+2185,880,Very Good
+2186,876,Very Good
+2187,899,Very Good
+2188,898,Very Good
+2189,323,LOW
+2190,898,Very Good
+2191,895,Very Good
+2192,898,Very Good
+2193,882,Very Good
+2194,896,Very Good
+2195,301,LOW
+2196,895,Very Good
+2197,866,Very Good
+2198,899,Very Good
+2199,875,Very Good
+2200,898,Very Good
+2201,899,Very Good
+2202,893,Very Good
+2203,305,LOW
+2204,891,Very Good
+2205,894,Very Good
+2206,881,Very Good
+2207,899,Very Good
+2208,873,Very Good
+2209,870,Very Good
+2210,856,Very Good
+2211,898,Very Good
+2212,899,Very Good
+2213,887,Very Good
+2214,304,LOW
+2215,893,Very Good
+2216,895,Very Good
+2217,898,Very Good
+2218,895,Very Good
+2219,898,Very Good
+2220,899,Very Good
+2221,303,LOW
+2222,878,Very Good
+2223,899,Very Good
+2224,338,LOW
+2225,892,Very Good
+2226,896,Very Good
+2227,891,Very Good
+2228,899,Very Good
+2229,897,Very Good
+2230,898,Very Good
+2231,898,Very Good
+2232,880,Very Good
+2233,896,Very Good
+2234,883,Very Good
+2235,897,Very Good
+2236,895,Very Good
+2237,314,LOW
+2238,884,Very Good
+2239,899,Very Good
+2240,895,Very Good
+2241,888,Very Good
+2242,895,Very Good
+2243,894,Very Good
+2244,898,Very Good
+2245,891,Very Good
+2246,700,Good
+2247,888,Very Good
+2248,867,Very Good
+2249,898,Very Good
+2250,302,LOW
+2251,899,Very Good
+2252,899,Very Good
+2253,889,Very Good
+2254,899,Very Good
+2255,899,Very Good
+2256,830,Very Good
+2257,899,Very Good
+2258,897,Very Good
+2259,893,Very Good
+2260,854,Very Good
+2261,897,Very Good
+2262,899,Very Good
+2263,888,Very Good
+2264,872,Very Good
+2265,855,Very Good
+2266,781,Very Good
+2267,898,Very Good
+2268,898,Very Good
+2269,799,Very Good
+2270,897,Very Good
+2271,897,Very Good
+2272,897,Very Good
+2273,899,Very Good
+2274,899,Very Good
+2275,899,Very Good
+2276,899,Very Good
+2277,899,Very Good
+2278,859,Very Good
+2279,894,Very Good
+2280,897,Very Good
+2281,893,Very Good
+2282,888,Very Good
+2283,892,Very Good
+2284,899,Very Good
+2285,336,LOW
+2286,899,Very Good
+2287,899,Very Good
+2288,345,LOW
+2289,899,Very Good
+2290,301,LOW
+2291,323,LOW
+2292,895,Very Good
+2293,897,Very Good
+2294,897,Very Good
+2295,869,Very Good
+2296,302,LOW
+2297,885,Very Good
+2298,894,Very Good
+2299,889,Very Good
+2300,898,Very Good
+2301,301,LOW
+2302,899,Very Good
+2303,898,Very Good
+2304,628,Good
+2305,304,LOW
+2306,896,Very Good
+2307,897,Very Good
+2308,897,Very Good
+2309,308,LOW
+2310,876,Very Good
+2311,872,Very Good
+2312,311,LOW
+2313,898,Very Good
+2314,899,Very Good
+2315,899,Very Good
+2316,896,Very Good
+2317,894,Very Good
+2318,887,Very Good
+2319,898,Very Good
+2320,891,Very Good
+2321,896,Very Good
+2322,346,LOW
+2323,895,Very Good
+2324,899,Very Good
+2325,861,Very Good
+2326,874,Very Good
+2327,890,Very Good
+2328,898,Very Good
+2329,899,Very Good
+2330,446,Fair
+2331,885,Very Good
+2332,899,Very Good
+2333,899,Very Good
+2334,888,Very Good
+2335,888,Very Good
+2336,898,Very Good
+2337,340,LOW
+2338,879,Very Good
+2339,887,Very Good
+2340,899,Very Good
+2341,880,Very Good
+2342,893,Very Good
+2343,896,Very Good
+2344,897,Very Good
+2345,780,Very Good
+2346,873,Very Good
+2347,896,Very Good
+2348,899,Very Good
+2349,899,Very Good
+2350,898,Very Good
+2351,340,LOW
+2352,303,LOW
+2353,302,LOW
+2354,897,Very Good
+2355,899,Very Good
+2356,323,LOW
+2357,899,Very Good
+2358,842,Very Good
+2359,899,Very Good
+2360,897,Very Good
+2361,372,LOW
+2362,889,Very Good
+2363,898,Very Good
+2364,898,Very Good
+2365,899,Very Good
+2366,875,Very Good
+2367,889,Very Good
+2368,899,Very Good
+2369,897,Very Good
+2370,896,Very Good
+2371,881,Very Good
+2372,889,Very Good
+2373,891,Very Good
+2374,898,Very Good
+2375,886,Very Good
+2376,897,Very Good
+2377,302,LOW
+2378,893,Very Good
+2379,868,Very Good
+2380,303,LOW
+2381,897,Very Good
+2382,862,Very Good
+2383,899,Very Good
+2384,880,Very Good
+2385,899,Very Good
+2386,887,Very Good
+2387,898,Very Good
+2388,898,Very Good
+2389,843,Very Good
+2390,894,Very Good
+2391,813,Very Good
+2392,896,Very Good
+2393,303,LOW
+2394,306,LOW
+2395,306,LOW
+2396,895,Very Good
+2397,303,LOW
+2398,890,Very Good
+2399,321,LOW
+2400,324,LOW
+2401,898,Very Good
+2402,899,Very Good
+2403,300,LOW
+2404,897,Very Good
+2405,899,Very Good
+2406,899,Very Good
+2407,898,Very Good
+2408,884,Very Good
+2409,899,Very Good
+2410,899,Very Good
+2411,899,Very Good
+2412,859,Very Good
+2413,895,Very Good
+2414,899,Very Good
+2415,897,Very Good
+2416,896,Very Good
+2417,897,Very Good
+2418,829,Very Good
+2419,876,Very Good
+2420,890,Very Good
+2421,880,Very Good
+2422,889,Very Good
+2423,301,LOW
+2424,877,Very Good
+2425,404,Fair
+2426,302,LOW
+2427,899,Very Good
+2428,898,Very Good
+2429,899,Very Good
+2430,892,Very Good
+2431,871,Very Good
+2432,894,Very Good
+2433,896,Very Good
+2434,893,Very Good
+2435,899,Very Good
+2436,305,LOW
+2437,896,Very Good
+2438,893,Very Good
+2439,899,Very Good
+2440,877,Very Good
+2441,899,Very Good
+2442,303,LOW
+2443,895,Very Good
+2444,332,LOW
+2445,831,Very Good
+2446,897,Very Good
+2447,897,Very Good
+2448,898,Very Good
+2449,887,Very Good
+2450,898,Very Good
+2451,897,Very Good
+2452,896,Very Good
+2453,896,Very Good
+2454,893,Very Good
+2455,894,Very Good
+2456,897,Very Good
+2457,898,Very Good
+2458,899,Very Good
+2459,852,Very Good
+2460,361,LOW
+2461,893,Very Good
+2462,883,Very Good
+2463,315,LOW
+2464,304,LOW
+2465,899,Very Good
+2466,896,Very Good
+2467,890,Very Good
+2468,302,LOW
+2469,898,Very Good
+2470,893,Very Good
+2471,897,Very Good
+2472,899,Very Good
+2473,875,Very Good
+2474,302,LOW

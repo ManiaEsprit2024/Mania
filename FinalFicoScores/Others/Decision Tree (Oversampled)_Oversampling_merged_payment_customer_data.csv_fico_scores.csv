@@ -1,0 +1,2476 @@
+,FICO_Score,FICO_Class
+0,900,Very Good
+1,900,Very Good
+2,900,Very Good
+3,900,Very Good
+4,900,Very Good
+5,900,Very Good
+6,900,Very Good
+7,900,Very Good
+8,900,Very Good
+9,900,Very Good
+10,900,Very Good
+11,300,LOW
+12,900,Very Good
+13,900,Very Good
+14,900,Very Good
+15,900,Very Good
+16,900,Very Good
+17,300,LOW
+18,900,Very Good
+19,900,Very Good
+20,900,Very Good
+21,900,Very Good
+22,900,Very Good
+23,900,Very Good
+24,900,Very Good
+25,300,LOW
+26,900,Very Good
+27,900,Very Good
+28,900,Very Good
+29,900,Very Good
+30,900,Very Good
+31,900,Very Good
+32,900,Very Good
+33,300,LOW
+34,900,Very Good
+35,900,Very Good
+36,900,Very Good
+37,900,Very Good
+38,900,Very Good
+39,300,LOW
+40,900,Very Good
+41,900,Very Good
+42,300,LOW
+43,900,Very Good
+44,900,Very Good
+45,900,Very Good
+46,900,Very Good
+47,900,Very Good
+48,900,Very Good
+49,900,Very Good
+50,300,LOW
+51,300,LOW
+52,300,LOW
+53,900,Very Good
+54,300,LOW
+55,900,Very Good
+56,900,Very Good
+57,300,LOW
+58,900,Very Good
+59,900,Very Good
+60,900,Very Good
+61,900,Very Good
+62,900,Very Good
+63,900,Very Good
+64,900,Very Good
+65,900,Very Good
+66,900,Very Good
+67,300,LOW
+68,300,LOW
+69,300,LOW
+70,900,Very Good
+71,900,Very Good
+72,900,Very Good
+73,900,Very Good
+74,300,LOW
+75,900,Very Good
+76,900,Very Good
+77,900,Very Good
+78,900,Very Good
+79,900,Very Good
+80,300,LOW
+81,900,Very Good
+82,900,Very Good
+83,300,LOW
+84,300,LOW
+85,900,Very Good
+86,900,Very Good
+87,900,Very Good
+88,900,Very Good
+89,900,Very Good
+90,900,Very Good
+91,900,Very Good
+92,900,Very Good
+93,900,Very Good
+94,900,Very Good
+95,900,Very Good
+96,900,Very Good
+97,900,Very Good
+98,300,LOW
+99,900,Very Good
+100,300,LOW
+101,900,Very Good
+102,900,Very Good
+103,900,Very Good
+104,900,Very Good
+105,900,Very Good
+106,900,Very Good
+107,300,LOW
+108,900,Very Good
+109,900,Very Good
+110,300,LOW
+111,900,Very Good
+112,900,Very Good
+113,900,Very Good
+114,900,Very Good
+115,900,Very Good
+116,900,Very Good
+117,900,Very Good
+118,900,Very Good
+119,900,Very Good
+120,900,Very Good
+121,900,Very Good
+122,900,Very Good
+123,300,LOW
+124,900,Very Good
+125,300,LOW
+126,300,LOW
+127,900,Very Good
+128,900,Very Good
+129,300,LOW
+130,900,Very Good
+131,900,Very Good
+132,900,Very Good
+133,900,Very Good
+134,300,LOW
+135,900,Very Good
+136,900,Very Good
+137,900,Very Good
+138,900,Very Good
+139,900,Very Good
+140,300,LOW
+141,900,Very Good
+142,900,Very Good
+143,300,LOW
+144,300,LOW
+145,900,Very Good
+146,900,Very Good
+147,900,Very Good
+148,900,Very Good
+149,300,LOW
+150,300,LOW
+151,900,Very Good
+152,900,Very Good
+153,300,LOW
+154,900,Very Good
+155,900,Very Good
+156,300,LOW
+157,900,Very Good
+158,900,Very Good
+159,300,LOW
+160,900,Very Good
+161,900,Very Good
+162,900,Very Good
+163,900,Very Good
+164,900,Very Good
+165,300,LOW
+166,900,Very Good
+167,300,LOW
+168,300,LOW
+169,900,Very Good
+170,900,Very Good
+171,900,Very Good
+172,900,Very Good
+173,900,Very Good
+174,900,Very Good
+175,900,Very Good
+176,900,Very Good
+177,900,Very Good
+178,900,Very Good
+179,900,Very Good
+180,900,Very Good
+181,900,Very Good
+182,900,Very Good
+183,900,Very Good
+184,900,Very Good
+185,900,Very Good
+186,900,Very Good
+187,900,Very Good
+188,300,LOW
+189,900,Very Good
+190,900,Very Good
+191,900,Very Good
+192,900,Very Good
+193,900,Very Good
+194,300,LOW
+195,900,Very Good
+196,900,Very Good
+197,900,Very Good
+198,900,Very Good
+199,900,Very Good
+200,900,Very Good
+201,900,Very Good
+202,900,Very Good
+203,900,Very Good
+204,900,Very Good
+205,300,LOW
+206,900,Very Good
+207,900,Very Good
+208,300,LOW
+209,900,Very Good
+210,900,Very Good
+211,900,Very Good
+212,900,Very Good
+213,900,Very Good
+214,900,Very Good
+215,300,LOW
+216,900,Very Good
+217,900,Very Good
+218,900,Very Good
+219,900,Very Good
+220,900,Very Good
+221,900,Very Good
+222,900,Very Good
+223,900,Very Good
+224,900,Very Good
+225,300,LOW
+226,900,Very Good
+227,900,Very Good
+228,900,Very Good
+229,900,Very Good
+230,300,LOW
+231,300,LOW
+232,300,LOW
+233,900,Very Good
+234,900,Very Good
+235,900,Very Good
+236,900,Very Good
+237,900,Very Good
+238,900,Very Good
+239,300,LOW
+240,300,LOW
+241,900,Very Good
+242,900,Very Good
+243,900,Very Good
+244,900,Very Good
+245,900,Very Good
+246,900,Very Good
+247,900,Very Good
+248,900,Very Good
+249,300,LOW
+250,900,Very Good
+251,300,LOW
+252,900,Very Good
+253,900,Very Good
+254,900,Very Good
+255,900,Very Good
+256,900,Very Good
+257,300,LOW
+258,300,LOW
+259,900,Very Good
+260,300,LOW
+261,900,Very Good
+262,300,LOW
+263,300,LOW
+264,900,Very Good
+265,900,Very Good
+266,900,Very Good
+267,900,Very Good
+268,900,Very Good
+269,900,Very Good
+270,900,Very Good
+271,300,LOW
+272,300,LOW
+273,900,Very Good
+274,900,Very Good
+275,300,LOW
+276,900,Very Good
+277,300,LOW
+278,900,Very Good
+279,300,LOW
+280,900,Very Good
+281,900,Very Good
+282,300,LOW
+283,900,Very Good
+284,900,Very Good
+285,900,Very Good
+286,900,Very Good
+287,300,LOW
+288,900,Very Good
+289,900,Very Good
+290,900,Very Good
+291,900,Very Good
+292,900,Very Good
+293,900,Very Good
+294,900,Very Good
+295,900,Very Good
+296,900,Very Good
+297,900,Very Good
+298,900,Very Good
+299,900,Very Good
+300,900,Very Good
+301,900,Very Good
+302,900,Very Good
+303,300,LOW
+304,900,Very Good
+305,900,Very Good
+306,300,LOW
+307,900,Very Good
+308,900,Very Good
+309,900,Very Good
+310,900,Very Good
+311,900,Very Good
+312,900,Very Good
+313,900,Very Good
+314,900,Very Good
+315,300,LOW
+316,900,Very Good
+317,300,LOW
+318,900,Very Good
+319,900,Very Good
+320,900,Very Good
+321,900,Very Good
+322,900,Very Good
+323,900,Very Good
+324,900,Very Good
+325,300,LOW
+326,300,LOW
+327,900,Very Good
+328,300,LOW
+329,900,Very Good
+330,900,Very Good
+331,900,Very Good
+332,300,LOW
+333,900,Very Good
+334,300,LOW
+335,900,Very Good
+336,900,Very Good
+337,900,Very Good
+338,900,Very Good
+339,900,Very Good
+340,300,LOW
+341,900,Very Good
+342,900,Very Good
+343,900,Very Good
+344,900,Very Good
+345,900,Very Good
+346,300,LOW
+347,900,Very Good
+348,300,LOW
+349,900,Very Good
+350,900,Very Good
+351,900,Very Good
+352,900,Very Good
+353,900,Very Good
+354,900,Very Good
+355,300,LOW
+356,900,Very Good
+357,900,Very Good
+358,900,Very Good
+359,900,Very Good
+360,900,Very Good
+361,300,LOW
+362,300,LOW
+363,300,LOW
+364,900,Very Good
+365,900,Very Good
+366,900,Very Good
+367,300,LOW
+368,900,Very Good
+369,900,Very Good
+370,300,LOW
+371,900,Very Good
+372,900,Very Good
+373,900,Very Good
+374,900,Very Good
+375,300,LOW
+376,900,Very Good
+377,900,Very Good
+378,900,Very Good
+379,900,Very Good
+380,900,Very Good
+381,900,Very Good
+382,300,LOW
+383,900,Very Good
+384,900,Very Good
+385,900,Very Good
+386,900,Very Good
+387,300,LOW
+388,900,Very Good
+389,900,Very Good
+390,900,Very Good
+391,900,Very Good
+392,900,Very Good
+393,900,Very Good
+394,300,LOW
+395,900,Very Good
+396,900,Very Good
+397,900,Very Good
+398,300,LOW
+399,900,Very Good
+400,900,Very Good
+401,900,Very Good
+402,900,Very Good
+403,900,Very Good
+404,900,Very Good
+405,900,Very Good
+406,900,Very Good
+407,900,Very Good
+408,900,Very Good
+409,900,Very Good
+410,300,LOW
+411,300,LOW
+412,900,Very Good
+413,300,LOW
+414,900,Very Good
+415,900,Very Good
+416,900,Very Good
+417,900,Very Good
+418,900,Very Good
+419,900,Very Good
+420,900,Very Good
+421,300,LOW
+422,900,Very Good
+423,900,Very Good
+424,900,Very Good
+425,900,Very Good
+426,900,Very Good
+427,900,Very Good
+428,300,LOW
+429,900,Very Good
+430,900,Very Good
+431,900,Very Good
+432,900,Very Good
+433,900,Very Good
+434,900,Very Good
+435,900,Very Good
+436,300,LOW
+437,900,Very Good
+438,300,LOW
+439,900,Very Good
+440,900,Very Good
+441,300,LOW
+442,900,Very Good
+443,900,Very Good
+444,300,LOW
+445,900,Very Good
+446,900,Very Good
+447,900,Very Good
+448,900,Very Good
+449,900,Very Good
+450,300,LOW
+451,900,Very Good
+452,900,Very Good
+453,900,Very Good
+454,900,Very Good
+455,900,Very Good
+456,900,Very Good
+457,900,Very Good
+458,900,Very Good
+459,900,Very Good
+460,900,Very Good
+461,300,LOW
+462,900,Very Good
+463,900,Very Good
+464,900,Very Good
+465,900,Very Good
+466,900,Very Good
+467,300,LOW
+468,300,LOW
+469,900,Very Good
+470,300,LOW
+471,300,LOW
+472,900,Very Good
+473,900,Very Good
+474,900,Very Good
+475,900,Very Good
+476,900,Very Good
+477,300,LOW
+478,900,Very Good
+479,900,Very Good
+480,900,Very Good
+481,900,Very Good
+482,900,Very Good
+483,900,Very Good
+484,900,Very Good
+485,900,Very Good
+486,300,LOW
+487,900,Very Good
+488,900,Very Good
+489,900,Very Good
+490,300,LOW
+491,900,Very Good
+492,300,LOW
+493,900,Very Good
+494,300,LOW
+495,900,Very Good
+496,900,Very Good
+497,900,Very Good
+498,900,Very Good
+499,900,Very Good
+500,900,Very Good
+501,300,LOW
+502,900,Very Good
+503,900,Very Good
+504,900,Very Good
+505,900,Very Good
+506,900,Very Good
+507,300,LOW
+508,900,Very Good
+509,900,Very Good
+510,900,Very Good
+511,900,Very Good
+512,900,Very Good
+513,300,LOW
+514,900,Very Good
+515,900,Very Good
+516,900,Very Good
+517,900,Very Good
+518,900,Very Good
+519,900,Very Good
+520,900,Very Good
+521,900,Very Good
+522,900,Very Good
+523,900,Very Good
+524,900,Very Good
+525,900,Very Good
+526,900,Very Good
+527,300,LOW
+528,300,LOW
+529,900,Very Good
+530,900,Very Good
+531,900,Very Good
+532,900,Very Good
+533,300,LOW
+534,900,Very Good
+535,900,Very Good
+536,900,Very Good
+537,900,Very Good
+538,900,Very Good
+539,900,Very Good
+540,900,Very Good
+541,900,Very Good
+542,900,Very Good
+543,900,Very Good
+544,900,Very Good
+545,900,Very Good
+546,900,Very Good
+547,900,Very Good
+548,900,Very Good
+549,900,Very Good
+550,900,Very Good
+551,900,Very Good
+552,900,Very Good
+553,900,Very Good
+554,900,Very Good
+555,900,Very Good
+556,300,LOW
+557,900,Very Good
+558,300,LOW
+559,900,Very Good
+560,900,Very Good
+561,900,Very Good
+562,300,LOW
+563,900,Very Good
+564,900,Very Good
+565,900,Very Good
+566,900,Very Good
+567,900,Very Good
+568,300,LOW
+569,900,Very Good
+570,300,LOW
+571,900,Very Good
+572,300,LOW
+573,300,LOW
+574,900,Very Good
+575,900,Very Good
+576,900,Very Good
+577,900,Very Good
+578,900,Very Good
+579,900,Very Good
+580,900,Very Good
+581,900,Very Good
+582,900,Very Good
+583,300,LOW
+584,900,Very Good
+585,900,Very Good
+586,900,Very Good
+587,900,Very Good
+588,900,Very Good
+589,900,Very Good
+590,900,Very Good
+591,900,Very Good
+592,900,Very Good
+593,900,Very Good
+594,900,Very Good
+595,900,Very Good
+596,900,Very Good
+597,900,Very Good
+598,900,Very Good
+599,900,Very Good
+600,900,Very Good
+601,300,LOW
+602,300,LOW
+603,900,Very Good
+604,900,Very Good
+605,900,Very Good
+606,900,Very Good
+607,900,Very Good
+608,300,LOW
+609,900,Very Good
+610,900,Very Good
+611,300,LOW
+612,900,Very Good
+613,900,Very Good
+614,900,Very Good
+615,900,Very Good
+616,900,Very Good
+617,900,Very Good
+618,300,LOW
+619,900,Very Good
+620,900,Very Good
+621,900,Very Good
+622,300,LOW
+623,300,LOW
+624,900,Very Good
+625,900,Very Good
+626,900,Very Good
+627,900,Very Good
+628,900,Very Good
+629,900,Very Good
+630,900,Very Good
+631,900,Very Good
+632,900,Very Good
+633,900,Very Good
+634,900,Very Good
+635,900,Very Good
+636,900,Very Good
+637,300,LOW
+638,900,Very Good
+639,900,Very Good
+640,300,LOW
+641,900,Very Good
+642,300,LOW
+643,900,Very Good
+644,300,LOW
+645,900,Very Good
+646,900,Very Good
+647,300,LOW
+648,300,LOW
+649,900,Very Good
+650,900,Very Good
+651,900,Very Good
+652,300,LOW
+653,900,Very Good
+654,900,Very Good
+655,900,Very Good
+656,900,Very Good
+657,900,Very Good
+658,900,Very Good
+659,300,LOW
+660,900,Very Good
+661,900,Very Good
+662,900,Very Good
+663,900,Very Good
+664,900,Very Good
+665,900,Very Good
+666,300,LOW
+667,900,Very Good
+668,300,LOW
+669,300,LOW
+670,900,Very Good
+671,900,Very Good
+672,900,Very Good
+673,300,LOW
+674,900,Very Good
+675,900,Very Good
+676,900,Very Good
+677,900,Very Good
+678,900,Very Good
+679,900,Very Good
+680,300,LOW
+681,900,Very Good
+682,900,Very Good
+683,900,Very Good
+684,900,Very Good
+685,900,Very Good
+686,900,Very Good
+687,900,Very Good
+688,300,LOW
+689,900,Very Good
+690,900,Very Good
+691,900,Very Good
+692,900,Very Good
+693,900,Very Good
+694,300,LOW
+695,300,LOW
+696,300,LOW
+697,900,Very Good
+698,300,LOW
+699,900,Very Good
+700,900,Very Good
+701,900,Very Good
+702,300,LOW
+703,300,LOW
+704,900,Very Good
+705,300,LOW
+706,900,Very Good
+707,900,Very Good
+708,900,Very Good
+709,900,Very Good
+710,900,Very Good
+711,900,Very Good
+712,900,Very Good
+713,900,Very Good
+714,900,Very Good
+715,900,Very Good
+716,900,Very Good
+717,900,Very Good
+718,300,LOW
+719,900,Very Good
+720,900,Very Good
+721,300,LOW
+722,900,Very Good
+723,900,Very Good
+724,300,LOW
+725,300,LOW
+726,900,Very Good
+727,900,Very Good
+728,300,LOW
+729,300,LOW
+730,900,Very Good
+731,900,Very Good
+732,900,Very Good
+733,900,Very Good
+734,900,Very Good
+735,900,Very Good
+736,900,Very Good
+737,900,Very Good
+738,900,Very Good
+739,900,Very Good
+740,300,LOW
+741,900,Very Good
+742,900,Very Good
+743,900,Very Good
+744,900,Very Good
+745,900,Very Good
+746,300,LOW
+747,900,Very Good
+748,900,Very Good
+749,300,LOW
+750,900,Very Good
+751,300,LOW
+752,900,Very Good
+753,900,Very Good
+754,300,LOW
+755,300,LOW
+756,300,LOW
+757,900,Very Good
+758,900,Very Good
+759,900,Very Good
+760,300,LOW
+761,900,Very Good
+762,900,Very Good
+763,900,Very Good
+764,900,Very Good
+765,900,Very Good
+766,900,Very Good
+767,900,Very Good
+768,900,Very Good
+769,300,LOW
+770,900,Very Good
+771,300,LOW
+772,300,LOW
+773,900,Very Good
+774,900,Very Good
+775,300,LOW
+776,900,Very Good
+777,900,Very Good
+778,300,LOW
+779,900,Very Good
+780,900,Very Good
+781,900,Very Good
+782,900,Very Good
+783,900,Very Good
+784,900,Very Good
+785,900,Very Good
+786,900,Very Good
+787,900,Very Good
+788,300,LOW
+789,300,LOW
+790,900,Very Good
+791,900,Very Good
+792,900,Very Good
+793,300,LOW
+794,900,Very Good
+795,900,Very Good
+796,900,Very Good
+797,300,LOW
+798,900,Very Good
+799,900,Very Good
+800,300,LOW
+801,300,LOW
+802,300,LOW
+803,900,Very Good
+804,900,Very Good
+805,300,LOW
+806,300,LOW
+807,900,Very Good
+808,900,Very Good
+809,900,Very Good
+810,900,Very Good
+811,900,Very Good
+812,900,Very Good
+813,900,Very Good
+814,900,Very Good
+815,900,Very Good
+816,900,Very Good
+817,900,Very Good
+818,900,Very Good
+819,300,LOW
+820,900,Very Good
+821,300,LOW
+822,900,Very Good
+823,900,Very Good
+824,300,LOW
+825,900,Very Good
+826,900,Very Good
+827,900,Very Good
+828,900,Very Good
+829,900,Very Good
+830,900,Very Good
+831,900,Very Good
+832,900,Very Good
+833,900,Very Good
+834,300,LOW
+835,300,LOW
+836,900,Very Good
+837,900,Very Good
+838,900,Very Good
+839,300,LOW
+840,300,LOW
+841,900,Very Good
+842,900,Very Good
+843,900,Very Good
+844,900,Very Good
+845,900,Very Good
+846,900,Very Good
+847,900,Very Good
+848,900,Very Good
+849,900,Very Good
+850,900,Very Good
+851,300,LOW
+852,300,LOW
+853,900,Very Good
+854,900,Very Good
+855,300,LOW
+856,900,Very Good
+857,300,LOW
+858,900,Very Good
+859,300,LOW
+860,900,Very Good
+861,900,Very Good
+862,900,Very Good
+863,900,Very Good
+864,300,LOW
+865,900,Very Good
+866,900,Very Good
+867,900,Very Good
+868,900,Very Good
+869,900,Very Good
+870,900,Very Good
+871,300,LOW
+872,900,Very Good
+873,900,Very Good
+874,900,Very Good
+875,900,Very Good
+876,900,Very Good
+877,900,Very Good
+878,300,LOW
+879,900,Very Good
+880,900,Very Good
+881,900,Very Good
+882,900,Very Good
+883,300,LOW
+884,900,Very Good
+885,300,LOW
+886,900,Very Good
+887,900,Very Good
+888,900,Very Good
+889,900,Very Good
+890,900,Very Good
+891,900,Very Good
+892,900,Very Good
+893,900,Very Good
+894,900,Very Good
+895,900,Very Good
+896,900,Very Good
+897,900,Very Good
+898,900,Very Good
+899,900,Very Good
+900,900,Very Good
+901,900,Very Good
+902,900,Very Good
+903,900,Very Good
+904,900,Very Good
+905,300,LOW
+906,900,Very Good
+907,300,LOW
+908,900,Very Good
+909,300,LOW
+910,900,Very Good
+911,900,Very Good
+912,900,Very Good
+913,300,LOW
+914,900,Very Good
+915,900,Very Good
+916,900,Very Good
+917,900,Very Good
+918,300,LOW
+919,900,Very Good
+920,300,LOW
+921,900,Very Good
+922,900,Very Good
+923,300,LOW
+924,900,Very Good
+925,900,Very Good
+926,300,LOW
+927,900,Very Good
+928,900,Very Good
+929,300,LOW
+930,900,Very Good
+931,300,LOW
+932,900,Very Good
+933,300,LOW
+934,900,Very Good
+935,900,Very Good
+936,300,LOW
+937,300,LOW
+938,900,Very Good
+939,900,Very Good
+940,900,Very Good
+941,300,LOW
+942,900,Very Good
+943,300,LOW
+944,900,Very Good
+945,300,LOW
+946,900,Very Good
+947,900,Very Good
+948,900,Very Good
+949,300,LOW
+950,900,Very Good
+951,900,Very Good
+952,900,Very Good
+953,900,Very Good
+954,900,Very Good
+955,900,Very Good
+956,900,Very Good
+957,900,Very Good
+958,900,Very Good
+959,900,Very Good
+960,900,Very Good
+961,900,Very Good
+962,300,LOW
+963,900,Very Good
+964,300,LOW
+965,900,Very Good
+966,300,LOW
+967,300,LOW
+968,300,LOW
+969,900,Very Good
+970,900,Very Good
+971,900,Very Good
+972,300,LOW
+973,900,Very Good
+974,900,Very Good
+975,900,Very Good
+976,900,Very Good
+977,900,Very Good
+978,900,Very Good
+979,300,LOW
+980,900,Very Good
+981,900,Very Good
+982,300,LOW
+983,900,Very Good
+984,900,Very Good
+985,900,Very Good
+986,900,Very Good
+987,300,LOW
+988,900,Very Good
+989,900,Very Good
+990,900,Very Good
+991,900,Very Good
+992,900,Very Good
+993,900,Very Good
+994,300,LOW
+995,900,Very Good
+996,300,LOW
+997,300,LOW
+998,300,LOW
+999,300,LOW
+1000,900,Very Good
+1001,900,Very Good
+1002,900,Very Good
+1003,900,Very Good
+1004,900,Very Good
+1005,900,Very Good
+1006,900,Very Good
+1007,900,Very Good
+1008,900,Very Good
+1009,300,LOW
+1010,300,LOW
+1011,900,Very Good
+1012,300,LOW
+1013,900,Very Good
+1014,300,LOW
+1015,900,Very Good
+1016,300,LOW
+1017,900,Very Good
+1018,900,Very Good
+1019,900,Very Good
+1020,900,Very Good
+1021,900,Very Good
+1022,900,Very Good
+1023,900,Very Good
+1024,300,LOW
+1025,900,Very Good
+1026,900,Very Good
+1027,900,Very Good
+1028,900,Very Good
+1029,900,Very Good
+1030,900,Very Good
+1031,900,Very Good
+1032,900,Very Good
+1033,900,Very Good
+1034,300,LOW
+1035,300,LOW
+1036,900,Very Good
+1037,900,Very Good
+1038,300,LOW
+1039,900,Very Good
+1040,900,Very Good
+1041,300,LOW
+1042,900,Very Good
+1043,900,Very Good
+1044,900,Very Good
+1045,900,Very Good
+1046,900,Very Good
+1047,900,Very Good
+1048,900,Very Good
+1049,900,Very Good
+1050,900,Very Good
+1051,900,Very Good
+1052,900,Very Good
+1053,300,LOW
+1054,900,Very Good
+1055,900,Very Good
+1056,900,Very Good
+1057,300,LOW
+1058,300,LOW
+1059,900,Very Good
+1060,900,Very Good
+1061,900,Very Good
+1062,900,Very Good
+1063,900,Very Good
+1064,900,Very Good
+1065,300,LOW
+1066,900,Very Good
+1067,900,Very Good
+1068,900,Very Good
+1069,300,LOW
+1070,300,LOW
+1071,900,Very Good
+1072,900,Very Good
+1073,900,Very Good
+1074,900,Very Good
+1075,900,Very Good
+1076,900,Very Good
+1077,900,Very Good
+1078,900,Very Good
+1079,300,LOW
+1080,300,LOW
+1081,900,Very Good
+1082,900,Very Good
+1083,900,Very Good
+1084,300,LOW
+1085,900,Very Good
+1086,900,Very Good
+1087,900,Very Good
+1088,300,LOW
+1089,300,LOW
+1090,900,Very Good
+1091,300,LOW
+1092,300,LOW
+1093,900,Very Good
+1094,900,Very Good
+1095,900,Very Good
+1096,900,Very Good
+1097,900,Very Good
+1098,900,Very Good
+1099,900,Very Good
+1100,900,Very Good
+1101,900,Very Good
+1102,300,LOW
+1103,900,Very Good
+1104,900,Very Good
+1105,900,Very Good
+1106,900,Very Good
+1107,300,LOW
+1108,900,Very Good
+1109,900,Very Good
+1110,900,Very Good
+1111,300,LOW
+1112,900,Very Good
+1113,300,LOW
+1114,300,LOW
+1115,900,Very Good
+1116,300,LOW
+1117,900,Very Good
+1118,900,Very Good
+1119,300,LOW
+1120,900,Very Good
+1121,900,Very Good
+1122,300,LOW
+1123,300,LOW
+1124,300,LOW
+1125,900,Very Good
+1126,300,LOW
+1127,900,Very Good
+1128,900,Very Good
+1129,900,Very Good
+1130,300,LOW
+1131,300,LOW
+1132,900,Very Good
+1133,900,Very Good
+1134,900,Very Good
+1135,900,Very Good
+1136,900,Very Good
+1137,300,LOW
+1138,900,Very Good
+1139,300,LOW
+1140,900,Very Good
+1141,900,Very Good
+1142,900,Very Good
+1143,300,LOW
+1144,900,Very Good
+1145,900,Very Good
+1146,900,Very Good
+1147,900,Very Good
+1148,900,Very Good
+1149,300,LOW
+1150,900,Very Good
+1151,900,Very Good
+1152,900,Very Good
+1153,300,LOW
+1154,300,LOW
+1155,300,LOW
+1156,900,Very Good
+1157,900,Very Good
+1158,900,Very Good
+1159,900,Very Good
+1160,900,Very Good
+1161,900,Very Good
+1162,900,Very Good
+1163,300,LOW
+1164,900,Very Good
+1165,300,LOW
+1166,300,LOW
+1167,900,Very Good
+1168,900,Very Good
+1169,900,Very Good
+1170,900,Very Good
+1171,900,Very Good
+1172,900,Very Good
+1173,900,Very Good
+1174,300,LOW
+1175,900,Very Good
+1176,900,Very Good
+1177,900,Very Good
+1178,300,LOW
+1179,900,Very Good
+1180,900,Very Good
+1181,900,Very Good
+1182,900,Very Good
+1183,900,Very Good
+1184,900,Very Good
+1185,900,Very Good
+1186,900,Very Good
+1187,900,Very Good
+1188,900,Very Good
+1189,300,LOW
+1190,900,Very Good
+1191,300,LOW
+1192,900,Very Good
+1193,300,LOW
+1194,900,Very Good
+1195,300,LOW
+1196,900,Very Good
+1197,300,LOW
+1198,900,Very Good
+1199,900,Very Good
+1200,300,LOW
+1201,900,Very Good
+1202,900,Very Good
+1203,900,Very Good
+1204,900,Very Good
+1205,900,Very Good
+1206,900,Very Good
+1207,900,Very Good
+1208,900,Very Good
+1209,900,Very Good
+1210,900,Very Good
+1211,900,Very Good
+1212,900,Very Good
+1213,900,Very Good
+1214,900,Very Good
+1215,900,Very Good
+1216,900,Very Good
+1217,900,Very Good
+1218,900,Very Good
+1219,900,Very Good
+1220,300,LOW
+1221,300,LOW
+1222,300,LOW
+1223,900,Very Good
+1224,900,Very Good
+1225,900,Very Good
+1226,900,Very Good
+1227,900,Very Good
+1228,300,LOW
+1229,900,Very Good
+1230,900,Very Good
+1231,300,LOW
+1232,900,Very Good
+1233,300,LOW
+1234,900,Very Good
+1235,900,Very Good
+1236,900,Very Good
+1237,900,Very Good
+1238,900,Very Good
+1239,900,Very Good
+1240,900,Very Good
+1241,900,Very Good
+1242,900,Very Good
+1243,900,Very Good
+1244,900,Very Good
+1245,900,Very Good
+1246,300,LOW
+1247,300,LOW
+1248,900,Very Good
+1249,900,Very Good
+1250,900,Very Good
+1251,900,Very Good
+1252,900,Very Good
+1253,900,Very Good
+1254,900,Very Good
+1255,300,LOW
+1256,900,Very Good
+1257,900,Very Good
+1258,900,Very Good
+1259,900,Very Good
+1260,900,Very Good
+1261,900,Very Good
+1262,900,Very Good
+1263,900,Very Good
+1264,300,LOW
+1265,300,LOW
+1266,900,Very Good
+1267,900,Very Good
+1268,900,Very Good
+1269,900,Very Good
+1270,900,Very Good
+1271,900,Very Good
+1272,300,LOW
+1273,300,LOW
+1274,900,Very Good
+1275,300,LOW
+1276,900,Very Good
+1277,900,Very Good
+1278,900,Very Good
+1279,900,Very Good
+1280,900,Very Good
+1281,900,Very Good
+1282,300,LOW
+1283,300,LOW
+1284,900,Very Good
+1285,900,Very Good
+1286,900,Very Good
+1287,900,Very Good
+1288,900,Very Good
+1289,900,Very Good
+1290,900,Very Good
+1291,900,Very Good
+1292,900,Very Good
+1293,900,Very Good
+1294,300,LOW
+1295,900,Very Good
+1296,900,Very Good
+1297,900,Very Good
+1298,900,Very Good
+1299,900,Very Good
+1300,900,Very Good
+1301,900,Very Good
+1302,900,Very Good
+1303,900,Very Good
+1304,900,Very Good
+1305,300,LOW
+1306,300,LOW
+1307,900,Very Good
+1308,900,Very Good
+1309,300,LOW
+1310,900,Very Good
+1311,900,Very Good
+1312,300,LOW
+1313,300,LOW
+1314,900,Very Good
+1315,900,Very Good
+1316,900,Very Good
+1317,900,Very Good
+1318,900,Very Good
+1319,900,Very Good
+1320,300,LOW
+1321,900,Very Good
+1322,900,Very Good
+1323,900,Very Good
+1324,900,Very Good
+1325,900,Very Good
+1326,900,Very Good
+1327,900,Very Good
+1328,300,LOW
+1329,900,Very Good
+1330,900,Very Good
+1331,900,Very Good
+1332,900,Very Good
+1333,900,Very Good
+1334,900,Very Good
+1335,900,Very Good
+1336,300,LOW
+1337,900,Very Good
+1338,300,LOW
+1339,300,LOW
+1340,900,Very Good
+1341,300,LOW
+1342,900,Very Good
+1343,900,Very Good
+1344,900,Very Good
+1345,900,Very Good
+1346,900,Very Good
+1347,900,Very Good
+1348,900,Very Good
+1349,900,Very Good
+1350,300,LOW
+1351,900,Very Good
+1352,900,Very Good
+1353,900,Very Good
+1354,900,Very Good
+1355,900,Very Good
+1356,900,Very Good
+1357,900,Very Good
+1358,900,Very Good
+1359,900,Very Good
+1360,900,Very Good
+1361,900,Very Good
+1362,300,LOW
+1363,900,Very Good
+1364,300,LOW
+1365,300,LOW
+1366,900,Very Good
+1367,900,Very Good
+1368,300,LOW
+1369,900,Very Good
+1370,900,Very Good
+1371,900,Very Good
+1372,900,Very Good
+1373,300,LOW
+1374,900,Very Good
+1375,300,LOW
+1376,900,Very Good
+1377,900,Very Good
+1378,900,Very Good
+1379,900,Very Good
+1380,900,Very Good
+1381,900,Very Good
+1382,900,Very Good
+1383,900,Very Good
+1384,900,Very Good
+1385,900,Very Good
+1386,300,LOW
+1387,300,LOW
+1388,900,Very Good
+1389,300,LOW
+1390,900,Very Good
+1391,900,Very Good
+1392,900,Very Good
+1393,900,Very Good
+1394,900,Very Good
+1395,900,Very Good
+1396,900,Very Good
+1397,900,Very Good
+1398,300,LOW
+1399,900,Very Good
+1400,900,Very Good
+1401,300,LOW
+1402,900,Very Good
+1403,900,Very Good
+1404,900,Very Good
+1405,900,Very Good
+1406,900,Very Good
+1407,900,Very Good
+1408,900,Very Good
+1409,900,Very Good
+1410,900,Very Good
+1411,900,Very Good
+1412,900,Very Good
+1413,900,Very Good
+1414,900,Very Good
+1415,900,Very Good
+1416,900,Very Good
+1417,900,Very Good
+1418,300,LOW
+1419,300,LOW
+1420,900,Very Good
+1421,900,Very Good
+1422,900,Very Good
+1423,300,LOW
+1424,900,Very Good
+1425,900,Very Good
+1426,900,Very Good
+1427,900,Very Good
+1428,300,LOW
+1429,300,LOW
+1430,900,Very Good
+1431,900,Very Good
+1432,900,Very Good
+1433,300,LOW
+1434,900,Very Good
+1435,900,Very Good
+1436,900,Very Good
+1437,900,Very Good
+1438,900,Very Good
+1439,900,Very Good
+1440,900,Very Good
+1441,900,Very Good
+1442,900,Very Good
+1443,900,Very Good
+1444,900,Very Good
+1445,900,Very Good
+1446,900,Very Good
+1447,300,LOW
+1448,900,Very Good
+1449,300,LOW
+1450,900,Very Good
+1451,900,Very Good
+1452,900,Very Good
+1453,900,Very Good
+1454,900,Very Good
+1455,900,Very Good
+1456,900,Very Good
+1457,300,LOW
+1458,900,Very Good
+1459,300,LOW
+1460,900,Very Good
+1461,900,Very Good
+1462,900,Very Good
+1463,900,Very Good
+1464,900,Very Good
+1465,900,Very Good
+1466,300,LOW
+1467,900,Very Good
+1468,900,Very Good
+1469,900,Very Good
+1470,900,Very Good
+1471,300,LOW
+1472,300,LOW
+1473,900,Very Good
+1474,900,Very Good
+1475,300,LOW
+1476,900,Very Good
+1477,900,Very Good
+1478,300,LOW
+1479,900,Very Good
+1480,900,Very Good
+1481,900,Very Good
+1482,900,Very Good
+1483,900,Very Good
+1484,900,Very Good
+1485,900,Very Good
+1486,900,Very Good
+1487,300,LOW
+1488,900,Very Good
+1489,300,LOW
+1490,300,LOW
+1491,300,LOW
+1492,900,Very Good
+1493,900,Very Good
+1494,900,Very Good
+1495,900,Very Good
+1496,900,Very Good
+1497,900,Very Good
+1498,900,Very Good
+1499,900,Very Good
+1500,300,LOW
+1501,900,Very Good
+1502,900,Very Good
+1503,900,Very Good
+1504,900,Very Good
+1505,900,Very Good
+1506,300,LOW
+1507,900,Very Good
+1508,900,Very Good
+1509,900,Very Good
+1510,300,LOW
+1511,900,Very Good
+1512,900,Very Good
+1513,900,Very Good
+1514,900,Very Good
+1515,900,Very Good
+1516,900,Very Good
+1517,900,Very Good
+1518,900,Very Good
+1519,900,Very Good
+1520,900,Very Good
+1521,900,Very Good
+1522,300,LOW
+1523,900,Very Good
+1524,900,Very Good
+1525,900,Very Good
+1526,300,LOW
+1527,300,LOW
+1528,300,LOW
+1529,900,Very Good
+1530,900,Very Good
+1531,900,Very Good
+1532,300,LOW
+1533,900,Very Good
+1534,300,LOW
+1535,300,LOW
+1536,900,Very Good
+1537,900,Very Good
+1538,900,Very Good
+1539,900,Very Good
+1540,900,Very Good
+1541,300,LOW
+1542,900,Very Good
+1543,900,Very Good
+1544,900,Very Good
+1545,900,Very Good
+1546,300,LOW
+1547,300,LOW
+1548,900,Very Good
+1549,900,Very Good
+1550,300,LOW
+1551,900,Very Good
+1552,900,Very Good
+1553,900,Very Good
+1554,900,Very Good
+1555,900,Very Good
+1556,300,LOW
+1557,900,Very Good
+1558,900,Very Good
+1559,900,Very Good
+1560,900,Very Good
+1561,900,Very Good
+1562,900,Very Good
+1563,900,Very Good
+1564,300,LOW
+1565,300,LOW
+1566,300,LOW
+1567,900,Very Good
+1568,900,Very Good
+1569,900,Very Good
+1570,900,Very Good
+1571,900,Very Good
+1572,900,Very Good
+1573,900,Very Good
+1574,900,Very Good
+1575,900,Very Good
+1576,900,Very Good
+1577,900,Very Good
+1578,900,Very Good
+1579,900,Very Good
+1580,900,Very Good
+1581,900,Very Good
+1582,900,Very Good
+1583,900,Very Good
+1584,300,LOW
+1585,900,Very Good
+1586,900,Very Good
+1587,900,Very Good
+1588,900,Very Good
+1589,300,LOW
+1590,900,Very Good
+1591,900,Very Good
+1592,300,LOW
+1593,900,Very Good
+1594,900,Very Good
+1595,900,Very Good
+1596,900,Very Good
+1597,900,Very Good
+1598,900,Very Good
+1599,900,Very Good
+1600,900,Very Good
+1601,900,Very Good
+1602,900,Very Good
+1603,900,Very Good
+1604,300,LOW
+1605,900,Very Good
+1606,900,Very Good
+1607,900,Very Good
+1608,900,Very Good
+1609,900,Very Good
+1610,900,Very Good
+1611,900,Very Good
+1612,900,Very Good
+1613,900,Very Good
+1614,900,Very Good
+1615,900,Very Good
+1616,900,Very Good
+1617,900,Very Good
+1618,900,Very Good
+1619,900,Very Good
+1620,900,Very Good
+1621,900,Very Good
+1622,900,Very Good
+1623,900,Very Good
+1624,900,Very Good
+1625,300,LOW
+1626,900,Very Good
+1627,900,Very Good
+1628,900,Very Good
+1629,900,Very Good
+1630,900,Very Good
+1631,300,LOW
+1632,300,LOW
+1633,900,Very Good
+1634,300,LOW
+1635,900,Very Good
+1636,900,Very Good
+1637,900,Very Good
+1638,900,Very Good
+1639,900,Very Good
+1640,900,Very Good
+1641,300,LOW
+1642,900,Very Good
+1643,900,Very Good
+1644,900,Very Good
+1645,300,LOW
+1646,300,LOW
+1647,900,Very Good
+1648,300,LOW
+1649,900,Very Good
+1650,900,Very Good
+1651,900,Very Good
+1652,300,LOW
+1653,300,LOW
+1654,900,Very Good
+1655,900,Very Good
+1656,900,Very Good
+1657,900,Very Good
+1658,900,Very Good
+1659,900,Very Good
+1660,300,LOW
+1661,900,Very Good
+1662,900,Very Good
+1663,300,LOW
+1664,900,Very Good
+1665,900,Very Good
+1666,900,Very Good
+1667,900,Very Good
+1668,900,Very Good
+1669,900,Very Good
+1670,300,LOW
+1671,300,LOW
+1672,900,Very Good
+1673,300,LOW
+1674,300,LOW
+1675,300,LOW
+1676,300,LOW
+1677,900,Very Good
+1678,900,Very Good
+1679,900,Very Good
+1680,900,Very Good
+1681,900,Very Good
+1682,300,LOW
+1683,900,Very Good
+1684,900,Very Good
+1685,900,Very Good
+1686,900,Very Good
+1687,900,Very Good
+1688,300,LOW
+1689,900,Very Good
+1690,300,LOW
+1691,900,Very Good
+1692,900,Very Good
+1693,300,LOW
+1694,300,LOW
+1695,300,LOW
+1696,900,Very Good
+1697,900,Very Good
+1698,900,Very Good
+1699,300,LOW
+1700,300,LOW
+1701,900,Very Good
+1702,900,Very Good
+1703,900,Very Good
+1704,900,Very Good
+1705,900,Very Good
+1706,300,LOW
+1707,900,Very Good
+1708,300,LOW
+1709,900,Very Good
+1710,900,Very Good
+1711,900,Very Good
+1712,900,Very Good
+1713,900,Very Good
+1714,900,Very Good
+1715,900,Very Good
+1716,900,Very Good
+1717,900,Very Good
+1718,900,Very Good
+1719,900,Very Good
+1720,300,LOW
+1721,900,Very Good
+1722,900,Very Good
+1723,900,Very Good
+1724,900,Very Good
+1725,900,Very Good
+1726,900,Very Good
+1727,900,Very Good
+1728,300,LOW
+1729,900,Very Good
+1730,300,LOW
+1731,900,Very Good
+1732,900,Very Good
+1733,300,LOW
+1734,900,Very Good
+1735,900,Very Good
+1736,900,Very Good
+1737,900,Very Good
+1738,900,Very Good
+1739,300,LOW
+1740,900,Very Good
+1741,900,Very Good
+1742,900,Very Good
+1743,900,Very Good
+1744,900,Very Good
+1745,900,Very Good
+1746,300,LOW
+1747,300,LOW
+1748,900,Very Good
+1749,900,Very Good
+1750,900,Very Good
+1751,300,LOW
+1752,900,Very Good
+1753,900,Very Good
+1754,900,Very Good
+1755,300,LOW
+1756,900,Very Good
+1757,900,Very Good
+1758,300,LOW
+1759,900,Very Good
+1760,900,Very Good
+1761,900,Very Good
+1762,900,Very Good
+1763,900,Very Good
+1764,300,LOW
+1765,900,Very Good
+1766,900,Very Good
+1767,300,LOW
+1768,900,Very Good
+1769,900,Very Good
+1770,300,LOW
+1771,900,Very Good
+1772,900,Very Good
+1773,900,Very Good
+1774,900,Very Good
+1775,900,Very Good
+1776,900,Very Good
+1777,900,Very Good
+1778,900,Very Good
+1779,300,LOW
+1780,900,Very Good
+1781,900,Very Good
+1782,300,LOW
+1783,900,Very Good
+1784,300,LOW
+1785,900,Very Good
+1786,900,Very Good
+1787,900,Very Good
+1788,300,LOW
+1789,300,LOW
+1790,900,Very Good
+1791,300,LOW
+1792,900,Very Good
+1793,300,LOW
+1794,900,Very Good
+1795,900,Very Good
+1796,900,Very Good
+1797,900,Very Good
+1798,900,Very Good
+1799,900,Very Good
+1800,900,Very Good
+1801,900,Very Good
+1802,900,Very Good
+1803,900,Very Good
+1804,900,Very Good
+1805,900,Very Good
+1806,900,Very Good
+1807,900,Very Good
+1808,900,Very Good
+1809,900,Very Good
+1810,900,Very Good
+1811,300,LOW
+1812,900,Very Good
+1813,900,Very Good
+1814,900,Very Good
+1815,900,Very Good
+1816,900,Very Good
+1817,300,LOW
+1818,300,LOW
+1819,900,Very Good
+1820,300,LOW
+1821,300,LOW
+1822,300,LOW
+1823,300,LOW
+1824,300,LOW
+1825,900,Very Good
+1826,900,Very Good
+1827,900,Very Good
+1828,300,LOW
+1829,900,Very Good
+1830,900,Very Good
+1831,900,Very Good
+1832,900,Very Good
+1833,900,Very Good
+1834,900,Very Good
+1835,900,Very Good
+1836,900,Very Good
+1837,300,LOW
+1838,900,Very Good
+1839,900,Very Good
+1840,900,Very Good
+1841,900,Very Good
+1842,900,Very Good
+1843,300,LOW
+1844,300,LOW
+1845,900,Very Good
+1846,900,Very Good
+1847,900,Very Good
+1848,300,LOW
+1849,300,LOW
+1850,900,Very Good
+1851,900,Very Good
+1852,300,LOW
+1853,300,LOW
+1854,900,Very Good
+1855,900,Very Good
+1856,900,Very Good
+1857,900,Very Good
+1858,900,Very Good
+1859,900,Very Good
+1860,900,Very Good
+1861,300,LOW
+1862,900,Very Good
+1863,300,LOW
+1864,900,Very Good
+1865,900,Very Good
+1866,900,Very Good
+1867,300,LOW
+1868,900,Very Good
+1869,900,Very Good
+1870,300,LOW
+1871,900,Very Good
+1872,900,Very Good
+1873,900,Very Good
+1874,300,LOW
+1875,900,Very Good
+1876,900,Very Good
+1877,900,Very Good
+1878,900,Very Good
+1879,900,Very Good
+1880,900,Very Good
+1881,900,Very Good
+1882,300,LOW
+1883,300,LOW
+1884,300,LOW
+1885,900,Very Good
+1886,900,Very Good
+1887,900,Very Good
+1888,900,Very Good
+1889,900,Very Good
+1890,900,Very Good
+1891,900,Very Good
+1892,900,Very Good
+1893,300,LOW
+1894,900,Very Good
+1895,900,Very Good
+1896,900,Very Good
+1897,900,Very Good
+1898,900,Very Good
+1899,900,Very Good
+1900,300,LOW
+1901,300,LOW
+1902,900,Very Good
+1903,900,Very Good
+1904,300,LOW
+1905,300,LOW
+1906,300,LOW
+1907,300,LOW
+1908,900,Very Good
+1909,900,Very Good
+1910,300,LOW
+1911,900,Very Good
+1912,900,Very Good
+1913,900,Very Good
+1914,900,Very Good
+1915,900,Very Good
+1916,900,Very Good
+1917,900,Very Good
+1918,900,Very Good
+1919,900,Very Good
+1920,900,Very Good
+1921,900,Very Good
+1922,900,Very Good
+1923,900,Very Good
+1924,900,Very Good
+1925,900,Very Good
+1926,900,Very Good
+1927,300,LOW
+1928,300,LOW
+1929,900,Very Good
+1930,900,Very Good
+1931,900,Very Good
+1932,900,Very Good
+1933,300,LOW
+1934,900,Very Good
+1935,900,Very Good
+1936,900,Very Good
+1937,900,Very Good
+1938,900,Very Good
+1939,300,LOW
+1940,900,Very Good
+1941,900,Very Good
+1942,300,LOW
+1943,900,Very Good
+1944,300,LOW
+1945,900,Very Good
+1946,900,Very Good
+1947,900,Very Good
+1948,900,Very Good
+1949,900,Very Good
+1950,300,LOW
+1951,900,Very Good
+1952,900,Very Good
+1953,900,Very Good
+1954,900,Very Good
+1955,300,LOW
+1956,900,Very Good
+1957,300,LOW
+1958,900,Very Good
+1959,900,Very Good
+1960,300,LOW
+1961,900,Very Good
+1962,300,LOW
+1963,900,Very Good
+1964,900,Very Good
+1965,900,Very Good
+1966,900,Very Good
+1967,900,Very Good
+1968,900,Very Good
+1969,300,LOW
+1970,900,Very Good
+1971,300,LOW
+1972,900,Very Good
+1973,900,Very Good
+1974,300,LOW
+1975,900,Very Good
+1976,300,LOW
+1977,900,Very Good
+1978,900,Very Good
+1979,900,Very Good
+1980,900,Very Good
+1981,300,LOW
+1982,900,Very Good
+1983,900,Very Good
+1984,900,Very Good
+1985,300,LOW
+1986,900,Very Good
+1987,900,Very Good
+1988,900,Very Good
+1989,300,LOW
+1990,300,LOW
+1991,900,Very Good
+1992,300,LOW
+1993,300,LOW
+1994,300,LOW
+1995,900,Very Good
+1996,900,Very Good
+1997,900,Very Good
+1998,900,Very Good
+1999,900,Very Good
+2000,900,Very Good
+2001,900,Very Good
+2002,900,Very Good
+2003,300,LOW
+2004,900,Very Good
+2005,300,LOW
+2006,900,Very Good
+2007,900,Very Good
+2008,900,Very Good
+2009,900,Very Good
+2010,900,Very Good
+2011,900,Very Good
+2012,900,Very Good
+2013,300,LOW
+2014,900,Very Good
+2015,900,Very Good
+2016,900,Very Good
+2017,900,Very Good
+2018,900,Very Good
+2019,900,Very Good
+2020,900,Very Good
+2021,900,Very Good
+2022,900,Very Good
+2023,300,LOW
+2024,900,Very Good
+2025,900,Very Good
+2026,900,Very Good
+2027,300,LOW
+2028,900,Very Good
+2029,900,Very Good
+2030,300,LOW
+2031,900,Very Good
+2032,900,Very Good
+2033,900,Very Good
+2034,900,Very Good
+2035,300,LOW
+2036,300,LOW
+2037,900,Very Good
+2038,900,Very Good
+2039,900,Very Good
+2040,900,Very Good
+2041,900,Very Good
+2042,900,Very Good
+2043,900,Very Good
+2044,300,LOW
+2045,900,Very Good
+2046,900,Very Good
+2047,900,Very Good
+2048,900,Very Good
+2049,900,Very Good
+2050,300,LOW
+2051,900,Very Good
+2052,900,Very Good
+2053,300,LOW
+2054,300,LOW
+2055,900,Very Good
+2056,900,Very Good
+2057,900,Very Good
+2058,300,LOW
+2059,900,Very Good
+2060,300,LOW
+2061,900,Very Good
+2062,900,Very Good
+2063,900,Very Good
+2064,900,Very Good
+2065,900,Very Good
+2066,900,Very Good
+2067,300,LOW
+2068,900,Very Good
+2069,900,Very Good
+2070,900,Very Good
+2071,900,Very Good
+2072,900,Very Good
+2073,900,Very Good
+2074,900,Very Good
+2075,300,LOW
+2076,900,Very Good
+2077,900,Very Good
+2078,900,Very Good
+2079,900,Very Good
+2080,900,Very Good
+2081,900,Very Good
+2082,300,LOW
+2083,900,Very Good
+2084,900,Very Good
+2085,900,Very Good
+2086,300,LOW
+2087,900,Very Good
+2088,900,Very Good
+2089,900,Very Good
+2090,300,LOW
+2091,900,Very Good
+2092,900,Very Good
+2093,900,Very Good
+2094,300,LOW
+2095,300,LOW
+2096,300,LOW
+2097,900,Very Good
+2098,900,Very Good
+2099,900,Very Good
+2100,900,Very Good
+2101,900,Very Good
+2102,900,Very Good
+2103,900,Very Good
+2104,900,Very Good
+2105,900,Very Good
+2106,900,Very Good
+2107,900,Very Good
+2108,300,LOW
+2109,900,Very Good
+2110,900,Very Good
+2111,300,LOW
+2112,300,LOW
+2113,900,Very Good
+2114,900,Very Good
+2115,900,Very Good
+2116,900,Very Good
+2117,900,Very Good
+2118,300,LOW
+2119,900,Very Good
+2120,900,Very Good
+2121,300,LOW
+2122,900,Very Good
+2123,900,Very Good
+2124,300,LOW
+2125,900,Very Good
+2126,900,Very Good
+2127,900,Very Good
+2128,900,Very Good
+2129,900,Very Good
+2130,900,Very Good
+2131,900,Very Good
+2132,300,LOW
+2133,300,LOW
+2134,900,Very Good
+2135,900,Very Good
+2136,300,LOW
+2137,900,Very Good
+2138,300,LOW
+2139,900,Very Good
+2140,900,Very Good
+2141,900,Very Good
+2142,900,Very Good
+2143,900,Very Good
+2144,900,Very Good
+2145,300,LOW
+2146,900,Very Good
+2147,900,Very Good
+2148,900,Very Good
+2149,900,Very Good
+2150,900,Very Good
+2151,300,LOW
+2152,300,LOW
+2153,300,LOW
+2154,300,LOW
+2155,900,Very Good
+2156,900,Very Good
+2157,900,Very Good
+2158,900,Very Good
+2159,900,Very Good
+2160,900,Very Good
+2161,900,Very Good
+2162,300,LOW
+2163,900,Very Good
+2164,900,Very Good
+2165,900,Very Good
+2166,900,Very Good
+2167,900,Very Good
+2168,900,Very Good
+2169,300,LOW
+2170,300,LOW
+2171,900,Very Good
+2172,900,Very Good
+2173,900,Very Good
+2174,900,Very Good
+2175,900,Very Good
+2176,900,Very Good
+2177,900,Very Good
+2178,300,LOW
+2179,300,LOW
+2180,900,Very Good
+2181,900,Very Good
+2182,900,Very Good
+2183,300,LOW
+2184,900,Very Good
+2185,900,Very Good
+2186,900,Very Good
+2187,900,Very Good
+2188,900,Very Good
+2189,300,LOW
+2190,900,Very Good
+2191,900,Very Good
+2192,900,Very Good
+2193,900,Very Good
+2194,900,Very Good
+2195,300,LOW
+2196,900,Very Good
+2197,900,Very Good
+2198,900,Very Good
+2199,300,LOW
+2200,900,Very Good
+2201,900,Very Good
+2202,900,Very Good
+2203,300,LOW
+2204,300,LOW
+2205,900,Very Good
+2206,900,Very Good
+2207,900,Very Good
+2208,900,Very Good
+2209,900,Very Good
+2210,900,Very Good
+2211,900,Very Good
+2212,900,Very Good
+2213,900,Very Good
+2214,300,LOW
+2215,300,LOW
+2216,900,Very Good
+2217,900,Very Good
+2218,900,Very Good
+2219,900,Very Good
+2220,900,Very Good
+2221,300,LOW
+2222,900,Very Good
+2223,900,Very Good
+2224,300,LOW
+2225,900,Very Good
+2226,900,Very Good
+2227,900,Very Good
+2228,900,Very Good
+2229,900,Very Good
+2230,900,Very Good
+2231,900,Very Good
+2232,900,Very Good
+2233,900,Very Good
+2234,900,Very Good
+2235,900,Very Good
+2236,900,Very Good
+2237,300,LOW
+2238,900,Very Good
+2239,900,Very Good
+2240,900,Very Good
+2241,300,LOW
+2242,300,LOW
+2243,900,Very Good
+2244,900,Very Good
+2245,900,Very Good
+2246,900,Very Good
+2247,900,Very Good
+2248,900,Very Good
+2249,900,Very Good
+2250,300,LOW
+2251,900,Very Good
+2252,900,Very Good
+2253,900,Very Good
+2254,900,Very Good
+2255,900,Very Good
+2256,300,LOW
+2257,900,Very Good
+2258,900,Very Good
+2259,900,Very Good
+2260,300,LOW
+2261,900,Very Good
+2262,900,Very Good
+2263,300,LOW
+2264,300,LOW
+2265,300,LOW
+2266,300,LOW
+2267,900,Very Good
+2268,900,Very Good
+2269,900,Very Good
+2270,900,Very Good
+2271,900,Very Good
+2272,900,Very Good
+2273,900,Very Good
+2274,900,Very Good
+2275,900,Very Good
+2276,900,Very Good
+2277,900,Very Good
+2278,300,LOW
+2279,900,Very Good
+2280,900,Very Good
+2281,900,Very Good
+2282,900,Very Good
+2283,900,Very Good
+2284,900,Very Good
+2285,300,LOW
+2286,900,Very Good
+2287,900,Very Good
+2288,300,LOW
+2289,900,Very Good
+2290,300,LOW
+2291,300,LOW
+2292,900,Very Good
+2293,900,Very Good
+2294,900,Very Good
+2295,900,Very Good
+2296,300,LOW
+2297,900,Very Good
+2298,900,Very Good
+2299,900,Very Good
+2300,900,Very Good
+2301,300,LOW
+2302,900,Very Good
+2303,900,Very Good
+2304,300,LOW
+2305,300,LOW
+2306,900,Very Good
+2307,900,Very Good
+2308,900,Very Good
+2309,300,LOW
+2310,900,Very Good
+2311,900,Very Good
+2312,300,LOW
+2313,900,Very Good
+2314,900,Very Good
+2315,900,Very Good
+2316,900,Very Good
+2317,900,Very Good
+2318,900,Very Good
+2319,900,Very Good
+2320,900,Very Good
+2321,900,Very Good
+2322,300,LOW
+2323,300,LOW
+2324,900,Very Good
+2325,900,Very Good
+2326,900,Very Good
+2327,300,LOW
+2328,900,Very Good
+2329,900,Very Good
+2330,300,LOW
+2331,300,LOW
+2332,900,Very Good
+2333,900,Very Good
+2334,900,Very Good
+2335,900,Very Good
+2336,900,Very Good
+2337,300,LOW
+2338,300,LOW
+2339,900,Very Good
+2340,900,Very Good
+2341,900,Very Good
+2342,900,Very Good
+2343,900,Very Good
+2344,900,Very Good
+2345,900,Very Good
+2346,900,Very Good
+2347,900,Very Good
+2348,900,Very Good
+2349,900,Very Good
+2350,900,Very Good
+2351,300,LOW
+2352,300,LOW
+2353,300,LOW
+2354,900,Very Good
+2355,900,Very Good
+2356,300,LOW
+2357,900,Very Good
+2358,900,Very Good
+2359,900,Very Good
+2360,900,Very Good
+2361,300,LOW
+2362,900,Very Good
+2363,900,Very Good
+2364,900,Very Good
+2365,900,Very Good
+2366,300,LOW
+2367,900,Very Good
+2368,900,Very Good
+2369,900,Very Good
+2370,900,Very Good
+2371,900,Very Good
+2372,900,Very Good
+2373,900,Very Good
+2374,900,Very Good
+2375,300,LOW
+2376,900,Very Good
+2377,300,LOW
+2378,900,Very Good
+2379,900,Very Good
+2380,300,LOW
+2381,900,Very Good
+2382,300,LOW
+2383,900,Very Good
+2384,900,Very Good
+2385,900,Very Good
+2386,900,Very Good
+2387,900,Very Good
+2388,900,Very Good
+2389,900,Very Good
+2390,900,Very Good
+2391,900,Very Good
+2392,900,Very Good
+2393,300,LOW
+2394,300,LOW
+2395,300,LOW
+2396,900,Very Good
+2397,300,LOW
+2398,900,Very Good
+2399,300,LOW
+2400,300,LOW
+2401,900,Very Good
+2402,900,Very Good
+2403,300,LOW
+2404,900,Very Good
+2405,900,Very Good
+2406,900,Very Good
+2407,900,Very Good
+2408,300,LOW
+2409,900,Very Good
+2410,900,Very Good
+2411,900,Very Good
+2412,900,Very Good
+2413,900,Very Good
+2414,900,Very Good
+2415,900,Very Good
+2416,900,Very Good
+2417,300,LOW
+2418,900,Very Good
+2419,900,Very Good
+2420,900,Very Good
+2421,900,Very Good
+2422,900,Very Good
+2423,300,LOW
+2424,900,Very Good
+2425,300,LOW
+2426,300,LOW
+2427,900,Very Good
+2428,900,Very Good
+2429,900,Very Good
+2430,900,Very Good
+2431,900,Very Good
+2432,900,Very Good
+2433,900,Very Good
+2434,900,Very Good
+2435,900,Very Good
+2436,300,LOW
+2437,900,Very Good
+2438,900,Very Good
+2439,900,Very Good
+2440,900,Very Good
+2441,900,Very Good
+2442,300,LOW
+2443,900,Very Good
+2444,300,LOW
+2445,900,Very Good
+2446,900,Very Good
+2447,900,Very Good
+2448,900,Very Good
+2449,900,Very Good
+2450,900,Very Good
+2451,900,Very Good
+2452,900,Very Good
+2453,900,Very Good
+2454,900,Very Good
+2455,900,Very Good
+2456,900,Very Good
+2457,900,Very Good
+2458,900,Very Good
+2459,300,LOW
+2460,300,LOW
+2461,900,Very Good
+2462,900,Very Good
+2463,300,LOW
+2464,300,LOW
+2465,900,Very Good
+2466,900,Very Good
+2467,900,Very Good
+2468,300,LOW
+2469,900,Very Good
+2470,900,Very Good
+2471,900,Very Good
+2472,900,Very Good
+2473,900,Very Good
+2474,300,LOW

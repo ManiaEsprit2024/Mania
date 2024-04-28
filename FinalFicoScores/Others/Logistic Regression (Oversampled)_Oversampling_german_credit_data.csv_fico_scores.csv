@@ -1,0 +1,301 @@
+,FICO_Score,FICO_Class
+0,489,Fair
+1,563,Fair
+2,619,Good
+3,507,Fair
+4,644,Good
+5,404,Fair
+6,462,Fair
+7,579,Fair
+8,610,Good
+9,643,Good
+10,477,Fair
+11,561,Fair
+12,506,Fair
+13,772,Very Good
+14,866,Very Good
+15,529,Fair
+16,645,Good
+17,367,LOW
+18,673,Good
+19,577,Fair
+20,854,Very Good
+21,616,Good
+22,443,Fair
+23,374,LOW
+24,404,Fair
+25,484,Fair
+26,698,Good
+27,722,Very Good
+28,816,Very Good
+29,518,Fair
+30,528,Fair
+31,404,Fair
+32,578,Fair
+33,524,Fair
+34,657,Good
+35,822,Very Good
+36,863,Very Good
+37,658,Good
+38,531,Fair
+39,752,Very Good
+40,549,Fair
+41,402,Fair
+42,639,Good
+43,522,Fair
+44,658,Good
+45,447,Fair
+46,494,Fair
+47,606,Good
+48,570,Fair
+49,609,Good
+50,706,Very Good
+51,503,Fair
+52,387,LOW
+53,768,Very Good
+54,527,Fair
+55,609,Good
+56,522,Fair
+57,680,Good
+58,626,Good
+59,576,Fair
+60,633,Good
+61,796,Very Good
+62,653,Good
+63,422,Fair
+64,580,Fair
+65,571,Fair
+66,498,Fair
+67,484,Fair
+68,678,Good
+69,564,Fair
+70,595,Fair
+71,426,Fair
+72,354,LOW
+73,523,Fair
+74,752,Very Good
+75,410,Fair
+76,542,Fair
+77,492,Fair
+78,411,Fair
+79,418,Fair
+80,485,Fair
+81,427,Fair
+82,409,Fair
+83,653,Good
+84,533,Fair
+85,460,Fair
+86,831,Very Good
+87,812,Very Good
+88,559,Fair
+89,594,Fair
+90,680,Good
+91,412,Fair
+92,816,Very Good
+93,691,Good
+94,726,Very Good
+95,596,Fair
+96,648,Good
+97,572,Fair
+98,807,Very Good
+99,624,Good
+100,480,Fair
+101,604,Good
+102,439,Fair
+103,461,Fair
+104,465,Fair
+105,455,Fair
+106,447,Fair
+107,845,Very Good
+108,684,Good
+109,394,LOW
+110,603,Good
+111,451,Fair
+112,656,Good
+113,394,LOW
+114,662,Good
+115,704,Very Good
+116,614,Good
+117,540,Fair
+118,518,Fair
+119,669,Good
+120,517,Fair
+121,737,Very Good
+122,446,Fair
+123,558,Fair
+124,542,Fair
+125,654,Good
+126,776,Very Good
+127,514,Fair
+128,495,Fair
+129,722,Very Good
+130,804,Very Good
+131,359,LOW
+132,466,Fair
+133,557,Fair
+134,461,Fair
+135,522,Fair
+136,490,Fair
+137,525,Fair
+138,471,Fair
+139,624,Good
+140,792,Very Good
+141,522,Fair
+142,671,Good
+143,443,Fair
+144,745,Very Good
+145,675,Good
+146,630,Good
+147,513,Fair
+148,644,Good
+149,477,Fair
+150,481,Fair
+151,637,Good
+152,603,Good
+153,673,Good
+154,545,Fair
+155,642,Good
+156,687,Good
+157,512,Fair
+158,606,Good
+159,632,Good
+160,576,Fair
+161,585,Fair
+162,543,Fair
+163,825,Very Good
+164,670,Good
+165,525,Fair
+166,507,Fair
+167,548,Fair
+168,513,Fair
+169,864,Very Good
+170,404,Fair
+171,491,Fair
+172,566,Fair
+173,478,Fair
+174,365,LOW
+175,599,Fair
+176,629,Good
+177,350,LOW
+178,641,Good
+179,736,Very Good
+180,543,Fair
+181,644,Good
+182,578,Fair
+183,562,Fair
+184,657,Good
+185,371,LOW
+186,724,Very Good
+187,512,Fair
+188,632,Good
+189,557,Fair
+190,527,Fair
+191,870,Very Good
+192,563,Fair
+193,590,Fair
+194,484,Fair
+195,509,Fair
+196,815,Very Good
+197,656,Good
+198,712,Very Good
+199,699,Good
+200,582,Fair
+201,634,Good
+202,460,Fair
+203,610,Good
+204,477,Fair
+205,708,Very Good
+206,493,Fair
+207,619,Good
+208,667,Good
+209,566,Fair
+210,523,Fair
+211,621,Good
+212,478,Fair
+213,560,Fair
+214,802,Very Good
+215,580,Fair
+216,426,Fair
+217,536,Fair
+218,775,Very Good
+219,505,Fair
+220,492,Fair
+221,484,Fair
+222,393,LOW
+223,431,Fair
+224,539,Fair
+225,442,Fair
+226,410,Fair
+227,612,Good
+228,474,Fair
+229,389,LOW
+230,494,Fair
+231,459,Fair
+232,713,Very Good
+233,604,Good
+234,442,Fair
+235,624,Good
+236,634,Good
+237,479,Fair
+238,667,Good
+239,801,Very Good
+240,812,Very Good
+241,497,Fair
+242,490,Fair
+243,583,Fair
+244,725,Very Good
+245,592,Fair
+246,387,LOW
+247,391,LOW
+248,356,LOW
+249,766,Very Good
+250,653,Good
+251,440,Fair
+252,736,Very Good
+253,476,Fair
+254,572,Fair
+255,591,Fair
+256,576,Fair
+257,538,Fair
+258,503,Fair
+259,822,Very Good
+260,587,Fair
+261,460,Fair
+262,622,Good
+263,652,Good
+264,578,Fair
+265,665,Good
+266,499,Fair
+267,543,Fair
+268,512,Fair
+269,799,Very Good
+270,450,Fair
+271,701,Very Good
+272,557,Fair
+273,463,Fair
+274,662,Good
+275,721,Very Good
+276,410,Fair
+277,707,Very Good
+278,380,LOW
+279,670,Good
+280,598,Fair
+281,650,Good
+282,472,Fair
+283,565,Fair
+284,473,Fair
+285,678,Good
+286,732,Very Good
+287,473,Fair
+288,638,Good
+289,614,Good
+290,815,Very Good
+291,701,Very Good
+292,810,Very Good
+293,562,Fair
+294,512,Fair
+295,697,Good
+296,611,Good
+297,574,Fair
+298,754,Very Good
+299,630,Good
