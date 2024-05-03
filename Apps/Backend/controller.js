@@ -9,7 +9,6 @@ exports.loginSubmit = async (req, res) => {
   let password = req.headers.password;
   if(username == 'admin' && password == 'admin'){
 
-    //creating user session - example
     req.session.user = {
       name: 'ADMIN',
       address: 'Sao Paulo, SP, Brazil',
@@ -18,14 +17,10 @@ exports.loginSubmit = async (req, res) => {
 
     res.status(200).json({
       success: true,
-      message: 'OK'
+      message: 'OK',
     });
-
   } else {
-
-    //remove session
     req.session.user = null;
-
     res.status(200).json({
       success: false,
       message: 'Incorrect username or password.'

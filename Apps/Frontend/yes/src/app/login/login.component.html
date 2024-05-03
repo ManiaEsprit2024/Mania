@@ -1,0 +1,6 @@
+<form [formGroup]="profileForm">
+    <input type="text" placeholder="Username" formControlName="username" required>
+    <input type="password" placeholder="Password" formControlName="password" required>
+    <button type="button" (click)="login()">Login</button>
+  </form>
+  <div *ngIf="loginResponse">{{ loginResponse }}</div>
