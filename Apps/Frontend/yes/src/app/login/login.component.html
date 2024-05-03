@@ -1,38 +1,95 @@
-<!-- Import Angular Material Components -->
-<mat-toolbar color="primary">Login Form</mat-toolbar>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Login V1</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="../../assets/LoginPage/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/LoginPage/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/LoginPage/vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/LoginPage/vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/LoginPage/vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/LoginPage/css/util.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/LoginPage/css/main.css">
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<div class="login100-pic js-tilt" data-tilt>
+					<img width="400" height="200" src="../../assets/LoginPage/images/ManiaLogo.png" alt="IMG">
+				</div>
 
-<form [formGroup]="profileForm" (ngSubmit)="login()">
-  <mat-card>
-    <mat-card-content>
-      <!-- Username Field -->
-      <mat-form-field>
-        <mat-label>Username</mat-label>
-        <input matInput type="text" formControlName="username" required>
-        <mat-error *ngIf="profileForm.get('username') && profileForm.get('username')">
-          Username is required.
-        </mat-error>
-      </mat-form-field>
+				<form class="login100-form validate-form"[formGroup]="profileForm" (ngSubmit)="login()">
+					<span class="login100-form-title">
+						Member Login
+					</span>
 
-      <!-- Password Field -->
-      <mat-form-field>
-        <mat-label>Password</mat-label>
-        <input matInput type="password" formControlName="password" required>
-        <mat-error *ngIf="profileForm.get('password') && profileForm.get('password')">
-          Password is required.
-        </mat-error>
-      </mat-form-field>
-    </mat-card-content>
+					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+						<input class="input100"           
+            type="text"
+            id="username"
+            formControlName="username"
+            placeholder="Enter your username">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</span>
+					</div>
 
-    <mat-card-actions>
-      <!-- Submit Button -->
-      <button mat-raised-button color="primary" type="submit">Login</button>
-    </mat-card-actions>
-  </mat-card>
-</form>
+					<div class="wrap-input100 validate-input" data-validate = "Password is required">
+						<input 
+            class="input100"           
+            type="password"
+            id="password"
+            formControlName="password"
+            placeholder="Enter your password">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+					
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Login
+						</button>
+					</div>
+          <div class="login-response" *ngIf="loginResponse">
+            {{ loginResponse }}
+          </div>
+					<div class="text-center p-t-12">
+						<span class="txt1">
+							Forgot
+						</span>
+						<a class="txt2" href="#">
+							Username / Password?
+						</a>
+					</div>
 
-<!-- Login Response Message -->
-<div class="response-message" *ngIf="loginResponse">
-  <mat-card>
-    <mat-card-content>{{ loginResponse }}</mat-card-content>
-  </mat-card>
-</div>
+					<div class="text-center p-t-136">
+						<a class="txt2" href="#">
+							Create your Account
+							<i class="fa fa-long-arrow-right m-l-5" aria-hidden="true"></i>
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="../../assets/LoginPage/vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script src="../../assets/LoginPage/vendor/bootstrap/js/popper.js"></script>
+	<script src="../../assets/LoginPage/vendor/bootstrap/js/bootstrap.min.js"></script>
+	<script src="../../assets/LoginPage/vendor/select2/select2.min.js"></script>
+	<script src="../../assets/LoginPage/vendor/tilt/tilt.jquery.min.js"></script>
+	<script >
+		$('.js-tilt').tilt({
+			scale: 1.1
+		})
+	</script>
+	<script src="../../assets/LoginPage/js/main.js"></script>
+
+</body>
+</html>

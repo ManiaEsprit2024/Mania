@@ -7,7 +7,7 @@
 exports.loginSubmit = async (req, res) => {
   let username = req.headers.username;
   let password = req.headers.password;
-  if(username == 'admin' && password == 'admin'){
+  if(username == 'mania' && password == 'mania'){
 
     req.session.user = {
       name: 'ADMIN',

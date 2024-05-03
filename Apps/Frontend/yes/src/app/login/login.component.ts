@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
+import { FormControl, FormGroup } from '@angular/forms';
 import { ManiaService } from '../Services/mania.service';
 
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
-  styleUrls: ['./login.component.css']
+  styleUrls: ['./login.component.css'],
 })
 export class LoginComponent {
   profileForm = new FormGroup({
@@ -15,14 +15,24 @@ export class LoginComponent {
   });
   loginResponse: string | null = null;
 
-  constructor(private backendService: ManiaService) {}
+  constructor(private backendService: ManiaService, private router: Router) {}
 
   login() {
-    if(this.profileForm.value.username && this.profileForm.value.password)
-    this.backendService.login(this.profileForm.value.username,this.profileForm.value.password).subscribe((response) => {
-      this.loginResponse = response.message;
-    }, (error) => {
-      this.loginResponse = error.error.message;
-    });
+    const { username, password } = this.profileForm.value;
+
+    if (username && password) {
+      this.backendService.login(username, password).subscribe(
+        (response) => {
+          if (response.message === 'OK') {
+            this.router.navigate(['/dashboard']);
+          } else {
+            this.loginResponse = response.message;
+          }
+        },
+        (error) => {
+          this.loginResponse = error.error.message;
+        }
+      );
+    }
   }
 }
