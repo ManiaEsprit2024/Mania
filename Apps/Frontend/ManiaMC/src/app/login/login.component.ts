@@ -13,14 +13,6 @@ export class LoginComponent {
   constructor(private router: Router) {}
 
   login() {
-    // Simulate authentication logic with fake backend
-    if (this.username === 'admin' && this.password === 'password') {
-      // If authentication succeeds, redirect to dashboard or desired page
-      this.router.navigate(['/dashboard']);
-    } else {
-      // If authentication fails, show error message or handle accordingly
-      alert('Invalid username or password');
-      this.router.navigate(['/dashboard']);
-    }
+    console.log('scope is');
   }
 }
