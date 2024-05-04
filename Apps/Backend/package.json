@@ -13,7 +13,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "express-session": "^1.18.0"
+    "express-session": "^1.18.0",
+    "pandas-js": "^0.2.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
