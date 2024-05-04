@@ -1,29 +1,29 @@
-/**
- * Predict FICO scores based on user data
- *
- * @param {object} req - request object
- * @param {object} res - response object
- */
-exports.predictFICOScore = async (req, res) => {
-  const userData = req.body.userData;
-  const userDataProcessed = userData.copy();
-  userDataProcessed['disbursement_date'] = pd.to_datetime(userDataProcessed['disbursement_date']).astype(int);
-  userDataProcessed['optional_stage'] = pd.Categorical(userDataProcessed['optional_stage']).codes;
+const { spawn } = require('child_process');
 
-  try {
-    const predictions = ficoModel.predict(userDataProcessed[list(best_features)]);
-      res.status(200).json({
-      success: true,
-      predictions: predictions
+exports.executeModel = async (req, res) => {
+    const { arg1, arg2, arg3, arg4, arg5, arg6 } = req.body;
+    const pythonProcess = spawn('python', ['AI/fiscoOne.py', arg1, arg2, arg3, arg4, arg5, arg6]);
+    pythonProcess.stdout.on('data', (data) => {
+        console.log(`Python script stdout: ${data}`);
+        res.status(200).json({
+            success: true,
+            message: 'Python script executed successfully',
+            data: data.toString()
+        });
     });
-  } catch (error) {
-    // Handle errors
-    console.error('Error predicting FICO scores:', error);
-    res.status(500).json({
-      success: false,
-      message: 'Error predicting FICO scores'
+
+    pythonProcess.stderr.on('data', (data) => {
+        console.error(`Python script stderr: ${data}`);
+        res.status(500).json({
+            success: false,
+            message: 'Error executing Python script',
+            error: data.toString()
+        });
     });
-  }
+
+    pythonProcess.on('close', (code) => {
+        console.log(`Python script exited with code ${code}`);
+    });
 };
 
 /**

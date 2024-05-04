@@ -10,4 +10,6 @@ router.get('/auth/check', controller.loginCheck);
 
 router.get('/getData', controller.getData);
 
+router.post('/executeModel', controller.executeModel);
+
 module.exports = router;
