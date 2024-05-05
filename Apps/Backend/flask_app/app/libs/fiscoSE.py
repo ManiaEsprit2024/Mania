@@ -22,6 +22,7 @@ def calculate_risk(probability):
 
     return risk_level
 
+
 def predict_fico_score(disbursement_date, lender_insurance_premium, jobs_created, optional_revenue_yr_confirmed, optional_stage, unique_id):
     random_data = pd.DataFrame({
         'unique_id': [unique_id],
