@@ -7,27 +7,16 @@ import { Observable } from 'rxjs';
 })
 export class ManiaService {
 
-  private baseUrl = 'http://localhost:3000';
+  private baseUrl = 'http://localhost:5000/api';
 
   constructor(private http: HttpClient) {}
 
   login(username: string, password: string): Observable<any> {
-    const headers = {
+    const body = {
       username,
       password
     };
-    return this.http.post(`${this.baseUrl}/auth/submit`, null, { headers });
-  }
-
-  logout(): Observable<any> {
-    return this.http.get(`${this.baseUrl}/logout`);
-  }
-
-  checkLogin(): Observable<any> {
-    return this.http.get(`${this.baseUrl}/auth/check`);
-  }
-
-  getData(): Observable<any> {
-    return this.http.get(`${this.baseUrl}/getData`);
+    
+    return this.http.post(`${this.baseUrl}/validate_mania`, body);
   }
 }

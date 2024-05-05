@@ -1,21 +1,15 @@
-from flask import Blueprint, request, jsonify, abort
+from flask import Blueprint, request, jsonify
 
 api = Blueprint('api', __name__)
 
-@api.route('/hello', methods=['GET'])
-def say_hello():
-    return "Hello from the API!"
-
-@api.route('/echo', methods=['POST'])   
-def echo():
+@api.route('/validate_mania', methods=['POST'])
+def validate_mania():
+    
     data = request.get_json()
-    if not data:
-        abort(400, description="No data provided")
-    return jsonify(data)
-
-@api.route('/user/<username>', methods=['GET'])
-def get_user(username):
-    if username == "admin":
-        return f"Admin User: {username}"
+    username = data['username']
+    password = data['password']
+    
+    if username == 'mania' and password == 'mania':
+        return jsonify({"message": "OK"}), 200 
     else:
-        abort(404, description="User not found")
+        return jsonify({"error": "Invalid credentials"}), 401
