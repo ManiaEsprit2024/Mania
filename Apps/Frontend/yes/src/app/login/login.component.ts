@@ -23,14 +23,16 @@ export class LoginComponent {
     if (username && password) {
       this.backendService.login(username, password).subscribe(
         (response) => {
+          console.log('Response from backend:', response); // Log the full response
           if (response.message === 'OK') {
             this.router.navigate(['/dashboard']);
           } else {
-            this.loginResponse = response.message;
+            this.loginResponse = response.message; // Handle response with message other than 'OK'
           }
         },
         (error) => {
-          this.loginResponse = error.error.message;
+          console.error('Error response:', error); // Log error details
+          this.loginResponse = error.error.message; // Extract and store the error message
         }
       );
     }

@@ -8,7 +8,7 @@ fico = Blueprint('fico', __name__)
 def predict():
     data = request.get_json()
 
-    required_fields = ['disbursement_date', 'lender_insurance_premium', 'jobs_created', 'optional_revenue_yr_confirmed', 'optional_stage', 'unique_id']
+    required_fields = ['disbursement_date', 'lender_insurance_premium', 'jobs_created', 'optional_revenue_yr_confirmed', 'optional_stage']
 
     if not all(field in data for field in required_fields):
         return jsonify({'error': 'Missing required fields'}), 400
@@ -18,15 +18,13 @@ def predict():
     jobs_created = data['jobs_created']
     optional_revenue_yr_confirmed = data['optional_revenue_yr_confirmed']
     optional_stage = data['optional_stage']
-    unique_id = data['unique_id']
 
     result = predict_fico_score(
         disbursement_date,
         lender_insurance_premium,
         jobs_created,
         optional_revenue_yr_confirmed,
-        optional_stage,
-        unique_id
+        optional_stage
     )
 
     return result.to_json(orient='records'), 200
@@ -60,5 +58,4 @@ def predict_bme():
         optional_primary_use_of_funds
     )
 
-    # Return the result as a JSON response
     return result.to_json(orient='records'), 200
