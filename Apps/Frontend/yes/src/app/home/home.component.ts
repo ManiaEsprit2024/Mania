@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
+  isLoading = true;
 
+  ngOnInit() {
+    setTimeout(() => {
+      this.isLoading = false;
+    }, 1000);
+  }
 }
