@@ -1,0 +1,41 @@
+<div class="center-container">
+    <div class="dashboard fade-in">
+        <header class="dashboard-header">
+            <h1>Mania Credit Checker</h1>
+        </header>
+        <div class="dashboard-body">
+            <app-navbar-back></app-navbar-back>
+            <main class="dashboard-main">
+                <div class="wrap">
+                    <div class="center-containerC">
+                        <h2 class="title">Search by Customer ID to Check Credit Score</h2>
+                        <p>Search based on customer ID to find their credit score.</p>
+                        <ol class="steps">
+                            <li>
+                                <a [class.current]="currentStep === 1"><span class="number">1</span> Choose</a>
+                            </li>
+                            <li>
+                                <a [class.current]="currentStep === 2"><span class="number">2</span> Details</a>
+                            </li>
+                            <li>
+                                <a [class.current]="currentStep === 3"><span class="number">3</span> Share</a>
+                            </li>
+                        </ol>
+                        <div class="search" *ngIf="currentStep === 1">
+                            <input type="text" class="searchTerm" placeholder="What are you looking for?" #searchInput>
+                            <button type="submit" class="searchButton" (click)="navigateToStep2(searchInput.value)">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </div>
+                        <div class="spinner-overlay" *ngIf="loading">
+                          <div class="loading-text">
+                            <p>{{ loadingText }}</p>
+                          </div>
+                          <div class="loader"></div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</div>

@@ -1,6 +1,7 @@
-# Import necessary libraries
 import pandas as pd
 import joblib
+import os
+import numpy as np 
 
 label_encoder = joblib.load("app/models/label_encoder.pkl")
 scaler = joblib.load("app/models/standard_scaler.pkl")
@@ -39,6 +40,9 @@ def predict_fico_score(disbursement_date, lender_insurance_premium, jobs_created
     loan_default_probabilities = xgb_model.predict_proba(random_data_scaled[best_features])[:, 1]
 
     forecast_fico_scores_xg = (300 + (900 - 300) * (1 - loan_default_probabilities)).astype(int)
+    
+    # Randomize the FICO scores
+    forecast_fico_scores_xg += np.random.randint(-50, 51, size=forecast_fico_scores_xg.shape[0])
 
     fico_classes = {
         'LOW': (300, 400),

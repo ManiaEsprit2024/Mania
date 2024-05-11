@@ -1,0 +1,252 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#header {
+  animation: fadeIn 1s ease forwards;
+}
+
+#hero {
+  animation: fadeIn 1s ease forwards;
+}
+
+.perks-card {
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  margin-bottom: 30px; /* Added margin bottom for spacing between cards */
+}
+
+.perks-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.perks-card .card-body {
+  text-align: center;
+  padding: 30px; /* Added padding for better spacing */
+}
+
+.perks-card .card-body i {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.perks-card .card-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+}
+
+.perks-card .card-text {
+  font-size: 18px;
+  color: #666;
+}
+
+
+.perks-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.perks-item {
+  flex: 0 0 calc(33.333% - 20px); /* Adjust the width here */
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.app-information {
+  padding: 80px 0;
+}
+
+.info-item {
+  margin-bottom: 30px;
+}
+
+.info-item i {
+  font-size: 24px;
+  margin-right: 15px;
+  color: #007bff;
+}
+
+.info-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.info-item p {
+  font-size: 16px;
+  color: #666;
+}
+
+.info-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Team Members Section */
+#team-members {
+  padding: 80px 0;
+}
+
+#team-members .section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#team-members .section-title h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+#team-members .section-title p {
+  font-size: 18px;
+  color: #666;
+  margin-top: 10px;
+}
+
+#team-members .row {
+  justify-content: space-around;
+}
+
+#team-members .col-lg-4 {
+  max-width: 33.33%;
+}
+
+#team-members .member {
+  background: #f9f9f9;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  padding: 30px 20px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+#team-members .member:hover {
+  transform: translateY(-5px);
+}
+
+#team-members .member-img {
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#team-members .member-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+
+#team-members .member-info {
+  margin-top: 20px;
+}
+
+#team-members .member-info h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#team-members .member-info span {
+  display: block;
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+#team-members .member-info .social a {
+  color: #666;
+  font-size: 24px;
+  margin: 0 5px;
+  transition: color 0.3s ease-in-out;
+}
+
+#team-members .member-info .social a:hover {
+  color: #007bff;
+}
+
+
+#footer {
+  background-color: #f8f8f8;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-section h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.footer-section p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #666;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #666;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #000;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links a {
+  font-size: 20px;
+  display: inline-block;
+  background: #333;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 12px;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: #000;
+}
+
