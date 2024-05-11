@@ -2,3 +2,5 @@ Flask>=2.2.0
 pandas>=1.4.0
 joblib>=1.1.0
 xgboost
+scikit-learn
+flask_cors
