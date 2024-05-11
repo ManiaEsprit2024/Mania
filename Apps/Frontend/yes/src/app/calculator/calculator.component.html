@@ -1,0 +1,58 @@
+<div class="center-container">
+    <div class="dashboard fade-in">
+      <header class="dashboard-header">
+        <h1>Mania Credit Checker</h1>
+      </header>
+      <div class="dashboard-body">
+        <app-navbar-back></app-navbar-back>
+        <main class="dashboard-main" id="dynamicFormContainer">
+          <div class="form-group">
+            <label for="dropdown">Select an option:</label>
+            <select id="dropdown" class="form-control">
+              <option value="" disabled selected>Select an option</option>
+              <option value="option1">Option 1</option>
+              <option value="option2">Option 2</option>
+            </select>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    // Function to dynamically change the form based on the dropdown selection
+    function createDynamicForm() {
+      const dropdownValue = document.getElementById('dropdown').value;
+      const dynamicFormContainer = document.getElementById('dynamicFormContainer');
+  
+      // Clear existing form elements
+      dynamicFormContainer.innerHTML = '';
+  
+      // Create form elements based on dropdown selection
+      if (dropdownValue === 'option1') {
+        const input1Group = document.createElement('div');
+        input1Group.classList.add('form-group');
+        input1Group.innerHTML = `
+          <label for="input1">Input 1:</label>
+          <input type="text" id="input1" class="form-control">
+        `;
+        dynamicFormContainer.appendChild(input1Group);
+      } else if (dropdownValue === 'option2') {
+        const input2Group = document.createElement('div');
+        input2Group.classList.add('form-group');
+        input2Group.innerHTML = `
+          <label for="input2">Input 2:</label>
+          <input type="text" id="input2" class="form-control">
+        `;
+        dynamicFormContainer.appendChild(input2Group);
+      }
+  
+      // Add more conditions for other options if needed
+    }
+  
+    // Add event listener to the dropdown to trigger form creation
+    document.addEventListener('DOMContentLoaded', function () {
+      document.getElementById('dropdown').addEventListener('change', createDynamicForm);
+    });
+  </script>
+  
