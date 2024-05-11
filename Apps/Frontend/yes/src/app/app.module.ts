@@ -22,6 +22,11 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarBackComponent } from './navbar-back/navbar-back.component';
 import { CreditCheckerComponent } from './credit-checker/credit-checker.component';
+import { MyLibsComponent } from './my-libs/my-libs.component';
+import { TreatedDataComponent } from './treated-data/treated-data.component';
+import { DatasetViewerComponent } from './dataset-viewer/dataset-viewer.component';
+import { TreatDialogComponentComponent } from './treat-dialog-component/treat-dialog-component.component';
+import { CalculatorComponent } from './calculator/calculator.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +35,12 @@ import { CreditCheckerComponent } from './credit-checker/credit-checker.componen
     HomeComponent,
     DashboardComponent,
     NavbarBackComponent,
-    CreditCheckerComponent
+    CreditCheckerComponent,
+    MyLibsComponent,
+    TreatedDataComponent,
+    DatasetViewerComponent,
+    TreatDialogComponentComponent,
+    CalculatorComponent
   ],
   imports: [
     BrowserModule,

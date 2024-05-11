@@ -1,0 +1,27 @@
+.dialog-title {
+    color: #fff;
+  }
+  
+  .form-field {
+    width: 100%;
+  }
+  
+  .select {
+    color: #fff;
+  }
+  
+  .dialog-actions {
+    justify-content: flex-end;
+  }
+  
+  .cancel-button {
+    color: #fff;
+  }
+  
+  .apply-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Add any additional styling as needed */
+  

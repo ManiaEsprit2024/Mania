@@ -81,9 +81,28 @@ def csv_to_json(csv_file):
         predictions_df.reset_index(drop=True, inplace=True)  
         result_df = pd.concat([df, predictions_df], axis=1)
         timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
-        output_file = f"Output_{timestamp}.csv"
+        output_file = "app/output/"+f"Output_{timestamp}.csv"
         
         result_df.to_csv(output_file, index=False)
         return output_file
+    except Exception as e:
+        return {"error": str(e)}
+    
+def get_fico_score_by_unique_id(output_file, unique_id):
+    output_folder = "app/output"
+    try:
+        output_file_path = os.path.join(output_folder, output_file)
+        df = pd.read_csv(output_file_path)
+        result = df[df['unique_id'] == unique_id]
+        if not result.empty:
+            return {
+                "FICO_Score": int(result['FICO_Score'].values[0]),
+                "Loan_default_probabilities": float(result['Loan_default_probabilities'].values[0]),
+                "Risk_Level": result['Risk_Level'].values[0],
+                "FICO_Class": result['FICO_Class'].values[0],
+                "Loan_Prediction": int(result['Loan_Prediction'].values[0])
+            }
+        else:
+            return "invalid unique_id"
     except Exception as e:
         return {"error": str(e)}

@@ -1,0 +1,46 @@
+<div class="center-container">
+    <div class="dashboard fade-in">
+      <header class="dashboard-header">
+        <h1>Mania Credit Checker</h1>
+      </header>
+      <div class="dashboard-body">
+        <app-navbar-back></app-navbar-back>
+        <main class="dashboard-main">
+          <div class="wrap">
+            <div class="center-containerC">
+              <div>
+                <!-- Input to select a file -->
+                <input type="file" (change)="onFileSelected($event)" accept=".csv">
+                <button (click)="uploadDataset()">Upload Dataset</button>
+              </div>
+              <!-- Table to display existing datasets -->
+              <div *ngIf="libs && libs.length > 0">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Name</th>
+                      <th>Action</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr *ngFor="let lib of libs">
+                      <td>{{ lib }}</td>
+                      <td>
+                        <button (click)="deleteLibrary(lib)">Delete</button>
+                        <button (click)="showLibrary(lib)">Show</button>
+                        <button (click)="openTreatDialog(lib)">Treat</button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div *ngIf="!libs || libs.length === 0">
+                <p>No libraries found.</p>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+  

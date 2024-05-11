@@ -21,17 +21,34 @@
                                 <a [class.current]="currentStep === 3"><span class="number">3</span> Share</a>
                             </li>
                         </ol>
+                        <!-- Select category dropdown -->
                         <div class="search" *ngIf="currentStep === 1">
+                            <select class="dropdown" [(ngModel)]="selectedFile">
+                                <option *ngFor="let file of files" [value]="file">{{ file }}</option>
+                            </select>
                             <input type="text" class="searchTerm" placeholder="What are you looking for?" #searchInput>
-                            <button type="submit" class="searchButton" (click)="navigateToStep2(searchInput.value)">
+                            <button type="submit" class="searchButton" (click)="searchFicoScore(searchInput.value)">
                                 <i class="fa fa-search"></i>
                             </button>
                         </div>
                         <div class="spinner-overlay" *ngIf="loading">
-                          <div class="loading-text">
-                            <p>{{ loadingText }}</p>
-                          </div>
-                          <div class="loader"></div>
+                            <div class="loading-text">
+                                <p>{{ loadingText }}</p>
+                            </div>
+                            <div class="loader"></div>
+                        </div>
+                        
+                        <!-- Display FICO score data -->
+                        <div *ngIf="currentStep === 3 && ficoScoreData">
+                            <h2 class="title">FICO Score Details</h2>
+                            <p>FICO Score: {{ ficoScoreData.FICO_Score }}</p>
+                            <p>Loan Default Probabilities: {{ ficoScoreData.Loan_default_probabilities }}</p>
+                            <p>Risk Level: {{ ficoScoreData.Risk_Level }}</p>
+                            <p>FICO Class: {{ ficoScoreData.FICO_Class }}</p>
+                            <p>Loan Prediction: {{ ficoScoreData.Loan_Prediction }}</p>
+                        </div>
+                        <div *ngIf="currentStep === 3 && !ficoScoreData">
+                            <p>No data found for the provided unique ID.</p>
                         </div>
                     </div>
                 </div>

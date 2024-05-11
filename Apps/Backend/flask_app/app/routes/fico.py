@@ -1,6 +1,7 @@
 from flask import Blueprint, request, jsonify
 from app.libs.fiscoSE import predict_fico_score 
 from app.libs.fiscoBME import predict_fico_score_bme
+from app.libs.fiscoSE import get_fico_score_by_unique_id
 from app.libs.fiscoSE import csv_to_json 
 import os
 fico = Blueprint('fico', __name__)
@@ -78,4 +79,18 @@ def predict_dataset():
     predictions = csv_to_json(dataset)
     return predictions, 200
 
+@fico.route('/get_fico_by_unique_id', methods=['POST'])
+def get_fico_by_unique_id():
+    data = request.get_json()
 
+    if 'output_file' not in data or 'unique_id' not in data:
+        return jsonify({'error': 'output_file or unique_id not provided'}), 400
+
+    output_file = data['output_file']
+    unique_id = data['unique_id']
+
+    try:
+        fico_score = get_fico_score_by_unique_id(output_file, unique_id)
+        return jsonify({'fico_score': fico_score}), 200
+    except Exception as e:
+        return jsonify({'error': f'Error: {str(e)}'}), 500

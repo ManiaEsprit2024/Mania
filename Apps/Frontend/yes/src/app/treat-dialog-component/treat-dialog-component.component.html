@@ -1,0 +1,24 @@
+<h1 mat-dialog-title>Treat Dataset {{ data.lib }}</h1>
+<div mat-dialog-content>
+  <form>
+    <mat-form-field>
+      <mat-label>Choose Model</mat-label>
+      <mat-select [(value)]="selectedModel" [disabled]="loading">
+        <mat-option *ngFor="let model of models" [value]="model.value">
+          {{ model.viewValue }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+  </form>
+</div>
+
+
+<mat-spinner *ngIf="loading" diameter="30"></mat-spinner>
+<div *ngIf="loading">
+  <p>{{ randomMessage }}</p>
+</div>
+
+<div mat-dialog-actions>
+  <button mat-button (click)="closeDialog()" [disabled]="loading">Cancel</button>
+  <button mat-button color="primary" (click)="submitForm()" [disabled]="loading">Apply Treatment</button>
+</div>
