@@ -1,40 +1,46 @@
-<!-- dashboard.component.html -->
-<div class="dashboard">
+<div class="spinner-overlay" *ngIf="isLoading">
+  <div class="loading-text">
+    <p>{{ loadingText }}</p>
+  </div>
+  <div class="loader"></div>
+</div>
+
+<div *ngIf="!isLoading" [ngClass]="{'fade-up': !isLoading}">
+  <div class="dashboard">
     <header class="dashboard-header">
-      <h1>Dashboard</h1>
-      <div class="header-right">
-        <button class="btn-logout">Logout</button>
-      </div>
+      <h1>Mania Credit Dashboard</h1>
     </header>
-  
     <div class="dashboard-body">
-      <aside class="dashboard-sidebar">
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Profile</a></li>
-          <li><a href="#">Settings</a></li>
-        </ul>
-      </aside>
-  
+      <app-navbar-back>
+      </app-navbar-back>
       <main class="dashboard-main">
-        <div class="dashboard-widgets">
-          <!-- Add dashboard widgets here -->
-          <div class="widget">
-            <h2>Widget 1</h2>
-            <p>This is the first widget.</p>
+        <div class="chart-section">
+          <canvas id="myChart"></canvas>
+        </div>
+
+        <!-- Cards Section -->
+        <div class="cards-section">
+          <div class="card">
+            <h3>Card 1</h3>
+            <p>This is card 1 content</p>
           </div>
-  
-          <div class="widget">
-            <h2>Widget 2</h2>
-            <p>This is the second widget.</p>
+          <div class="card">
+            <h3>Card 2</h3>
+            <p>This is card 2 content</p>
           </div>
-          
-          <div class="widget">
-            <h2>Widget 3</h2>
-            <p>This is the third widget.</p>
-          </div>
+          <!-- Add more cards as needed -->
+        </div>
+
+        <!-- Lists Section -->
+        <div class="lists-section">
+          <h2>Recent Activities</h2>
+          <ul>
+            <li>Activity 1</li>
+            <li>Activity 2</li>
+            <!-- Add more activities as needed -->
+          </ul>
         </div>
       </main>
     </div>
   </div>
-  
+</div>

@@ -19,13 +19,18 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSelectModule } from '@angular/material/select';
 import { HomeComponent } from './home/home.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NavbarBackComponent } from './navbar-back/navbar-back.component';
+import { CreditCheckerComponent } from './credit-checker/credit-checker.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     HomeComponent,
-    DashboardComponent
+    DashboardComponent,
+    NavbarBackComponent,
+    CreditCheckerComponent
   ],
   imports: [
     BrowserModule,
@@ -37,6 +42,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     MatInputModule,
     MatCardModule,
     MatMenuModule,
+    BrowserAnimationsModule,
     MatIconModule,
     MatButtonModule,
     MatTableModule,

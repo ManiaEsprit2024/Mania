@@ -1,9 +1,7 @@
-# Import necessary libraries
 import pandas as pd
 import joblib
 import os
-from sklearn.preprocessing import LabelEncoder
-from sklearn.preprocessing import StandardScaler
+import numpy as np  # Import numpy for randomization
 
 xgb_model = joblib.load("app/models/fico_model_SE.pkl")
 
@@ -43,6 +41,9 @@ def predict_fico_score(disbursement_date, lender_insurance_premium, jobs_created
     loan_default_probabilities = xgb_model.predict_proba(random_data_processed[best_features])[:, 1]
     
     forecast_fico_scores_xg = (300 + (900 - 300) * (1 - loan_default_probabilities)).astype(int)
+    
+    # Randomize the FICO scores
+    forecast_fico_scores_xg += np.random.randint(-50, 51, size=forecast_fico_scores_xg.shape[0])
 
     fico_classes = {
         'LOW': (300, 400),
@@ -51,7 +52,6 @@ def predict_fico_score(disbursement_date, lender_insurance_premium, jobs_created
         'Very Good': (701, 900)
     }
 
-    # Assign FICO class based on FICO score
     forecast_fico_classes_xg = []
     for score in forecast_fico_scores_xg:
         for fico_class, score_range in fico_classes.items():
@@ -59,7 +59,6 @@ def predict_fico_score(disbursement_date, lender_insurance_premium, jobs_created
                 forecast_fico_classes_xg.append(fico_class)
                 break
 
-    # Create a DataFrame with the output data
     forecast_with_classes_xg = pd.DataFrame({
         'FICO_Score': forecast_fico_scores_xg,
         'Loan_default_probabilities': loan_default_probabilities,

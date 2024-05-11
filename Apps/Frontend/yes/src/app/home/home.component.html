@@ -1,126 +1,132 @@
-<!-- app.component.html -->
-<div class="loading-overlay" *ngIf="isLoading">
-	<div class="spinner"></div>
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+      <h1 class="logo"><a href="index.html">Mania Credit</a></h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="getstarted scrollto" href="/login">Login</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+    </div>
+  </header>
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center" >
+    <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+      <div class="row justify-content-center">
+        <div class="col-xl-7 col-lg-9 text-center">
+          <img src="..\assets\LoginPage\images\ManiaLogo.png" alt="Mania" width="30%">
+          <h1>Credit Scoring App</h1>
+          <h2>Empowering Financial Decisions</h2>
+        </div>
+      </div>
+      <div class="text-center">
+        <!-- Add any additional content or features here -->
+      </div>
+    </div>
+  </section>
+
+<!-- ======= Perks Section ======= -->
+<section id="perks" class="perks">
+  <div class="container" data-aos="fade-up">
+    <div class="perks-container">
+      <div class="perks-item">
+        <div class="card perks-card">
+          <div class="card-body">
+            <i class="ri-money-dollar-circle-line" style="color: #ffbb2c;"></i>
+            <h3 class="card-title">Financial Management</h3>
+            <p class="card-text">Manage your finances effectively with our intuitive tools and features.</p>
+          </div>
+        </div>
+      </div>
+      <div class="perks-item">
+        <div class="card perks-card">
+          <div class="card-body">
+            <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
+            <h3 class="card-title">Smart Insights</h3>
+            <p class="card-text">Gain valuable insights into your spending habits and financial health.</p>
+          </div>
+        </div>
+      </div>
+      <div class="perks-item">
+        <div class="card perks-card">
+          <div class="card-body">
+            <i class="ri-shield-check-line" style="color: #e80368;"></i>
+            <h3 class="card-title">Security</h3>
+            <p class="card-text">Rest assured, your data is encrypted and secure with our robust security measures.</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-  
-  <div class="landing-page" [ngClass]="{ 'loading': isLoading }">
-	<header class="hero">
-	  <div class="hero-content slide-in">
-		<h1>Welcome to Mania Credit Scoring</h1>
-		<p>Your gateway to financial insights and credit management.</p>
-		<button class="cta-button">Get Started</button>
-	  </div>
-	  <div class="hero-image">
-		<img src="assets/hero-image.jpg" alt="Credit Scoring Illustration" class="fade-in" />
-	  </div>
-	</header>
-  
-	<section class="features">
-	  <h2 class="slide-in">Our Features</h2>
-	  <div class="feature-grid">
-		<div class="feature fade-in">
-		  <i class="icon fas fa-chart-line"></i>
-		  <h3>Comprehensive Credit Reports</h3>
-		  <p>Access detailed credit reports with insights into your financial health.</p>
-		  <img src="assets/credit-reports.jpg" alt="Credit Reports" class="feature-image" />
-		</div>
-		<div class="feature fade-in">
-		  <i class="icon fas fa-bell"></i>
-		  <h3>Real-time Updates</h3>
-		  <p>Stay informed with real-time credit score updates and alerts.</p>
-		  <img src="assets/real-time-updates.jpg" alt="Real-time Updates" class="feature-image" />
-		</div>
-		<div class="feature fade-in">
-		  <i class="icon fas fa-user-check"></i>
-		  <h3>Personalized Advice</h3>
-		  <p>Get expert advice on how to improve your credit score and maintain a healthy financial life.</p>
-		  <img src="assets/personalized-advice.jpg" alt="Personalized Advice" class="feature-image" />
-		</div>
-		<div class="feature fade-in">
-		  <i class="icon fas fa-lock"></i>
-		  <h3>Secure and Confidential</h3>
-		  <p>Your data is protected with industry-leading security measures.</p>
-		  <img src="assets/secure-and-confidential.jpg" alt="Secure and Confidential" class="feature-image" />
-		</div>
-	  </div>
-	</section>
-  
-	<section class="pricing">
-	  <h2 class="slide-in">Pricing Plans</h2>
-	  <div class="pricing-grid">
-		<div class="pricing-card fade-in">
-		  <h3>Basic</h3>
-		  <p>$9.99/month</p>
-		  <ul>
-			<li>Monthly Credit Reports</li>
-			<li>Basic Credit Advice</li>
-			<li>Email Support</li>
-		  </ul>
-		  <button class="cta-button">Select</button>
-		</div>
-		<div class="pricing-card fade-in">
-		  <h3>Premium</h3>
-		  <p>$19.99/month</p>
-		  <ul>
-			<li>Weekly Credit Reports</li>
-			<li>Personalized Credit Advice</li>
-			<li>Priority Email and Chat Support</li>
-		  </ul>
-		  <button class="cta-button">Select</button>
-		</div>
-		<div class="pricing-card fade-in">
-		  <h3>Pro</h3>
-		  <p>$29.99/month</p>
-		  <ul>
-			<li>Daily Credit Reports</li>
-			<li>Direct Access to Credit Experts</li>
-			<li>Priority Phone Support</li>
-		  </ul>
-		  <button class="cta-button">Select</button>
-		</div>
-	  </div>
-	</section>
-  
-	<section class="faq">
-	  <h2 class="slide-in">Frequently Asked Questions</h2>
-	  <div class="faq-grid">
-		<div class="faq-item fade-in">
-		  <h3>What is a credit score?</h3>
-		  <p>A credit score is a numerical representation of your creditworthiness, used by lenders to assess risk.</p>
-		</div>
-		<div class="faq-item fade-in">
-		  <h3>How often is my credit score updated?</h3>
-		  <p>Your credit score is updated regularly, depending on your subscription plan.</p>
-		</div>
-	  </div>
-	</section>
-  
-	<section class="contact">
-	  <h2 class="slide-in">Contact Us</h2>
-	  <form>
-		<div class="form-group fade-in">
-		  <label for="name">Name</label>
-		  <input type="text" id="name" name="name" required />
-		</div>
-		<div class="form-group fade-in">
-		  <label for="email">Email</label>
-		  <input type="email" id="email" required />
-		</div>
-		<div class="form-group fade-in">
-		  <label for="message">Message</label>
-		  <textarea name="message" rows="4" required></textarea>
-		</div>
-		<button type="submit" class="cta-button fade-in">Send</button>
-	  </form>
-	</section>
-  
-	<footer class="footer">
-	  <p>© 2024 Mania Credit Scoring. All rights reserved.</p>
-	  <p>
-		<a href="#">Privacy Policy</a> |
-		<a href="#">Terms of Service</a> |
-		<a href="#">Contact Us</a>
-	  </p>
-	</footer>
+</section>
+<section id="team-members" class="team-members">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>Team Members</h2>
+      <p>Meet our talented team behind the app.</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+        <div class="member">
+          <div class="member-img">
+            <img src="path/to/member1.jpg" class="img-fluid" alt="Team Member">
+            <div class="social">
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h3>John Doe</h3>
+            <span>CEO & Co-founder</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+        <div class="member">
+          <div class="member-img">
+            <img src="path/to/member2.jpg" class="img-fluid" alt="Team Member">
+            <div class="social">
+              <a href="#"><i class="bi bi-twitter"></i></a>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h3>Jane Smith</h3>
+            <span>CTO & Co-founder</span>
+          </div>
+        </div>
+      </div>
+      <!-- Add more team member cards here -->
+    </div>
   </div>
-  
+</section>
+<!-- ======= Footer ======= -->
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <p>&copy; 2024 Mania Credit. All Rights Reserved.
+      </div>
+    </div>
+  </div>
+</footer><!-- End Footer -->
