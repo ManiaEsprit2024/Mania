@@ -59,4 +59,17 @@ export class ManiaService {
   getDatasetStats(filename: string): Observable<any> {
     return this.http.post(`${this.baseUrl}/dataset_stats`, { filename });
   }
+
+  downloadCsv(folder: string, filename: string): Observable<any> {
+    const body = { folder, filename };
+    return this.http.post(`${this.baseUrl}/download_csv`, body, { responseType: 'blob' });
+  }
+
+  downloadLogFile(): Observable<any> {
+    return this.http.get(`${this.baseUrl}/download_log_file`, { responseType: 'text' });
+  }
+  
+  extractChartDataFromLogs(): Observable<any> {
+    return this.http.get(`${this.baseUrl}/chart_data_from_logs`);
+  }
 }

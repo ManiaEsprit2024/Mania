@@ -1,0 +1,21 @@
+<div class="center-container">
+    <div class="dashboard fade-up">
+      <div class="dashboard-body">
+        <app-navbar-back></app-navbar-back>
+        <main class="dashboard-main">
+          <h2>Logs</h2>
+          <div class="logs-container">
+            <div *ngIf="logsContent">
+              <div class="log-item" *ngFor="let log of logsContent">
+                <span [style.color]="log.color">{{ log.text }}</span>
+              </div>
+            </div>
+            <div *ngIf="!logsContent">
+              <p>No logs available</p>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+  

@@ -15,11 +15,20 @@
                                 </thead>
                                 <tbody>
                                     <tr *ngFor="let lib of libs">
-                                        <td>{{ lib }}</td>
-                                        <td>
-                                            <button class="delete-btn" (click)="deleteLibrary(lib)">Delete</button>
-                                            <button class="show-btn" (click)="showLibrary(lib)">Show</button>
-                                        </td>
+                                        <ng-container *ngIf="lib.indexOf('logfile.log') === -1">
+                                            <td>{{ lib }}</td>
+                                            <td class="button-container">
+                                                <a class="buttonGlow btn" (click)="showLibrary(lib)">
+                                                    <span><i class="fas fa-eye"></i> Show</span>
+                                                </a>
+                                                <a class="buttonGlow btn" (click)="downloadDataset(lib)">
+                                                    <span><i class="fas fa-download"></i> Download</span>
+                                                </a>
+                                                <a class="buttonGlow btn" (click)="deleteLibrary(lib)">
+                                                    <span><i class="fas fa-trash"></i> Delete</span>
+                                                </a>
+                                            </td>
+                                        </ng-container>
                                     </tr>
                                 </tbody>
                             </table>

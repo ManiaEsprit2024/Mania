@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Chart } from 'angular-highcharts';
+import { ManiaService } from '../Services/mania.service';
 
 @Component({
   selector: 'app-dashboard',
@@ -9,10 +11,40 @@ export class DashboardComponent {
   isLoading: boolean = true;
   loadingText: string = '';
   private intervalId: any;
+  pieChart: Chart;
+  barChart: Chart;
+  chartData: any;
 
-  constructor() { }
+  constructor(private maniaService: ManiaService) {
+    this.pieChart = new Chart({
+      title: {
+        text: 'Customers Data'
+      },
+      series: [{
+        type: 'pie',
+        data: [
+          { name: 'SE', y: 10, color: '#eeeeee' },
+          { name: 'BME', y:30, color: '#393e64' },
+          { name: 'Individuals', y: 200, color: '#000000' }
+        ]
+      }]
+    });
+
+    this.barChart = new Chart({
+      chart: {
+        type: 'bar'
+      },
+      title: {
+        text: 'Log Data'
+      },
+      series: [{
+           name: 'Log Data', data: [Math.floor(Math.random() * 10)], // Initialize with random data
+      } as any]
+    });
+  }
 
   ngOnInit(): void {
+    this.fetchChartDataFromService();
     // Simulating some asynchronous operation that triggers the spinner
     setTimeout(() => {
       this.isLoading = false;
@@ -43,5 +75,16 @@ export class DashboardComponent {
       clearInterval(this.intervalId);
       this.intervalId = null;
     }
+  }
+
+  fetchChartDataFromService(): void {
+    this.maniaService.extractChartDataFromLogs().subscribe(
+      (data: any) => {
+        this.chartData = data.chart_data;
+      },
+      (error: any) => {
+        console.error('Error fetching customer data:', error);
+      }
+    );
   }
 }

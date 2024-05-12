@@ -29,7 +29,8 @@ import { TreatDialogComponentComponent } from './treat-dialog-component/treat-di
 import { CalculatorComponent } from './calculator/calculator.component';
 import { DocumentationComponent } from './documentation/documentation.component';
 import { ChatbotComponent } from './chatbot/chatbot.component';
-import { provideCharts, withDefaultRegisterables } from 'ng2-charts';
+import { ChartModule } from 'angular-highcharts';
+import { LogsComponent } from './logs/logs.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { provideCharts, withDefaultRegisterables } from 'ng2-charts';
     TreatDialogComponentComponent,
     CalculatorComponent,
     DocumentationComponent,
-    ChatbotComponent
+    ChatbotComponent,
+    LogsComponent
   ],
   imports: [
     BrowserModule,
@@ -64,11 +66,11 @@ import { provideCharts, withDefaultRegisterables } from 'ng2-charts';
     MatDividerModule,
     MatSlideToggleModule,
     MatSelectModule,
+    ChartModule,
     MatProgressSpinnerModule
   ],
   providers: [
-    provideAnimationsAsync(),
-    provideCharts(withDefaultRegisterables())
+    provideAnimationsAsync()
   ],
   bootstrap: [AppComponent]
 })

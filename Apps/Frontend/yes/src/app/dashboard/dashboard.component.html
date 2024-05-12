@@ -14,8 +14,7 @@
           <div class="status-board">
             <div class="clock animated-chart">
               <h3>Score Analysis</h3>
-              <p>Current accuracy: 0.72</p>
-              <p>Projected improvement: +30 points</p>
+              <div class="" [chart]="barChart"></div>
             </div>
 
             <div class="phase-chart animated-chart">
@@ -23,14 +22,31 @@
               <div class="chart-text">
                 <p>This chart illustrates the progress and trustworthiness of the models across different phases.</p>
               </div>
-              <img src="../../assets/fake.png" width="100px" height="100px" alt="Credit Score Phases Chart">
+              <div class="" [chart]="pieChart"></div>
             </div>
             
             <div class="performance-chart animated-chart">
               <h3>Score Performance</h3>
               <div class="performance-stat">
-                <p>Overall Satisfaction: <span class="positive animated-satisfaction">85%</span></p>
+              <div class="chart-data">
+                <div class="data-item">
+                  <span class="label">Deletes:</span>
+                  <span class="value"><span style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="positive animated-satisfaction"> {{ chartData.chart_data.Deletes }}</span></span>
+                </div>
+                <div class="data-item">
+                  <span class="label">Downloads:</span>
+                  <span class="value"><span style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="positive animated-satisfaction"> {{ chartData.chart_data.Downloads }}</span></span>
+                </div>
+                <div class="data-item">
+                  <span class="label">Uploads:</span>
+                  <span class="value"><span style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="positive animated-satisfaction"> {{ chartData.chart_data.Uploads }}</span></span>
+                </div>
+                <div class="data-item">
+                  <span class="label">Treated:</span>
+                  <span class="value"><span style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="positive animated-satisfaction"> {{ chartData.chart_data.treated }}</span></span>
+                </div>
               </div>
+            </div>
             </div>
           </div>
 

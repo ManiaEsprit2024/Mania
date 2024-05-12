@@ -10,6 +10,7 @@ import { DatasetViewerComponent } from './dataset-viewer/dataset-viewer.componen
 import { CalculatorComponent } from './calculator/calculator.component';
 import { DocumentationComponent } from './documentation/documentation.component';
 import { ChatbotComponent } from './chatbot/chatbot.component';
+import { LogsComponent } from './logs/logs.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -22,6 +23,7 @@ const routes: Routes = [
   { path: 'calculator', component: CalculatorComponent },
   { path: 'docs', component: DocumentationComponent },
   { path: 'maniamini', component: ChatbotComponent },
+  { path: 'logs', component: LogsComponent },
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

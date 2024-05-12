@@ -1,0 +1,205 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-921-231
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:43:01] "GET /api/download_log_file HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:43:16] "OPTIONS /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder Output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:43:16] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:43:20] "OPTIONS /api/get_csv_content HTTP/1.1" 200 -
+INFO:root:Content of CSV file logfile.log read successfully.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:43:20] "POST /api/get_csv_content HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:43:25] "OPTIONS /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder datasets retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:43:25] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder Output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:43:27] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:43:32] "OPTIONS /api/delete_file HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:43:32] "[35m[1mPOST /api/delete_file HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:43:38] "OPTIONS /api/get_csv_content HTTP/1.1" 200 -
+INFO:root:Content of CSV file logfile.log read successfully.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:43:38] "POST /api/get_csv_content HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:43:40] "OPTIONS /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder Output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:43:40] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:44:08] "OPTIONS /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder Output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:44:08] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder Output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:44:11] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:44:17] "OPTIONS /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder Output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:44:18] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder Output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:44:20] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder Output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:44:22] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:44:26] "OPTIONS /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder Output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:44:26] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:44:35] "OPTIONS /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder Output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:44:35] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:45:11] "OPTIONS /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder Output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:45:11] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:45:32] "OPTIONS /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder Output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:45:32] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:45:40] "OPTIONS /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder Output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:45:40] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:45:48] "GET /api/download_log_file HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:45:55] "OPTIONS /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder Output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:45:56] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:45:57] "GET /api/download_log_file HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:46:08] "OPTIONS /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:46:09] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-921-231
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:50:06] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:50:08] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\UwU\\Desktop\\Mania\\Apps\\Backend\\flask_app\\app\\libs\\datasetloader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-921-231
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:51:35] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:51:39] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\UwU\\Desktop\\Mania\\Apps\\Backend\\flask_app\\app\\libs\\datasetloader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-921-231
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:52:39] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\UwU\\Desktop\\Mania\\Apps\\Backend\\flask_app\\app\\libs\\datasetloader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-921-231
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:54:52] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:54:58] "OPTIONS /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder datasets retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:54:59] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:55:01] "OPTIONS /api/delete_file HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:55:01] "POST /api/delete_file HTTP/1.1" 200 -
+INFO:root:List of files in folder datasets retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:55:02] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:55:04] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\UwU\\Desktop\\Mania\\Apps\\Backend\\flask_app\\app\\libs\\datasetloader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-921-231
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:55:52] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:root:Dataset Output_20240512112024 (1).csv uploaded successfully to datasets
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:56:01] "POST /api/upload_dataset HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:56:01] "OPTIONS /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder datasets retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:56:01] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\UwU\\Desktop\\Mania\\Apps\\Backend\\flask_app\\app\\libs\\datasetloader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-921-231
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:56:22] "OPTIONS /api/download_csv HTTP/1.1" 200 -
+INFO:root:CSV file Output_20240512112024 (1).csv downloaded successfully from folder datasets.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:56:23] "POST /api/download_csv HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\UwU\\Desktop\\Mania\\Apps\\Backend\\flask_app\\app\\libs\\datasetloader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-921-231
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:56:36] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:56:46] "OPTIONS /api/predict_fico_dataset HTTP/1.1" 200 -
+INFO:app.routes.fico:Dataset prediction request processed successfully
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:57:01] "POST /api/predict_fico_dataset HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:57:01] "OPTIONS /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder Output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:57:02] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\UwU\\Desktop\\Mania\\Apps\\Backend\\flask_app\\app\\libs\\datasetloader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-921-231
+INFO:werkzeug: * Detected change in 'C:\\Users\\UwU\\Desktop\\Mania\\Apps\\Backend\\flask_app\\app\\libs\\datasetloader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-921-231
+INFO:werkzeug: * Detected change in 'C:\\Users\\UwU\\Desktop\\Mania\\Apps\\Backend\\flask_app\\app\\libs\\datasetloader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-921-231
+INFO:werkzeug: * Detected change in 'C:\\Users\\UwU\\Desktop\\Mania\\Apps\\Backend\\flask_app\\app\\libs\\datasetloader.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-921-231
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:57:59] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\UwU\\Desktop\\Mania\\Apps\\Backend\\flask_app\\app\\libs\\datasetloader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-921-231
+INFO:werkzeug: * Detected change in 'C:\\Users\\UwU\\Desktop\\Mania\\Apps\\Backend\\flask_app\\app\\libs\\datasetloader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-921-231
+INFO:werkzeug: * Detected change in 'C:\\Users\\UwU\\Desktop\\Mania\\Apps\\Backend\\flask_app\\app\\libs\\datasetloader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-921-231
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:58:18] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\UwU\\Desktop\\Mania\\Apps\\Backend\\flask_app\\app\\libs\\datasetloader.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 129-921-231
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 12:58:25] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:11:39] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:11:43] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:11:56] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:12:49] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:13:03] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:13:47] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:13:56] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:13:59] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:14:08] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:14:10] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:14:12] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:14:24] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:14:25] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:14:27] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:14:49] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:15:03] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:15:13] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:15:32] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:15:33] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:15:42] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:15:58] "GET /api/chart_data_from_logs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:15:59] "OPTIONS /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:15:59] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder datasets retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:16:02] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder Output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:16:04] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:16:07] "OPTIONS /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder Output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:16:07] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:16:09] "OPTIONS /api/delete_file HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:16:09] "POST /api/delete_file HTTP/1.1" 200 -
+INFO:root:List of files in folder Output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:16:10] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:16:10] "POST /api/delete_file HTTP/1.1" 200 -
+INFO:root:List of files in folder Output retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:16:10] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder datasets retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:16:11] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:16:14] "POST /api/delete_file HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:16:14] "OPTIONS /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:root:List of files in folder datasets retrieved.
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:16:14] "POST /api/list_files_in_folder HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/May/2024 13:16:18] "GET /api/download_log_file HTTP/1.1" 200 -

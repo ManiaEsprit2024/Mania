@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <div class="center-container">
   <div class="dashboard fade-up">
     <div class="dashboard-body">
@@ -8,7 +9,7 @@
             <div class="upload-section">
               <!-- Input to select a file -->
               <input type="file" (change)="onFileSelected($event)" accept=".csv">
-              <button (click)="uploadDataset()">Upload Dataset</button>
+              <button (click)="uploadDataset()"><i class="fas fa-upload"></i> Upload Dataset</button>
             </div>
             <!-- Display existing datasets -->
             <div class="dataset-section" *ngIf="libs && libs.length > 0">
@@ -23,11 +24,12 @@
                 <tbody>
                   <tr *ngFor="let lib of libs">
                     <td>{{ lib }}</td>
-                    <td>
-                      <button (click)="deleteLibrary(lib)">Delete</button>
-                      <button (click)="showLibrary(lib)">Show</button>
-                      <button (click)="openTreatDialog(lib)">Treat</button>
-                      <button (click)="getAnalytics(lib)">Analytics</button>
+                    <td class="button-container">
+                      <a class="buttonGlow btn" (click)="showLibrary(lib)"><i class="fas fa-eye"></i><span>Show</span></a>
+                      <a class="buttonGlow btn" (click)="openTreatDialog(lib)"><i class="fas fa-cog"></i><span>Treat</span></a>
+                      <a class="buttonGlow btn" (click)="getAnalytics(lib)"><i class="fas fa-chart-bar"></i><span>Analytics</span></a>
+                      <a class="buttonGlow btn" (click)="downloadDataset(lib)"><i class="fas fa-download"></i><span>Download</span></a>
+                      <a class="buttonGlow btn" (click)="deleteLibrary(lib)"><i class="fas fa-trash"></i><span>Delete</span></a>
                     </td>
                   </tr>
                 </tbody>

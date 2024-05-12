@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from app.libs.datasetloader import upload_dataset, get_csv_content, list_files_in_folder ,dataset_stats
+from app.libs.datasetloader import extract_chart_data_from_logs,download_csv,upload_dataset, get_csv_content, list_files_in_folder ,dataset_stats
 import os
 api = Blueprint('api', __name__)
 
@@ -82,3 +82,58 @@ def dataset_stats_route():
 
     stats = dataset_stats(filename)
     return jsonify(stats), 200
+
+@api.route('/download_csv', methods=['POST'])
+def download_csv_route():
+    """
+    Endpoint to download a CSV file.
+    """
+    data = request.get_json()
+    if 'folder' not in data or 'filename' not in data:
+        return jsonify({'error': 'folder or filename not provided'}), 400
+
+    folder = data['folder']
+    filename = data['filename']
+
+    try:
+        return download_csv(folder, filename)
+    except Exception as e:
+        return jsonify({'error': f"Error downloading file '{filename}': {str(e)}"}), 500
+    
+@api.route('/chart_data_from_logs', methods=['GET'])
+def chart_data_from_logs():
+    """
+    Endpoint to extract chart data from logs.
+    """
+    try:
+        log_file_path = 'app/output/logfile.log'
+        if os.path.exists(log_file_path):
+            with open(log_file_path, 'r') as log_file:
+                log_content = log_file.read()
+
+            chart_data = extract_chart_data_from_logs(log_content)
+            if chart_data:
+                return jsonify({'chart_data': chart_data}), 200
+            else:
+                return jsonify({'error': 'Failed to extract chart data from logs'}), 500
+        else:
+            return jsonify({'error': 'Log file not found'}), 404
+    except Exception as e:
+        return jsonify({'error': f"Error extracting chart data from logs: {str(e)}"}), 500
+
+    
+@api.route('/download_log_file', methods=['GET'])
+def download_log_file():
+    """
+    Endpoint to download the log file.
+    """
+    try:
+        log_file_path = 'app/output/logfile.log'
+        if os.path.exists(log_file_path):
+            with open(log_file_path, 'r') as log_file:
+                log_content = log_file.read()
+            return jsonify({'log_content': log_content}), 200
+        else:
+            return jsonify({'error': 'Log file not found'}), 404
+    except Exception as e:
+        return jsonify({'error': f"Error downloading log file: {str(e)}"}), 500

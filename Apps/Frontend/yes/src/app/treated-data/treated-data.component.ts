@@ -45,4 +45,27 @@ export class TreatedDataComponent {
       }
     );
   }
+
+  downloadDataset(lib: string) {
+    this.maniaService.downloadCsv('datasets', lib).subscribe(
+      (data) => {
+        this.downloadFile(data, lib);
+      },
+      (error) => {
+        console.error('Error downloading dataset:', error);
+      }
+    );
+  }
+
+  downloadFile(data: any, filename: string) {
+    const blob = new Blob([data], { type: 'text/csv' });
+    const url = window.URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    window.URL.revokeObjectURL(url);
+  }
 }
