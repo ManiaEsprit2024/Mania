@@ -29,9 +29,9 @@ body {
   color: #fff; /* White text color */
 }
 
-/* Dialog container */
 .dialog-container {
   display: flex;
+  width: 1000px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -78,7 +78,7 @@ body {
   background: #fff; /* White button background color */
   color: #222; /* Dark button text color */
   border: none;
-  padding: 5px 10px;
+  padding: 10px 20px; /* Adjust padding for bigger button */
   border-radius: 5px;
   cursor: pointer;
 }
@@ -110,7 +110,7 @@ body {
 }
 
 .card {
-  flex: 1 1 300px; /* Adjust the card width as needed */
+  flex: 1 1 500px; /* Adjust the card width as needed */
   background: #222; /* Dark card background color */
   border: 1px solid #444; /* Darker border color */
   border-radius: 10px;
@@ -172,7 +172,7 @@ body {
 /* Status Board Styles */
 .status-board > div {
   flex: 0 0 48%; /* Set a fixed width for each section */
-  padding: 10px;
+  padding: 20px; /* Adjust padding for bigger fields */
   border: 1px solid #444; /* Darker border color */
   border-radius: 5px;
   margin-bottom: 10px;
@@ -203,7 +203,7 @@ body {
 /* Other Stats Styles */
 .other-stats > div {
   flex: 0 0 30%; /* Set a fixed width for each stat block */
-  padding: 10px;
+  padding: 20px; /* Adjust padding for bigger fields */
   border: 1px solid #444; /* Darker border color */
   border-radius: 5px;
   margin-bottom: 10px;
@@ -261,3 +261,16 @@ body {
       transform: scale(1.1);
   }
 }
+
+/* Add this CSS to differentiate the color for data.lib */
+.dataset-lib {
+  color: #ff0000; /* Red color for data.lib */
+}
+
+/* Adjust the font size and padding for the select field */
+.model-select {
+  width: 500px; /* Make the select field full width */
+  font-size: 16px; /* Adjust font size as needed */
+  padding: 10px; /* Adjust padding as needed */
+}
+

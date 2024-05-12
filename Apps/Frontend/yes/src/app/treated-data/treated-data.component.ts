@@ -17,7 +17,7 @@ export class TreatedDataComponent {
   }
 
   getLibraries(): void {
-    this.maniaService.listFilesInFolder("Output").subscribe(
+    this.maniaService.listFilesInFolder("output").subscribe(
       (data) => {
         this.libs = data.files;
         console.log('List of files:', this.libs);
@@ -47,7 +47,7 @@ export class TreatedDataComponent {
   }
 
   downloadDataset(lib: string) {
-    this.maniaService.downloadCsv('datasets', lib).subscribe(
+    this.maniaService.downloadCsv('output', lib).subscribe(
       (data) => {
         this.downloadFile(data, lib);
       },

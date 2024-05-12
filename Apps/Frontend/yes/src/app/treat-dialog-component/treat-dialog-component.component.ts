@@ -11,16 +11,25 @@ import { Router } from '@angular/router';
 export class TreatDialogComponentComponent {
   selectedModel: string | undefined;
   models = [
-    { value: 'model1', viewValue: 'Model 1' },
-    { value: 'model2', viewValue: 'Big Medium Entreprise Model' },
-    { value: 'model3', viewValue: 'Individuals Model' },
+    { value: 'model1', viewValue: 'Entreprise_Model' },
+    { value: 'model2', viewValue: 'BME_Entreprise_Model' },
+    { value: 'model3', viewValue: 'Personal_Model'},
+    { value: 'model3', viewValue: 'Entreprise_Model_SVM' },
+    { value: 'model4', viewValue: 'Entreprise_Model_RandomForest'},
+    { value: 'model5', viewValue: 'Entreprise_Model_LogisticRegression' },
+    { value: 'model6', viewValue: 'Entreprise_Model_NeuralNetwork' },
+    { value: 'model7', viewValue: 'Entreprise_Model_DecisionTree' },
+    { value: 'model8', viewValue: 'Entreprise_Model_KNN' },
+    { value: 'model9', viewValue: 'Entreprise_Model_GaussianNB' },
   ];
+  
   loading = false;
   randomMessages = [
     'Treating the dataset...',
     'Processing dataset...',
     'Analyzing dataset...',
-    'Applying treatment...'
+    'Applying treatment...',
+    'Teaching the model ...'
   ];
   randomMessage = '';
 

@@ -1,4 +1,4 @@
-<div class="spinner-overlay" *ngIf="loading">
+<div class="spinner-overlay" *ngIf="loading" style="font-size: 20px;">
   <mat-spinner diameter="50"></mat-spinner>
   <div class="loading-text">
     <p>{{ randomMessage }}</p>
@@ -6,11 +6,11 @@
 </div>
 
 <div class="dialog-container">
-  <h1 class="dialog-title" mat-dialog-title>Treat Dataset {{ data.lib }}</h1>
+  <h1 class="dialog-title" mat-dialog-title>Treat Dataset <span class="dataset-lib" style="font-size: 24px;">{{ data.lib }}</span></h1>
 
-  <div mat-dialog-content class="content">
-    <form>
-      <mat-form-field>
+  <div mat-dialog-content class="content" >
+    <form >
+      <mat-form-field class="model-select" style="width: 100%; font-size: 18px;">
         <mat-label>Choose Model</mat-label>
         <mat-select [(value)]="selectedModel" [disabled]="loading">
           <mat-option *ngFor="let model of models" [value]="model.value">{{ model.viewValue }}</mat-option>
@@ -20,7 +20,7 @@
   </div>
 
   <div mat-dialog-actions class="dialog-actions">
-    <button mat-button (click)="closeDialog()" [disabled]="loading">Cancel</button>
-    <button mat-button color="primary" (click)="submitForm()" [disabled]="loading">Apply Treatment</button>
+    <button mat-button (click)="closeDialog()" [disabled]="loading" style="font-size: 16px;">Cancel</button>
+    <button mat-button color="primary" (click)="submitForm()" [disabled]="loading" style="font-size: 16px;">Apply Treatment</button>
   </div>
 </div>
