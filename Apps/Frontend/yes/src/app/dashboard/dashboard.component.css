@@ -2,8 +2,8 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #111; /* Darker background color */
   color: #fff; /* White text color */
+  padding-left: 250px; /* Adjust according to your sidebar/navbar width */
 }
 
 /* Spinner overlay */
@@ -31,7 +31,7 @@ body {
 
 @keyframes spin {
   to {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -46,7 +46,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #111; /* Darker background color */
   color: #fff; /* White text color */
 }
 
@@ -55,7 +54,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #222; /* Dark header background color */
 }
 
 .header-right {
@@ -65,7 +63,6 @@ body {
 
 .btn-logout {
   background: #fff; /* White button background color */
-  color: #222; /* Dark button text color */
   border: none;
   padding: 5px 10px;
   border-radius: 5px;
@@ -84,7 +81,7 @@ body {
 .dashboard-main {
   flex: 1;
   padding: 20px;
-  background: #111; /* Dark main content background color */
+  padding-left: 250px;
   overflow-y: auto;
 }
 
@@ -134,12 +131,12 @@ body {
 
 @keyframes fadeInUp {
   0% {
-      opacity: 0;
-      transform: translateY(50px);
+    opacity: 0;
+    transform: translateY(50px);
   }
   100% {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -208,12 +205,12 @@ body {
 
 @keyframes fadeUpAnimation {
   from {
-      opacity: 0;
-      transform: translateY(20px);
+    opacity: 0;
+    transform: translateY(20px);
   }
   to {
-      opacity: 1;
-      transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -223,10 +220,10 @@ body {
 
 @keyframes colorChangeAnimation {
   from {
-      color: #000;
+    color: #000;
   }
   to {
-      color: #ff0000;
+    color: #ff0000;
   }
 }
 
@@ -244,9 +241,24 @@ body {
 
 @keyframes pulseAnimation {
   from {
-      transform: scale(1);
+    transform: scale(1);
   }
   to {
-      transform: scale(1.1);
+    transform: scale(1.1);
   }
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+#bg-video {
+  min-width: 100%;
+  min-height: 100%;
 }

@@ -1,64 +1,60 @@
-<div class="spinner-overlay" *ngIf="isLoading">
-  <div class="loading-text">
-    <p>{{ loadingText }}</p>
+<div class="content">
+  <div class="spinner-overlay" *ngIf="isLoading">
+    <div class="loading-text">
+      <p>{{ loadingText }}</p>
+    </div>
+    <div class="loader"></div>
   </div>
-  <div class="loader"></div>
-</div>
 
-<div *ngIf="!isLoading" class="dashboard fade-up">
-  <header class="dashboard-header">
-    <h1>Mania Credit Dashboard</h1>
-  </header>
-
-  <div class="dashboard-body">
-    <app-navbar-back></app-navbar-back>
-
-    <main class="dashboard-main">
-      <div class="dashboard">
-
-        <div class="status-board">
-          <div class="clock">
-            <h3>Score Analysis</h3>
-            <p>Current accruacy: 0.72</p>
-            <p>Projected improvement: +30 points</p>
-          </div>
-
-          <div class="phase-chart animated-chart">
-            <h3>Credit Score Phases</h3>
-            <div class="chart-text">
-              <p>This chart illustrates the progress and trustworthiness of the models across different phases.</p>
+  <div *ngIf="!isLoading" class="dashboard fade-up">
+    <div class="dashboard-body">
+      <app-navbar-back></app-navbar-back>
+      <main class="dashboard-main">
+        <div class="dashboard">
+          <div class="status-board">
+            <div class="clock animated-chart">
+              <h3>Score Analysis</h3>
+              <p>Current accuracy: 0.72</p>
+              <p>Projected improvement: +30 points</p>
             </div>
-            <img src="../../assets/fake.png" width="100px" height="100px" alt="Credit Score Phases Chart">
+
+            <div class="phase-chart animated-chart">
+              <h3>Credit Score Phases</h3>
+              <div class="chart-text">
+                <p>This chart illustrates the progress and trustworthiness of the models across different phases.</p>
+              </div>
+              <img src="../../assets/fake.png" width="100px" height="100px" alt="Credit Score Phases Chart">
+            </div>
+            
+            <div class="performance-chart animated-chart">
+              <h3>Score Performance</h3>
+              <div class="performance-stat">
+                <p>Overall Satisfaction: <span class="positive animated-satisfaction">85%</span></p>
+              </div>
+            </div>
           </div>
-          
-          <div class="performance-chart animated-chart">
-            <h3>Score Performance</h3>
-            <div class="performance-stat">
-              <p>Overall Satisfaction: <span class="positive animated-satisfaction">85%</span></p>
+
+          <div class="other-stats">
+            <div class="stat-block animated-chart">
+              <h3>Credit Score Progress</h3>
+              <p>Completed Actions: 65%</p>
+              <p>Milestones Achieved: 3/4</p>
+            </div>
+
+            <div class="stat-block animated-chart">
+              <h3>Credit Score Budget</h3>
+              <p>Spent: $5,000</p>
+              <p>Remaining: $15,000</p>
+            </div>
+
+            <div class="stat-block animated-chart">
+              <h3>Credit Score Timeline</h3>
+              <p>On Track: Yes</p>
+              <p>Days Left before next patch: 10</p>
             </div>
           </div>
         </div>
-
-        <div class="other-stats">
-          <div class="stat-block animated-chart">
-            <h3>Credit Score Progress</h3>
-            <p>Completed Actions: 65%</p>
-            <p>Milestones Achieved: 3/4</p>
-          </div>
-
-          <div class="stat-block animated-chart">
-            <h3>Credit Score Budget</h3>
-            <p>Spent: $5,000</p>
-            <p>Remaining: $15,000</p>
-          </div>
-
-          <div class="stat-block animated-chart">
-            <h3>Credit Score Timeline</h3>
-            <p>On Track: Yes</p>
-            <p>Days Left before next patch: 10</p>
-          </div>
-        </div>
-      </div>
-    </main>
+      </main>
+    </div>
   </div>
 </div>

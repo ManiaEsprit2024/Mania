@@ -17,7 +17,7 @@ export class DashboardComponent {
     setTimeout(() => {
       this.isLoading = false;
       this.clearInterval();
-    }, 7000);
+    }, 0);
 
     // Start interval to update loading text dynamically
     this.intervalId = setInterval(() => {
