@@ -4,6 +4,7 @@ import { Router } from '@angular/router';
 import { HttpHeaders } from '@angular/common/http';
 import { TreatDialogComponentComponent } from '../treat-dialog-component/treat-dialog-component.component';
 import { MatDialog } from '@angular/material/dialog';
+import { Dialog } from '@angular/cdk/dialog';
 
 @Component({
   selector: 'app-my-libs',
@@ -14,7 +15,7 @@ export class MyLibsComponent {
 
   libs: any[] | undefined;
   selectedFile: File | undefined;
-
+  analyticsResult: any; // Variable to hold the analytics result
   constructor(private maniaService: ManiaService, private router: Router,private dialog: MatDialog) { }
 
   ngOnInit(): void {
@@ -82,5 +83,20 @@ export class MyLibsComponent {
       console.log('The dialog was closed');
     }); 
   }
+
+  getAnalytics(filename: string) {
+    this.maniaService.getDatasetStats(filename).subscribe(
+      (response) => {
+        console.log(response);
+        this.analyticsResult = response;
+      },
+      (error) => {
+        console.error('Error:', error);
+      }
+    );
+  }
   
+  getObjectKeys(obj: any): string[] {
+    return Object.keys(obj || {});
+  }
 }

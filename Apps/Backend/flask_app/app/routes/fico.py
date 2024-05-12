@@ -6,6 +6,7 @@ from app.libs.fiscoSE import csv_to_json
 import os
 fico = Blueprint('fico', __name__)
 import pandas as pd
+
 @fico.route('/predict_fico_se', methods=['POST'])
 def predict():
     data = request.get_json()
@@ -70,7 +71,6 @@ def predict_dataset():
     if not os.path.exists(dataset_path):
         existing_files = os.listdir('app/datasets')
         return jsonify({'error': f'Dataset "{dataset_name}" not found', 'available_datasets': existing_files}), 404
-    
     try:
         dataset = pd.read_csv(dataset_path)
     except Exception as e:

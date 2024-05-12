@@ -1,298 +1,118 @@
 /* Global styles */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Spinner overlay */
-  .spinner-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-  }
-  
-  .loader {
-    border: 4px solid rgba(255, 255, 255, 0.1);
-    border-left-color: #0071e2; /* Blue spinner color */
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    animation: spin 1s linear infinite;
-  }
-  
-  @keyframes spin {
-    to {
-      transform: rotate(360deg);
-    }
-  }
-  
-  .loading-text {
-    text-align: center;
-    font-size: 16px;
-    color: #fff; /* White text color */
-  }
-  
-  /* Dashboard styles */
-  .dashboard {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: #222; /* Dark background color */
-    color: #fff; /* White text color */
-  }
-  
-  .dashboard-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #444; /* Dark header background color */
-  }
-  
-  .header-right {
-    display: flex;
-    align-items: center;
-  }
-  
-  .btn-logout {
-    background: #fff; /* White button background color */
-    color: #222; /* Dark button text color */
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .btn-logout:hover {
-    background: #666; /* Darken button background color on hover */
-  }
-  
-  .dashboard-body {
-    display: flex;
-    flex: 1;
-  }
-  
-  .dashboard-main {
-    flex: 1;
-    padding: 20px;
-    background: #333; /* Dark main content background color */
-    overflow-y: auto;
-  }
-  
-  .chart-section {
-    margin-bottom: 20px;
-  }
-  
-  .cards-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .card {
-    flex: 1 1 300px; /* Adjust the card width as needed */
-    background: #444; /* Dark card background color */
-    border: 1px solid #666;
-    border-radius: 10px;
-    padding: 20px;
-  }
-  
-  .card h3 {
-    margin-top: 0;
-  }
-  
-  .lists-section {
-    margin-bottom: 20px;
-  }
-  
-  .lists-section h2 {
-    margin-top: 0;
-  }
-  
-  .lists-section ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .lists-section li {
-    margin-bottom: 10px;
-  }
-  
-  /* Animation */
-  .fade-up {
-    animation: fadeInUp 0.5s ease forwards;
-  }
-  
-  @keyframes fadeInUp {
-    0% {
-      opacity: 0;
-      transform: translateY(50px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  /* Fading animation */
-.fade-in {
-  animation: fadeIn 0.5s ease forwards;
-  opacity: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111; /* Darker background color */
+  color: #fff; /* White text color */
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
+/* Spinner overlay */
+.spinner-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Darker overlay color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loader {
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  border-left-color: #0071e2; /* Blue spinner color */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
   to {
-    opacity: 1;
+      transform: rotate(360deg);
   }
 }
 
-.steps {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .steps li {
-    text-align: center;
-    padding-right: 3.7rem;
-  }
-  
-  .steps li:last-child {
-    padding-right: 0;
-  }
-  
-  .steps a {
-    color: #9fb2bc;
-    text-decoration: none;
-  }
-  
-  .steps a:hover,
-  .steps a:active {
-    text-decoration: none;
-  }
-  
-  .steps a.current {
-    color: #5d7e8e;
-    font-weight: 900;
-  }
-  
-  .steps a.current .number {
-    border: 4px solid #27aae1;
-    color: #27aae1;
-    font-weight: 400;
-  }
-  
-  .steps .number {
-    background: #3a3a3a;
-    margin-bottom: 1rem;
-    border: 4px solid #9fb2bc;
-    border-radius: 50%;
-    width: 6rem;
-    height: 6rem;
-    text-align: center;
-    line-height: 5.2rem;
-    display: block;
-    font-size: 1.8rem;
-  }
-  
-  
-.search {
-    width: 100%;
-    position: relative;
-    display: flex;
-  }
-  .center-containerC {
-    background-color: #464646; /* Set background color to black */
-    padding: 20px; /* Add padding for content */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
-    border-radius: 10px; /* Add rounded corners */
-  }
-  
-  .searchTerm {
-    width: 100%;
-    border: 3px solid #00B4CC;
-    border-right: none;
-    padding: 5px;
-    height: 37px;
-    border-radius: 5px 0 0 5px;
-    outline: none;
-    color: #9DBFAF;
-  }
-  
-  .searchTerm:focus{
-    color: #00B4CC;
-  }
-  
-  .searchButton {
-    width: 40px;
-    height: 36px;
-    border: 1px solid #00B4CC;
-    background: #00B4CC;
-    text-align: center;
-    color: #fff;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  
-  /*Resize the wrap to see the search bar change!*/
-  .wrap{
-    width: 30%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .dropdown {
-    width: 200px;
-    padding: 8px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    font-size: 16px;
-    margin-right: 10px;
+.loading-text {
+  text-align: center;
+  font-size: 16px;
+  color: #fff; /* White text color */
 }
 
-/* Table styles */
-table {
+/* Dashboard styles */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #111; /* Darker background color */
+  color: #fff; /* White text color */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #222; /* Dark header background color */
+}
+
+.dashboard-header h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 24px;
+}
+
+.dashboard-body {
+  display: flex;
+  flex: 1;
+  margin-top: 20px;
+}
+
+.dashboard-main {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Library table */
+.library-table {
   width: 100%;
   border-collapse: collapse;
-  background-color: #333;
-  color: #fff;
 }
 
-th, td {
-  padding: 12px;
+.library-table th,
+.library-table td {
+  border-bottom: 1px solid #444;
+  padding: 10px;
+}
+
+.library-table th {
   text-align: left;
-  border-bottom: 1px solid #555;
+  font-weight: bold;
 }
 
-th {
-  background-color: #555;
-}
-
-/* Button styles */
-button {
-  background-color: #555;
-  color: white;
+/* Buttons */
+.delete-btn,
+.show-btn {
+  background-color: #007bff;
+  color: #fff;
   border: none;
-  border-radius: 4px;
-  padding: 8px 12px;
-  margin-right: 5px;
+  padding: 8px 16px;
+  border-radius: 5px;
   cursor: pointer;
+  margin-right: 10px;
 }
 
-button:hover {
-  background-color: #444;
+.delete-btn:hover,
+.show-btn:hover {
+  background-color: #0056b3;
+}
+
+/* No libraries message */
+.no-libraries p {
+  color: #fff;
 }

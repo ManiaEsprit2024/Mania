@@ -9,7 +9,7 @@
                 <div class="wrap">
                     <div class="center-containerC">
                         <div *ngIf="libs && libs.length > 0">
-                            <table>
+                            <table class="library-table">
                                 <thead>
                                     <tr>
                                         <th>Name</th>
@@ -20,14 +20,14 @@
                                     <tr *ngFor="let lib of libs">
                                         <td>{{ lib }}</td>
                                         <td>
-                                            <button (click)="deleteLibrary(lib)">Delete</button>
-                                            <button (click)="showLibrary(lib)">Show</button>
+                                            <button class="delete-btn" (click)="deleteLibrary(lib)">Delete</button>
+                                            <button class="show-btn" (click)="showLibrary(lib)">Show</button>
                                         </td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
-                        <div *ngIf="!libs || libs.length === 0">
+                        <div *ngIf="!libs || libs.length === 0" class="no-libraries">
                             <p>No libraries found.</p>
                         </div>
                     </div>

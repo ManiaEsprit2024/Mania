@@ -1,5 +1,5 @@
 import os
-import shutil
+import pandas as pd
 
 def upload_dataset(csv_file, folder):
     """
@@ -21,6 +21,31 @@ def upload_dataset(csv_file, folder):
         return "Dataset uploaded successfully."
     except Exception as e:
         return f"Error uploading dataset: {str(e)}"
+    
+import numpy as np
+def dataset_stats(filename):
+    """
+    Returns statistics about a dataset along with the first 10 lines.
+
+    Parameters:
+        filename (str): Name of the dataset file.
+
+    Returns:
+        dict: Dictionary containing dataset statistics and the first 10 lines.
+    """
+    try:
+        filepath = os.path.join("app/datasets/", filename)
+        df = pd.read_csv(filepath)
+        df.reset_index(drop=True, inplace=True)
+        missing_values_count = df.isnull().sum().to_dict()
+        numeric_stats = df.describe().to_dict()
+
+        return {
+            "missing_values_count": missing_values_count,
+            "numeric_statistics": numeric_stats
+        }
+    except Exception as e:
+        return f"Error getting dataset statistics: {str(e)}"
     
 def list_files_in_folder(folder):
     """

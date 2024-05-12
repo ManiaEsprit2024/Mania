@@ -1,58 +1,62 @@
 <div class="center-container">
     <div class="dashboard fade-in">
-      <header class="dashboard-header">
-        <h1>Mania Credit Checker</h1>
-      </header>
-      <div class="dashboard-body">
-        <app-navbar-back></app-navbar-back>
-        <main class="dashboard-main" id="dynamicFormContainer">
-          <div class="form-group">
-            <label for="dropdown">Select an option:</label>
-            <select id="dropdown" class="form-control">
-              <option value="" disabled selected>Select an option</option>
-              <option value="option1">Option 1</option>
-              <option value="option2">Option 2</option>
-            </select>
-          </div>
-        </main>
-      </div>
+        <header class="dashboard-header">
+            <h1>Mania Credit Calculator</h1>
+        </header>
+        <div class="dashboard-body">
+            <app-navbar-back></app-navbar-back>
+            <main class="dashboard-main" id="dynamicFormContainer">
+                    <div class="wrap">
+                        <div class="center-containerC">
+                        <form (ngSubmit)="submitForm()" #f="ngForm">
+                            <div class="form-group">
+                                <label for="lender_insurance_premium">Lender Insurance Premium:</label>
+                                <input type="number" id="lender_insurance_premium" class="form-control" required
+                                    [(ngModel)]="formData.lender_insurance_premium" name="lender_insurance_premium">
+                            </div>
+                            <div class="form-group">
+                                <label for="jobs_created">Jobs Created:</label>
+                                <input type="number" id="jobs_created" class="form-control" required
+                                    [(ngModel)]="formData.jobs_created" name="jobs_created">
+                            </div>
+                            <div class="form-group">
+                                <label for="optional_revenue_yr_confirmed">Optional Revenue Year Confirmed:</label>
+                                <select id="optional_revenue_yr_confirmed" class="form-control" required
+                                    [(ngModel)]="formData.optional_revenue_yr_confirmed"
+                                    name="optional_revenue_yr_confirmed">
+                                    <option value="" disabled selected>Select Optional Revenue Year Confirmed</option>
+                                    <ng-container *ngFor="let year of years">
+                                        <option [value]="year">{{ year }}</option>
+                                    </ng-container>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="optional_stage">Optional Stage:</label>
+                                <select id="optional_stage" class="form-control" required
+                                    [(ngModel)]="formData.optional_stage" name="optional_stage">
+                                    <option value="" disabled selected>Select Optional Stage</option>
+                                    <option value="Early Stage">Early Stage</option>
+                                    <option value="Growth">Growth</option>
+                                    <option value="Mezzanine">Mezzanine</option>
+                                    <option value="Pre-Seed">Pre-Seed</option>
+                                    <option value="Seed">Seed</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- Display the result -->
+                <div *ngIf="result" class="result-container">
+                    <h2>Prediction Result</h2>
+                    <div class="result-details">
+                        <p><strong>FICO Class:</strong> {{ result.FICO_Class }}</p>
+                        <p><strong>FICO Score:</strong> {{ result.FICO_Score  }}</p>
+                        <p><strong>Loan Prediction:</strong> {{ result.Loan_Prediction }}</p>
+                        <p><strong>Risk Level:</strong> {{ result.Risk_Level }}</p>
+                    </div>
+                </div>
+            </main>
+        </div>
     </div>
-  </div>
-  
-  <script>
-    // Function to dynamically change the form based on the dropdown selection
-    function createDynamicForm() {
-      const dropdownValue = document.getElementById('dropdown').value;
-      const dynamicFormContainer = document.getElementById('dynamicFormContainer');
-  
-      // Clear existing form elements
-      dynamicFormContainer.innerHTML = '';
-  
-      // Create form elements based on dropdown selection
-      if (dropdownValue === 'option1') {
-        const input1Group = document.createElement('div');
-        input1Group.classList.add('form-group');
-        input1Group.innerHTML = `
-          <label for="input1">Input 1:</label>
-          <input type="text" id="input1" class="form-control">
-        `;
-        dynamicFormContainer.appendChild(input1Group);
-      } else if (dropdownValue === 'option2') {
-        const input2Group = document.createElement('div');
-        input2Group.classList.add('form-group');
-        input2Group.innerHTML = `
-          <label for="input2">Input 2:</label>
-          <input type="text" id="input2" class="form-control">
-        `;
-        dynamicFormContainer.appendChild(input2Group);
-      }
-  
-      // Add more conditions for other options if needed
-    }
-  
-    // Add event listener to the dropdown to trigger form creation
-    document.addEventListener('DOMContentLoaded', function () {
-      document.getElementById('dropdown').addEventListener('change', createDynamicForm);
-    });
-  </script>
-  
+</div>

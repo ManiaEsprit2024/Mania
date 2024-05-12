@@ -27,6 +27,9 @@ import { TreatedDataComponent } from './treated-data/treated-data.component';
 import { DatasetViewerComponent } from './dataset-viewer/dataset-viewer.component';
 import { TreatDialogComponentComponent } from './treat-dialog-component/treat-dialog-component.component';
 import { CalculatorComponent } from './calculator/calculator.component';
+import { DocumentationComponent } from './documentation/documentation.component';
+import { ChatbotComponent } from './chatbot/chatbot.component';
+import { provideCharts, withDefaultRegisterables } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -40,7 +43,9 @@ import { CalculatorComponent } from './calculator/calculator.component';
     TreatedDataComponent,
     DatasetViewerComponent,
     TreatDialogComponentComponent,
-    CalculatorComponent
+    CalculatorComponent,
+    DocumentationComponent,
+    ChatbotComponent
   ],
   imports: [
     BrowserModule,
@@ -62,7 +67,8 @@ import { CalculatorComponent } from './calculator/calculator.component';
     MatProgressSpinnerModule
   ],
   providers: [
-    provideAnimationsAsync()
+    provideAnimationsAsync(),
+    provideCharts(withDefaultRegisterables())
   ],
   bootstrap: [AppComponent]
 })

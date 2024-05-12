@@ -8,6 +8,8 @@ import { MyLibsComponent } from './my-libs/my-libs.component';
 import { TreatedDataComponent } from './treated-data/treated-data.component';
 import { DatasetViewerComponent } from './dataset-viewer/dataset-viewer.component';
 import { CalculatorComponent } from './calculator/calculator.component';
+import { DocumentationComponent } from './documentation/documentation.component';
+import { ChatbotComponent } from './chatbot/chatbot.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -18,6 +20,8 @@ const routes: Routes = [
   { path: 'treated', component: TreatedDataComponent },
   { path: 'dataviewer', component: DatasetViewerComponent },
   { path: 'calculator', component: CalculatorComponent },
+  { path: 'docs', component: DocumentationComponent },
+  { path: 'maniamini', component: ChatbotComponent },
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

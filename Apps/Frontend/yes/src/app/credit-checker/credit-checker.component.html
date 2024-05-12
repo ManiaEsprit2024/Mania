@@ -12,21 +12,21 @@
                         <p>Search based on customer ID to find their credit score.</p>
                         <ol class="steps">
                             <li>
-                                <a [class.current]="currentStep === 1"><span class="number">1</span> Choose</a>
+                                <a [class.current]="currentStep === 1"><span class="number">1</span> Search</a>
                             </li>
                             <li>
-                                <a [class.current]="currentStep === 2"><span class="number">2</span> Details</a>
+                                <a [class.current]="currentStep === 2"><span class="number">2</span> Find</a>
                             </li>
                             <li>
-                                <a [class.current]="currentStep === 3"><span class="number">3</span> Share</a>
+                                <a [class.current]="currentStep === 3"><span class="number">3</span> Decide</a>
                             </li>
-                        </ol>
+                        </ol>                        
                         <!-- Select category dropdown -->
                         <div class="search" *ngIf="currentStep === 1">
                             <select class="dropdown" [(ngModel)]="selectedFile">
                                 <option *ngFor="let file of files" [value]="file">{{ file }}</option>
                             </select>
-                            <input type="text" class="searchTerm" placeholder="What are you looking for?" #searchInput>
+                            <input type="text" class="searchTerm" placeholder="Enter Customer ID" #searchInput>
                             <button type="submit" class="searchButton" (click)="searchFicoScore(searchInput.value)">
                                 <i class="fa fa-search"></i>
                             </button>
@@ -42,10 +42,14 @@
                         <div *ngIf="currentStep === 3 && ficoScoreData">
                             <h2 class="title">FICO Score Details</h2>
                             <p>FICO Score: {{ ficoScoreData.FICO_Score }}</p>
-                            <p>Loan Default Probabilities: {{ ficoScoreData.Loan_default_probabilities }}</p>
                             <p>Risk Level: {{ ficoScoreData.Risk_Level }}</p>
                             <p>FICO Class: {{ ficoScoreData.FICO_Class }}</p>
                             <p>Loan Prediction: {{ ficoScoreData.Loan_Prediction }}</p>
+                            
+                            <div class="animation-container">
+                                <span class="check-mark"><i class="fa fa-check"></i></span>
+                                <p class="animation-text">FICO Score is good!</p>
+                            </div>
                         </div>
                         <div *ngIf="currentStep === 3 && !ficoScoreData">
                             <p>No data found for the provided unique ID.</p>

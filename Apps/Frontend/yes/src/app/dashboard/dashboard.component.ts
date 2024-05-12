@@ -17,7 +17,7 @@ export class DashboardComponent {
     setTimeout(() => {
       this.isLoading = false;
       this.clearInterval();
-    }, 0);
+    }, 7000);
 
     // Start interval to update loading text dynamically
     this.intervalId = setInterval(() => {
@@ -27,10 +27,7 @@ export class DashboardComponent {
 
   generateRandomText(): string {
     const texts = [
-      "Loading some data...",
       "Preparing your dashboard...",
-      "Fetching information...",
-      "Hold on, almost there..."
     ];
 
     return texts[Math.floor(Math.random() * texts.length)];

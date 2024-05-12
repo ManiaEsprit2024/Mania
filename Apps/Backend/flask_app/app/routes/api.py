@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from app.libs.datasetloader import upload_dataset, get_csv_content, list_files_in_folder
+from app.libs.datasetloader import upload_dataset, get_csv_content, list_files_in_folder ,dataset_stats
 import os
 api = Blueprint('api', __name__)
 
@@ -71,3 +71,14 @@ def delete_file_route():
         return jsonify({'message': f"File '{filename}' deleted successfully."}), 200
     except Exception as e:
         return jsonify({'error': f"Error deleting file '{filename}': {str(e)}"}), 500
+
+@api.route('/dataset_stats', methods=['POST'])
+def dataset_stats_route():
+    data = request.get_json()
+    if 'filename' not in data:
+        return jsonify({'error': 'folder or filename not provided'}), 400
+
+    filename = data['filename']
+
+    stats = dataset_stats(filename)
+    return jsonify(stats), 200

@@ -1,27 +1,263 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111; /* Darker background color */
+  color: #fff; /* White text color */
+}
+
+/* Spinner overlay */
+.spinner-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Darker overlay color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.spinner-overlay mat-spinner {
+  margin-right: 10px; /* Adjust spacing as needed */
+}
+
+.spinner-overlay .loading-text {
+  text-align: center;
+  color: #fff; /* White text color */
+}
+
+/* Dialog container */
+.dialog-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto; /* Adjust margin as needed */
+}
+
 .dialog-title {
-    color: #fff;
+  font-size: 24px; /* Adjust font size as needed */
+  margin-bottom: 20px;
+}
+
+.content {
+  margin-bottom: 20px;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: center;
+}
+
+/* Dashboard styles */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #111; /* Darker background color */
+  color: #fff; /* White text color */
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #222; /* Dark header background color */
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.btn-logout {
+  background: #fff; /* White button background color */
+  color: #222; /* Dark button text color */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-logout:hover {
+  background: #666; /* Darken button background color on hover */
+}
+
+.dashboard-body {
+  display: flex;
+  flex: 1;
+}
+
+.dashboard-main {
+  flex: 1;
+  padding: 20px;
+  background: #111; /* Dark main content background color */
+  overflow-y: auto;
+}
+
+.chart-section {
+  margin-bottom: 20px;
+}
+
+.cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  flex: 1 1 300px; /* Adjust the card width as needed */
+  background: #222; /* Dark card background color */
+  border: 1px solid #444; /* Darker border color */
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.lists-section {
+  margin-bottom: 20px;
+}
+
+.lists-section h2 {
+  margin-top: 0;
+}
+
+.lists-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lists-section li {
+  margin-bottom: 10px;
+}
+
+/* Animation */
+.fade-up {
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+      opacity: 0;
+      transform: translateY(50px);
   }
-  
-  .form-field {
-    width: 100%;
+  100% {
+      opacity: 1;
+      transform: translateY(0);
   }
-  
-  .select {
-    color: #fff;
+}
+
+/* General Styles */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.status-board,
+.other-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Status Board Styles */
+.status-board > div {
+  flex: 0 0 48%; /* Set a fixed width for each section */
+  padding: 10px;
+  border: 1px solid #444; /* Darker border color */
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.clock p {
+  margin-bottom: 5px;
+}
+
+.phase-chart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.phase-chart li {
+  margin-bottom: 5px;
+}
+
+/* Performance Chart Styles */
+.performance-stat p {
+  font-weight: bold;
+}
+
+.performance-stat span.positive {
+  color: green;
+}
+
+/* Other Stats Styles */
+.other-stats > div {
+  flex: 0 0 30%; /* Set a fixed width for each stat block */
+  padding: 10px;
+  border: 1px solid #444; /* Darker border color */
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.other-stats p {
+  margin-bottom: 5px;
+}
+
+.fade-up {
+  animation: fadeUpAnimation 0.5s ease forwards;
+}
+
+@keyframes fadeUpAnimation {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
   }
-  
-  .dialog-actions {
-    justify-content: flex-end;
+  to {
+      opacity: 1;
+      transform: translateY(0);
   }
-  
-  .cancel-button {
-    color: #fff;
+}
+
+.animated-heading {
+  animation: colorChangeAnimation 2s infinite alternate;
+}
+
+@keyframes colorChangeAnimation {
+  from {
+      color: #000;
   }
-  
-  .apply-button {
-    background-color: #007bff;
-    color: #fff;
+  to {
+      color: #ff0000;
   }
-  
-  /* Add any additional styling as needed */
-  
+}
+
+.animated-chart {
+  transition: transform 0.5s ease;
+}
+
+.animated-chart:hover {
+  transform: scale(1.1);
+}
+
+.animated-satisfaction {
+  animation: pulseAnimation 1s infinite alternate;
+}
+
+@keyframes pulseAnimation {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(1.1);
+  }
+}

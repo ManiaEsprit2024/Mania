@@ -2,7 +2,7 @@ import pandas as pd
 import joblib
 import os
 import numpy as np
-import json
+import random
 
 
 label_encoder = joblib.load("app/models/label_encoder.pkl")

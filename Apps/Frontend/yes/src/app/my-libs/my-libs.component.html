@@ -1,46 +1,60 @@
 <div class="center-container">
-    <div class="dashboard fade-in">
-      <header class="dashboard-header">
-        <h1>Mania Credit Checker</h1>
-      </header>
-      <div class="dashboard-body">
-        <app-navbar-back></app-navbar-back>
-        <main class="dashboard-main">
-          <div class="wrap">
-            <div class="center-containerC">
-              <div>
-                <!-- Input to select a file -->
-                <input type="file" (change)="onFileSelected($event)" accept=".csv">
-                <button (click)="uploadDataset()">Upload Dataset</button>
-              </div>
-              <!-- Table to display existing datasets -->
-              <div *ngIf="libs && libs.length > 0">
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Name</th>
-                      <th>Action</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr *ngFor="let lib of libs">
-                      <td>{{ lib }}</td>
-                      <td>
-                        <button (click)="deleteLibrary(lib)">Delete</button>
-                        <button (click)="showLibrary(lib)">Show</button>
-                        <button (click)="openTreatDialog(lib)">Treat</button>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div *ngIf="!libs || libs.length === 0">
-                <p>No libraries found.</p>
-              </div>
+  <div class="dashboard fade-in">
+    <header class="dashboard-header">
+      <h1>Mania Credit Checker</h1>
+    </header>
+    <div class="dashboard-body">
+      <app-navbar-back></app-navbar-back>
+      <main class="dashboard-main">
+        <div class="wrap">
+          <div class="center-containerC">
+            <div class="upload-section">
+              <!-- Input to select a file -->
+              <input type="file" (change)="onFileSelected($event)" accept=".csv">
+              <button (click)="uploadDataset()">Upload Dataset</button>
             </div>
-          </div>
-        </main>
+            <!-- Display existing datasets -->
+            <div class="dataset-section" *ngIf="libs && libs.length > 0">
+              <h2>Existing Datasets</h2>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let lib of libs">
+                    <td>{{ lib }}</td>
+                    <td>
+                      <button (click)="deleteLibrary(lib)">Delete</button>
+                      <button (click)="showLibrary(lib)">Show</button>
+                      <button (click)="openTreatDialog(lib)">Treat</button>
+                      <button (click)="getAnalytics(lib)">Analytics</button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div *ngIf="!libs || libs.length === 0">
+              <p>No libraries found.</p>
+            </div>
+            <!-- Display analytics result as cards -->
+<!-- Display analytics result as cards -->
+<div class="analytics-cards" *ngIf="analyticsResult">
+  <div class="card" *ngFor="let column of getObjectKeys(analyticsResult.numeric_statistics)">
+    <h2>{{ column }}</h2>
+    <div class="card-content">
+      <div *ngFor="let item of getObjectKeys(analyticsResult.numeric_statistics[column])">
+        <div>{{ item }}: {{ analyticsResult.numeric_statistics[column][item] }}</div>
       </div>
     </div>
   </div>
-  
+</div>
+
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>

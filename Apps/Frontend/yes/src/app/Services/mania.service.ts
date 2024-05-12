@@ -51,4 +51,12 @@ export class ManiaService {
     const body = { dataset_name: datasetName };
     return this.http.post(`${this.baseUrl}/predict_fico_dataset`, body);
   }
+  
+  predictFicoSE(data: any): Observable<any> {
+    return this.http.post(`${this.baseUrl}/predict_fico_se`, data);
+  }
+
+  getDatasetStats(filename: string): Observable<any> {
+    return this.http.post(`${this.baseUrl}/dataset_stats`, { filename });
+  }
 }

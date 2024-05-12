@@ -1,147 +1,257 @@
 /* Global styles */
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  /* Spinner overlay */
-  .spinner-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-  }
-  
-  .loader {
-    border: 4px solid rgba(255, 255, 255, 0.1);
-    border-left-color: #0071e2; /* Blue spinner color */
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    animation: spin 1s linear infinite;
-  }
-  
-  @keyframes spin {
-    to {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111; /* Darker background color */
+  color: #fff; /* White text color */
+}
+
+/* Spinner overlay */
+.spinner-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Darker overlay color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loader {
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  border-left-color: #0071e2; /* Blue spinner color */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
       transform: rotate(360deg);
-    }
   }
-  
-  .loading-text {
-    text-align: center;
-    font-size: 16px;
-    color: #fff; /* White text color */
-  }
-  
-  /* Dashboard styles */
-  .dashboard {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    background-color: #222; /* Dark background color */
-    color: #fff; /* White text color */
-  }
-  
-  .dashboard-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #444; /* Dark header background color */
-  }
-  
-  .header-right {
-    display: flex;
-    align-items: center;
-  }
-  
-  .btn-logout {
-    background: #fff; /* White button background color */
-    color: #222; /* Dark button text color */
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .btn-logout:hover {
-    background: #666; /* Darken button background color on hover */
-  }
-  
-  .dashboard-body {
-    display: flex;
-    flex: 1;
-  }
-  
-  .dashboard-main {
-    flex: 1;
-    padding: 20px;
-    background: #333; /* Dark main content background color */
-    overflow-y: auto;
-  }
-  
-  .chart-section {
-    margin-bottom: 20px;
-  }
-  
-  .cards-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  
-  .card {
-    flex: 1 1 300px; /* Adjust the card width as needed */
-    background: #444; /* Dark card background color */
-    border: 1px solid #666;
-    border-radius: 10px;
-    padding: 20px;
-  }
-  
-  .card h3 {
-    margin-top: 0;
-  }
-  
-  .lists-section {
-    margin-bottom: 20px;
-  }
-  
-  .lists-section h2 {
-    margin-top: 0;
-  }
-  
-  .lists-section ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .lists-section li {
-    margin-bottom: 10px;
-  }
-  
-  /* Animation */
-  .fade-up {
-    animation: fadeInUp 0.5s ease forwards;
-  }
-  
-  @keyframes fadeInUp {
-    0% {
+}
+
+.loading-text {
+  text-align: center;
+  font-size: 16px;
+  color: #fff; /* White text color */
+}
+
+/* Dashboard styles */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #111; /* Darker background color */
+  color: #fff; /* White text color */
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #222; /* Dark header background color */
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.btn-logout {
+  background: #fff; /* White button background color */
+  color: #222; /* Dark button text color */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-logout:hover {
+  background: #666; /* Darken button background color on hover */
+}
+
+.dashboard-body {
+  display: flex;
+  flex: 1;
+}
+
+.dashboard-main {
+  flex: 1;
+  padding: 20px;
+  background: #111; /* Dark main content background color */
+  overflow-y: auto;
+}
+
+.chart-section {
+  margin-bottom: 20px;
+}
+
+.cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  flex: 1 1 300px; /* Adjust the card width as needed */
+  background: #222; /* Dark card background color */
+  border: 1px solid #444; /* Darker border color */
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.lists-section {
+  margin-bottom: 20px;
+}
+
+.lists-section h2 {
+  margin-top: 0;
+}
+
+.lists-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lists-section li {
+  margin-bottom: 10px;
+}
+
+/* Animation */
+.fade-up {
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
       opacity: 0;
       transform: translateY(50px);
-    }
-    100% {
+  }
+  100% {
       opacity: 1;
       transform: translateY(0);
-    }
   }
-  
-  /* Fading animation */
+}
+
+/* General Styles */
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.status-board,
+.other-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Status Board Styles */
+.status-board > div {
+  flex: 0 0 48%; /* Set a fixed width for each section */
+  padding: 10px;
+  border: 1px solid #444; /* Darker border color */
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.clock p {
+  margin-bottom: 5px;
+}
+
+.phase-chart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.phase-chart li {
+  margin-bottom: 5px;
+}
+
+/* Performance Chart Styles */
+.performance-stat p {
+  font-weight: bold;
+}
+
+.performance-stat span.positive {
+  color: green;
+}
+
+/* Other Stats Styles */
+.other-stats > div {
+  flex: 0 0 30%; /* Set a fixed width for each stat block */
+  padding: 10px;
+  border: 1px solid #444; /* Darker border color */
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.other-stats p {
+  margin-bottom: 5px;
+}
+
+.fade-up {
+  animation: fadeUpAnimation 0.5s ease forwards;
+}
+
+@keyframes fadeUpAnimation {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.animated-heading {
+  animation: colorChangeAnimation 2s infinite alternate;
+}
+
+@keyframes colorChangeAnimation {
+  from {
+      color: #000;
+  }
+  to {
+      color: #ff0000;
+  }
+}
+
+.animated-chart {
+  transition: transform 0.5s ease;
+}
+
+.animated-chart:hover {
+  transform: scale(1.1);
+}
+
+.animated-satisfaction {
+  animation: pulseAnimation 1s infinite alternate;
+}
+
+@keyframes pulseAnimation {
+  from {
+      transform: scale(1);
+  }
+  to {
+      transform: scale(1.1);
+  }
+}
+
+/* Fading animation */
 .fade-in {
   animation: fadeIn 0.5s ease forwards;
   opacity: 0;
@@ -157,109 +267,147 @@ body {
 }
 
 .steps {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .steps li {
-    text-align: center;
-    padding-right: 3.7rem;
-  }
-  
-  .steps li:last-child {
-    padding-right: 0;
-  }
-  
-  .steps a {
-    color: #9fb2bc;
-    text-decoration: none;
-  }
-  
-  .steps a:hover,
-  .steps a:active {
-    text-decoration: none;
-  }
-  
-  .steps a.current {
-    color: #5d7e8e;
-    font-weight: 900;
-  }
-  
-  .steps a.current .number {
-    border: 4px solid #27aae1;
-    color: #27aae1;
-    font-weight: 400;
-  }
-  
-  .steps .number {
-    background: #3a3a3a;
-    margin-bottom: 1rem;
-    border: 4px solid #9fb2bc;
-    border-radius: 50%;
-    width: 6rem;
-    height: 6rem;
-    text-align: center;
-    line-height: 5.2rem;
-    display: block;
-    font-size: 1.8rem;
-  }
-  
-  
-.search {
-    width: 100%;
-    position: relative;
-    display: flex;
-  }
-  .center-containerC {
-    background-color: #464646; /* Set background color to black */
-    padding: 20px; /* Add padding for content */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
-    border-radius: 10px; /* Add rounded corners */
-  }
-  
-  .searchTerm {
-    width: 100%;
-    border: 3px solid #00B4CC;
-    border-right: none;
-    padding: 5px;
-    height: 37px;
-    border-radius: 5px 0 0 5px;
-    outline: none;
-    color: #9DBFAF;
-  }
-  
-  .searchTerm:focus{
-    color: #00B4CC;
-  }
-  
-  .searchButton {
-    width: 40px;
-    height: 36px;
-    border: 1px solid #00B4CC;
-    background: #00B4CC;
-    text-align: center;
-    color: #fff;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-    font-size: 20px;
-  }
-  
-  /*Resize the wrap to see the search bar change!*/
-  .wrap{
-    width: 30%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
 
-  .dropdown {
-    width: 200px;
-    padding: 8px;
-    border-radius: 4px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    font-size: 16px;
-    margin-right: 10px;
+.steps li {
+  text-align: center;
+  padding-right: 3.7rem;
+}
+
+.steps li:last-child {
+  padding-right: 0;
+}
+
+.steps a {
+  color: #9fb2bc;
+  text-decoration: none;
+}
+
+.steps a:hover,
+.steps a:active {
+  text-decoration: none;
+}
+
+.steps a.current {
+  color: #5d7e8e;
+  font-weight: 900;
+}
+
+.steps a.current .number {
+  border: 4px solid #27aae1;
+  color: #27aae1;
+  font-weight: 400;
+}
+
+.steps .number {
+  background: #3a3a3a;
+  margin-bottom: 1rem;
+  border: 4px solid #9fb2bc;
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  text-align: center;
+  line-height: 5.2rem;
+  display: block;
+  font-size: 1.8rem;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+.center-containerC {
+  background-color: #464646; /* Set background color to black */
+  padding: 20px; /* Add padding for content */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  border-radius: 10px; /* Add rounded corners */
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #005fcc;
+  border-right: none;
+  padding: 5px;
+  height: 37px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #005fcc;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #005fcc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dropdown {
+  width: 200px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.animation-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.check-mark {
+  color: green;
+  font-size: 24px;
+  margin-right: 10px;
+  animation: fadeIn 0.5s ease;
+}
+
+.animation-text {
+  font-size: 16px;
+  color: green;
+  animation: slideInLeft 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+      transform: translateX(-20px);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
 }

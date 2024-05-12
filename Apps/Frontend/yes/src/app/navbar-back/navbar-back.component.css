@@ -1,72 +1,71 @@
 /* Navigation bar */
 .navbar {
-    background-color: #333; /* Dark background color */
-    padding: 10px 20px; /* Add padding */
-  }
-  
-  .navbar ul {
-    list-style-type: none; /* Remove bullet points */
-    padding: 0;
-    margin: 0;
-  }
-  
-  .navbar ul li {
-    margin-bottom: 10px; /* Add bottom margin between items */
-  }
-  
-  .navbar ul li:last-child {
-    margin-bottom: 0; /* Remove margin for the last item */
-  }
-  
-  .navbar ul li a {
-    display: block; /* Display items as block elements */
-    color: #fff; /* Set text color */
-    text-decoration: none; /* Remove underline */
-    font-size: 16px; /* Set font size */
-    padding: 10px; /* Add padding */
-    border-radius: 5px; /* Add border-radius */
-    transition: background-color 0.3s; /* Smooth transition for background color */
-  }
-  
-  .navbar ul li a:hover {
-    background-color: #555; /* Darken background color on hover */
-  }
-  
-  /* Dropdown */
-  .dropdown {
-    position: relative;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #222; /* Darker background color for dropdown */
-    min-width: 160px;
-    z-index: 1;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    border-radius: 5px;
-  }
-  
-  .dropdown-content a {
-    color: #fff; /* Set text color for dropdown items */
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #444; /* Darken background color on hover */
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  /* Separator */
-  .separator {
-    width: 100%; /* Full width separator */
-    height: 1px;
-    background-color: #ccc;
-    margin: 10px 0; /* Adjust spacing around separator */
-  }
-  
+  background-color: #111; /* Darker background color */
+  padding: 10px 20px; /* Add padding */
+}
+
+.navbar ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  margin-bottom: 10px; /* Add bottom margin between items */
+}
+
+.navbar ul li:last-child {
+  margin-bottom: 0; /* Remove margin for the last item */
+}
+
+.navbar ul li a {
+  display: block; /* Display items as block elements */
+  color: #fff; /* Set text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Set font size */
+  padding: 10px; /* Add padding */
+  border-radius: 5px; /* Add border-radius */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.navbar ul li a:hover {
+  background-color: #333; /* Darken background color on hover */
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #111; /* Darker background color for dropdown */
+  min-width: 160px;
+  z-index: 1;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.dropdown-content a {
+  color: #fff; /* Set text color for dropdown items */
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #333; /* Darken background color on hover */
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Separator */
+.separator {
+  width: 100%; /* Full width separator */
+  height: 1px;
+  background-color: #666; /* Darker separator color */
+  margin: 10px 0; /* Adjust spacing around separator */
+}
